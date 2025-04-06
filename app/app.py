@@ -87,10 +87,31 @@ if pagina == "Visão Geral":
     Isso ajuda a entender a proporção de cada grupo dentro da base.
     """)
 
-    st.subheader("Distribuição de Clientes por Perfil")
-    fig = px.bar(df_filtrado['Perfil do Cliente'].value_counts().reset_index(),
-                 x='index', y='Perfil do Cliente', color='index', labels={'index': 'Perfil', 'Perfil do Cliente': 'Quantidade'})
-    st.plotly_chart(fig, use_container_width=True)
+st.subheader("Distribuição de Clientes por Perfil")
+
+# Contagem de clientes por perfil
+contagem_perfil = df_filtrado['Perfil do Cliente'].value_counts().reset_index()
+contagem_perfil.columns = ['Perfil do Cliente', 'Quantidade']
+
+# Gráfico de barras com Plotly
+fig = px.bar(
+    contagem_perfil,
+    x='Perfil do Cliente',
+    y='Quantidade',
+    color='Perfil do Cliente',
+    title="Distribuição de Clientes por Perfil",
+    text_auto=True
+)
+fig.update_layout(xaxis_title="", yaxis_title="Quantidade de Clientes")
+
+# Exibição do gráfico no Streamlit
+st.plotly_chart(fig, use_container_width=True)
+
+# Explicação
+st.markdown(
+    "📌 **Interpretação**: Este gráfico mostra a quantidade de clientes em cada perfil identificado via clusterização. "
+    "É útil para entender qual segmento representa maior volume de clientes e orientar decisões estratégicas de retenção ou expansão."
+)
 
 # --- PERFIS DE CLIENTES ---
 elif pagina == "Perfis de Clientes":
