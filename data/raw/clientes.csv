@@ -1,0 +1,1001 @@
+id_cliente,nome,idade,genero,estado,renda_mensal,tipo_cliente,qtd_compras_ultimos_12m,ticket_medio,tempo_como_cliente,visitas_site_mes,reclamacoes_12m,satisfacao,churn
+1,Srta. Marina Leão,58,Masculino,DF,5993.43,Ambos,0,283.41,8,7,1,2,1
+2,Dr. André Borges,23,Masculino,DF,4531.69,Produto,27,271.9,38,6,0,3,0
+3,Srta. Alexia Cavalcante,30,Feminino,SP,5558.08,Ambos,41,421.26,46,7,1,3,0
+4,Bernardo Moraes,66,Feminino,BA,3838.24,Serviço,10,236.98,52,8,0,2,0
+5,Luana Novaes,24,Feminino,CE,5483.92,Produto,3,70.41,6,19,0,3,1
+6,Gabrielly Sá,52,Feminino,BA,6632.89,Produto,6,117.13,8,26,0,4,0
+7,Henry Gabriel Casa Grande,54,Masculino,RS,3183.95,Produto,11,130.52,13,24,0,3,1
+8,Milena Araújo,24,Feminino,PR,3741.05,Serviço,8,371.73,25,5,0,3,0
+9,Sophia Montenegro,62,Masculino,PE,3911.23,Serviço,43,313.31,60,17,1,4,0
+10,Sra. Heloísa da Cruz,35,Masculino,SP,3798.72,Serviço,40,265.0,60,21,1,3,0
+11,Maria Isis Ribeiro,32,Feminino,BA,4973.01,Ambos,2,173.07,53,8,0,1,0
+12,Luigi Mendes,31,Feminino,DF,4541.1,Produto,31,346.72,42,4,1,3,0
+13,Pedro Lucas Peixoto,52,Feminino,DF,10556.63,Ambos,13,443.24,17,11,0,3,0
+14,Diego Silva,49,Masculino,PE,6476.93,Produto,6,320.56,6,4,0,4,0
+15,Ana Clara Rodrigues,56,Feminino,SP,2981.83,Produto,3,110.0,5,16,0,3,0
+16,Maria Sophia Peixoto,61,Feminino,PE,4078.72,Serviço,7,426.85,47,24,0,4,0
+17,Apollo Casa Grande,28,Feminino,RJ,2738.9,Ambos,0,316.13,30,16,1,4,0
+18,Lunna Machado,58,Masculino,DF,6164.25,Serviço,20,406.53,20,4,1,3,0
+19,Kaique Mendonça,18,Masculino,PR,4585.67,Serviço,20,225.18,39,29,0,3,0
+20,Luiza Dias,33,Masculino,DF,5662.53,Ambos,1,417.07,4,2,0,4,0
+21,Daniel Montenegro,67,Masculino,RS,4644.54,Serviço,2,250.75,9,8,0,4,0
+22,Vitória Porto,52,Feminino,CE,6625.05,Serviço,46,462.75,49,12,1,5,0
+23,Bianca Vasconcelos,51,Masculino,RS,5723.27,Produto,3,222.59,29,10,1,1,0
+24,Luana Machado,18,Masculino,RJ,4928.35,Serviço,5,487.76,5,2,0,5,0
+25,Sophia Macedo,50,Masculino,CE,4202.72,Serviço,8,292.7,16,17,0,2,0
+26,Camila da Mata,33,Masculino,PE,5174.09,Ambos,30,264.12,51,3,0,1,0
+27,Brenda Ferreira,44,Masculino,RJ,6807.06,Ambos,27,302.28,30,1,0,3,0
+28,Manuella Ferreira,33,Masculino,RJ,7955.79,Serviço,3,237.81,13,13,0,2,0
+29,Ravi Lucca Viana,46,Masculino,MG,4575.68,Produto,35,248.78,52,2,0,5,0
+30,Maria Vitória Mendes,44,Feminino,PE,6830.8,Produto,30,339.45,32,28,1,1,1
+31,Emanuel Albuquerque,34,Feminino,DF,5194.16,Ambos,50,416.24,60,13,2,4,0
+32,Augusto Montenegro,60,Feminino,DF,4486.74,Produto,31,255.86,46,6,0,5,0
+33,Ana Laura Jesus,21,Feminino,SP,5592.24,Produto,20,331.33,48,16,0,5,0
+34,José Miguel Monteiro,50,Masculino,RS,1200.0,Produto,6,341.46,6,21,0,5,0
+35,Evelyn da Paz,55,Feminino,PR,4314.57,Serviço,2,203.73,39,21,1,4,0
+36,Antonella da Mota,31,Feminino,BA,8772.37,Produto,20,320.95,43,4,0,4,0
+37,Letícia da Mata,66,Masculino,MG,4962.9,Produto,4,99.18,60,2,0,4,0
+38,Juan Aparecida,40,Feminino,PR,5120.46,Ambos,4,595.59,57,9,0,2,0
+39,Lavínia Costela,57,Feminino,MG,5955.51,Serviço,41,268.92,52,29,0,4,0
+40,Thales Campos,34,Masculino,BA,4930.58,Ambos,1,159.76,8,8,1,3,0
+41,Luigi Moura,31,Feminino,RJ,7285.65,Ambos,40,390.23,44,8,0,5,0
+42,Eloah Rezende,58,Masculino,PR,3396.34,Produto,26,466.08,28,10,1,4,0
+43,Benjamin Pereira,28,Feminino,MG,3238.72,Serviço,28,309.23,48,17,1,1,1
+44,Sr. Breno da Mota,52,Masculino,SP,8413.21,Serviço,2,404.83,3,13,0,2,1
+45,Aurora Montenegro,40,Masculino,PE,1898.67,Produto,10,308.23,14,11,1,4,0
+46,Vicente Cirino,57,Masculino,MG,3161.15,Ambos,9,485.99,48,27,1,2,0
+47,Ana Laura Peixoto,44,Feminino,RS,3433.49,Ambos,0,261.35,2,25,2,5,0
+48,Calebe da Luz,35,Masculino,CE,7087.72,Produto,11,363.17,11,27,0,3,0
+49,João Vitor da Conceição,40,Masculino,PR,1785.03,Produto,7,322.16,20,12,0,3,0
+50,Lorenzo Castro,40,Feminino,PR,2119.92,Produto,32,442.89,42,30,0,1,0
+51,Davi Pacheco,29,Feminino,DF,6043.88,Produto,16,335.64,38,11,2,4,0
+52,Enrico Santos,25,Masculino,DF,5452.58,Produto,18,401.69,25,22,0,3,0
+53,Daniel Campos,61,Masculino,BA,5586.14,Ambos,47,214.28,47,11,0,3,0
+54,Ana Clara Farias,57,Feminino,PE,5349.67,Ambos,21,153.98,21,16,1,3,0
+55,Valentim Garcia,62,Feminino,MG,6469.0,Produto,17,185.46,19,21,0,5,0
+56,Sr. Davi Fonseca,57,Masculino,BA,7317.19,Serviço,19,201.52,37,9,1,3,0
+57,Diego Correia,47,Feminino,MG,6644.12,Serviço,14,527.62,29,25,0,5,0
+58,Melissa Almeida,60,Feminino,PR,2260.26,Serviço,2,207.39,6,2,0,5,0
+59,Dom Aragão,32,Masculino,RJ,4845.8,Produto,12,340.94,52,7,1,5,0
+60,Maria Luiza Oliveira,47,Feminino,SP,5026.0,Serviço,20,474.42,27,15,0,3,0
+61,João Miguel Moreira,66,Feminino,DF,2187.19,Ambos,49,295.86,56,7,1,2,0
+62,Pedro Miguel Moura,47,Masculino,DF,5083.96,Produto,4,283.53,4,14,0,2,0
+63,Lucas Gabriel Machado,53,Feminino,PE,4553.07,Ambos,20,385.68,39,19,0,5,0
+64,Davi Lucas Siqueira,53,Feminino,PR,4751.74,Produto,28,388.84,29,14,3,3,0
+65,Mariane Rezende,67,Masculino,RS,7091.14,Serviço,33,258.94,50,8,0,3,0
+66,Leonardo Albuquerque,35,Masculino,MG,5428.19,Ambos,10,150.51,22,4,2,2,1
+67,João Felipe Moura,63,Feminino,PE,5461.91,Serviço,1,202.93,14,17,1,3,1
+68,Olívia Gonçalves,42,Masculino,CE,7114.85,Serviço,49,306.16,58,27,1,5,0
+69,Ester Campos,18,Feminino,RS,3081.98,Ambos,9,465.84,23,17,0,4,0
+70,Alice Garcia,49,Masculino,PE,6030.07,Serviço,8,361.65,15,12,2,3,0
+71,Dante Freitas,64,Masculino,SP,7874.71,Ambos,7,300.88,11,29,1,3,0
+72,Maria Isis Cavalcanti,23,Feminino,RS,5464.59,Produto,27,321.14,42,5,0,1,1
+73,Gustavo Henrique Pires,47,Feminino,PR,3454.35,Ambos,10,271.58,21,8,0,4,0
+74,Brenda Mendes,23,Masculino,SP,4920.73,Ambos,1,235.84,31,30,0,3,0
+75,Yago Castro,66,Masculino,RJ,6372.52,Produto,0,106.47,2,19,0,2,1
+76,Sra. Maria Vitória Lopes,54,Feminino,RJ,3213.76,Serviço,7,259.82,14,5,0,4,0
+77,Léo Cassiano,67,Masculino,PE,3569.39,Ambos,10,381.55,53,18,1,1,1
+78,Paulo Mendonça,43,Masculino,RJ,5091.14,Produto,12,221.81,46,3,0,4,0
+79,João Felipe Ferreira,68,Feminino,BA,7726.87,Produto,2,399.45,37,21,1,3,0
+80,Sra. Isabela Vasconcelos,18,Masculino,CE,7096.04,Ambos,26,224.57,55,13,0,5,0
+81,Arthur Gabriel Machado,63,Feminino,CE,3414.96,Produto,6,286.23,10,19,0,5,0
+82,Sr. Enrico Martins,47,Feminino,RJ,3456.36,Ambos,26,499.36,28,10,0,5,0
+83,Ana Sophia Albuquerque,35,Feminino,SP,4050.11,Produto,28,221.6,57,18,0,4,0
+84,Sra. Olivia Fernandes,49,Masculino,PR,6890.76,Produto,20,451.97,55,11,0,4,0
+85,Dra. Heloísa Alves,53,Feminino,CE,9244.31,Produto,0,423.9,1,15,0,4,1
+86,Isabella Brito,59,Masculino,RS,3538.52,Serviço,31,146.41,46,2,1,3,0
+87,Dra. Elisa Pereira,37,Feminino,BA,4525.22,Produto,37,524.64,43,13,0,5,0
+88,Diogo Rezende,62,Masculino,DF,1200.0,Produto,8,177.07,30,3,0,4,0
+89,Vinicius da Mota,66,Feminino,DF,1200.0,Produto,11,143.98,45,8,1,4,0
+90,Clara Cavalcanti,56,Feminino,DF,4743.18,Ambos,3,244.12,19,7,1,3,0
+91,Gael Azevedo,26,Feminino,CE,5809.95,Ambos,1,409.17,18,22,0,5,0
+92,Miguel Campos,24,Feminino,SP,5398.12,Serviço,0,227.97,56,15,0,3,1
+93,Manuela Correia,34,Masculino,SP,6294.33,Produto,30,315.13,56,12,0,3,0
+94,Sra. Rafaela da Luz,27,Masculino,RS,8172.03,Ambos,9,151.46,10,7,0,2,0
+95,Murilo Jesus,67,Feminino,PR,6373.7,Serviço,24,308.52,34,9,0,5,0
+96,Maria Isis Rocha,54,Masculino,PR,5561.98,Serviço,3,225.28,40,30,0,4,0
+97,Sabrina da Costa,60,Masculino,CE,6769.98,Produto,1,244.26,6,5,0,1,0
+98,Dra. Maria Alice Campos,36,Feminino,RS,3821.27,Produto,1,401.95,3,22,0,5,1
+99,Davi Lucca Fogaça,34,Masculino,MG,6904.02,Serviço,50,474.31,51,13,2,2,1
+100,Fernanda Freitas,35,Masculino,PR,3342.01,Produto,9,232.78,53,25,1,3,0
+101,Emanuel Barros,46,Feminino,CE,4958.2,Serviço,7,314.08,8,30,0,3,0
+102,Gabriela Castro,23,Feminino,SP,3661.59,Ambos,2,439.43,39,19,2,3,1
+103,Dr. Diogo Moraes,66,Masculino,PR,6650.83,Serviço,17,397.62,44,15,0,4,0
+104,Luana Cassiano,29,Feminino,BA,5024.29,Serviço,27,411.71,38,2,1,3,0
+105,Marcela Câmara,60,Feminino,DF,4521.55,Produto,2,402.48,7,9,0,4,0
+106,Leandro Sampaio,20,Feminino,DF,5648.33,Produto,2,284.38,30,3,1,5,0
+107,Marcela Freitas,70,Masculino,CE,3363.56,Serviço,1,551.09,1,16,0,3,0
+108,Davi Carvalho,66,Masculino,CE,7409.85,Produto,1,156.4,4,29,1,3,0
+109,Nathan Mendes,25,Masculino,DF,3601.71,Serviço,2,298.94,2,22,0,2,0
+110,Matheus Garcia,44,Masculino,MG,6950.24,Ambos,1,282.35,6,14,0,5,0
+111,Dra. Bruna Gonçalves,49,Feminino,RS,6227.68,Produto,45,462.95,60,13,0,5,0
+112,Davi Lucas Vargas,47,Masculino,PE,5489.93,Produto,9,239.17,36,27,0,1,0
+113,Esther Fernandes,39,Masculino,CE,6118.22,Serviço,50,404.7,60,9,0,4,0
+114,Henry Gabriel Moraes,27,Feminino,BA,2103.83,Serviço,17,131.1,29,17,3,4,0
+115,Maitê Pimenta,30,Masculino,CE,3563.11,Serviço,15,274.39,45,27,1,4,1
+116,Davi Lucas Pereira,63,Masculino,BA,6715.32,Produto,51,280.81,59,15,0,5,0
+117,Gabriela Camargo,24,Feminino,MG,4395.35,Serviço,54,299.45,56,0,0,4,0
+118,Sr. Raul Pimenta,22,Feminino,DF,5645.44,Produto,16,200.73,31,20,1,1,1
+119,Ana Sophia Nascimento,42,Feminino,RS,4782.48,Ambos,20,348.21,21,27,0,4,0
+120,Larissa da Rocha,58,Masculino,RJ,4313.6,Ambos,18,354.92,44,13,1,5,0
+121,Daniela Freitas,46,Masculino,BA,5139.31,Produto,11,418.02,11,1,1,3,1
+122,Ana Clara Vasconcelos,41,Feminino,MG,5947.25,Produto,4,306.52,28,18,0,4,0
+123,Jade Almeida,23,Masculino,CE,7902.29,Serviço,24,415.11,40,15,0,5,0
+124,Heloísa Pires,58,Masculino,DF,7400.82,Produto,14,517.93,17,28,1,5,0
+125,João Vitor Silveira,28,Feminino,CE,4778.14,Ambos,3,417.16,5,20,1,5,0
+126,Sra. Giovanna da Mata,37,Masculino,PR,4684.55,Ambos,6,137.39,13,7,0,3,0
+127,Alice da Luz,62,Feminino,SP,3481.73,Ambos,0,318.05,19,8,3,1,0
+128,Dra. Maria Alice Duarte,56,Feminino,BA,6900.85,Ambos,31,230.77,48,24,1,4,0
+129,Lavínia Cardoso,32,Masculino,SP,2359.53,Serviço,12,519.78,41,20,2,1,0
+130,Léo Porto,37,Feminino,BA,4852.78,Produto,28,266.13,51,23,2,2,0
+131,Isaac Campos,65,Feminino,MG,1573.73,Produto,5,462.46,27,16,3,4,0
+132,Luara Rocha,34,Feminino,CE,1811.14,Ambos,52,228.07,59,23,0,5,0
+133,Eloah da Paz,22,Feminino,RJ,5518.78,Ambos,3,336.28,10,30,2,5,0
+134,Sr. Benicio da Cunha,68,Masculino,PR,4099.87,Produto,0,374.74,26,14,0,3,0
+135,Bella Vasconcelos,55,Masculino,DF,2262.82,Ambos,20,364.26,25,21,1,3,1
+136,Srta. Mariane Andrade,38,Masculino,PR,3344.21,Produto,39,263.54,59,20,1,5,0
+137,Sra. Alana Nascimento,59,Masculino,RS,5229.72,Produto,3,486.15,27,9,1,5,0
+138,Lorenzo da Costa,52,Feminino,PE,7053.16,Serviço,6,319.93,9,18,0,4,0
+139,Sr. Lucas Oliveira,59,Feminino,CE,6290.75,Serviço,7,464.24,7,1,1,4,0
+140,Raul Novais,33,Feminino,SP,7116.85,Produto,23,88.95,55,17,0,5,0
+141,Raquel Alves,43,Feminino,SP,6772.13,Ambos,6,283.55,18,2,0,4,0
+142,Maria Alice Barros,21,Masculino,DF,8004.71,Produto,21,308.89,51,25,0,4,1
+143,João Vitor Alves,31,Masculino,SP,6963.09,Ambos,13,339.68,38,10,1,4,0
+144,João Guilherme Vargas,35,Feminino,SP,4970.56,Ambos,9,395.57,55,25,0,2,0
+145,Bryan Duarte,26,Masculino,SP,5768.13,Ambos,1,296.08,1,18,0,3,0
+146,Marina Pereira,26,Masculino,RJ,7245.36,Serviço,26,127.06,48,15,0,3,0
+147,Ana Cecília Aparecida,46,Masculino,DF,5733.2,Ambos,14,187.21,33,23,0,4,0
+148,Theo Fernandes,37,Masculino,RJ,6494.74,Ambos,20,265.12,30,15,0,5,0
+149,Giovanna Carvalho,49,Masculino,PR,3028.55,Produto,28,360.49,46,10,0,4,1
+150,Ana Beatriz Moreira,57,Feminino,CE,3369.0,Serviço,37,232.92,41,12,0,5,0
+151,João Gabriel Carvalho,50,Masculino,DF,4785.94,Produto,27,175.77,39,27,0,4,0
+152,Ana Sophia Almeida,64,Masculino,PE,5114.95,Serviço,13,30.0,56,13,1,3,0
+153,Luiz Felipe Barbosa,64,Feminino,CE,6029.18,Serviço,5,444.56,7,11,0,5,0
+154,Maysa Brito,22,Feminino,MG,4775.34,Produto,6,273.48,6,3,1,4,0
+155,Dra. Lavínia da Cunha,53,Feminino,PE,3939.0,Ambos,4,230.9,4,21,0,2,1
+156,Dra. Bruna Fonseca,64,Feminino,CE,9748.28,Serviço,2,262.71,4,3,0,4,0
+157,Sarah Pinto,32,Feminino,PE,8289.94,Produto,6,270.12,55,3,0,4,0
+158,Carlos Eduardo Gonçalves,53,Masculino,PR,6702.8,Serviço,39,181.45,50,19,1,5,0
+159,Ian Carvalho,19,Feminino,MG,3055.46,Ambos,4,309.54,12,29,0,3,1
+160,Sra. Ana Lívia Novaes,54,Masculino,PE,1787.11,Produto,25,324.42,43,2,0,4,0
+161,Pietro Vargas,47,Feminino,SP,4626.19,Produto,5,294.27,22,24,0,5,0
+162,Maria Eduarda Freitas,27,Masculino,CE,3706.85,Produto,9,170.21,11,8,0,3,0
+163,Luigi Câmara,44,Masculino,CE,5436.45,Ambos,6,409.27,18,11,1,3,0
+164,Clara Sousa,51,Feminino,RS,3252.05,Produto,19,299.6,43,19,0,1,1
+165,Ana Cecília Martins,67,Masculino,MG,8046.25,Produto,4,364.67,9,0,0,3,0
+166,Henry Ribeiro,42,Feminino,PE,4223.86,Serviço,14,219.79,35,2,0,3,0
+167,Brayan Casa Grande,19,Feminino,PE,6852.36,Produto,29,529.13,30,18,0,3,0
+168,Sofia Almeida,36,Feminino,BA,5055.38,Produto,6,315.28,8,5,0,5,0
+169,Sofia Teixeira,23,Feminino,PR,3698.71,Produto,27,241.54,28,18,0,3,1
+170,Ryan Pires,65,Masculino,DF,3342.83,Produto,7,234.58,22,2,1,4,0
+171,Valentim Farias,30,Masculino,MG,1200.0,Produto,49,382.16,58,7,1,2,1
+172,Lívia Macedo,56,Feminino,CE,5780.51,Produto,10,289.81,10,14,2,4,0
+173,Otávio Rocha,61,Feminino,CE,6001.83,Serviço,56,182.69,60,27,1,5,0
+174,Vitória Aragão,22,Feminino,PR,1661.19,Serviço,28,365.2,31,18,1,1,0
+175,Sr. Ravi Fogaça,47,Feminino,RJ,3473.48,Produto,1,83.41,29,2,0,4,0
+176,Maria Luísa Moura,57,Masculino,RS,4082.76,Produto,32,263.19,39,14,1,5,0
+177,Agatha Ramos,38,Masculino,BA,2721.72,Serviço,30,332.13,39,14,0,2,0
+178,Thiago Farias,63,Masculino,DF,3696.33,Serviço,4,305.69,6,7,0,4,0
+179,Augusto Montenegro,51,Feminino,SP,3796.06,Produto,10,391.23,40,12,1,3,0
+180,Kamilly Moura,68,Feminino,PR,3553.32,Produto,41,592.06,41,3,0,4,0
+181,Rael Carvalho,64,Masculino,BA,6154.14,Ambos,42,275.63,55,10,2,1,0
+182,Nathan Moraes,37,Masculino,BA,5339.46,Produto,42,310.73,42,9,0,4,0
+183,João Guilherme Alves,70,Feminino,MG,5173.18,Produto,8,281.32,9,16,0,3,0
+184,Eloá Souza,31,Masculino,RJ,4760.3,Produto,15,313.65,22,4,1,1,0
+185,Heloísa Silveira,50,Masculino,MG,4363.04,Ambos,34,261.71,50,21,1,3,0
+186,Pietro das Neves,56,Masculino,RS,1200.0,Produto,4,343.29,25,23,1,3,0
+187,Heitor da Rocha,46,Feminino,CE,4499.75,Ambos,18,456.13,40,7,0,4,0
+188,Davi Miguel Cassiano,30,Feminino,DF,1258.42,Ambos,21,257.82,24,14,1,4,0
+189,Maria Liz Sá,51,Masculino,BA,5653.85,Ambos,5,273.71,27,27,0,3,0
+190,Emanuel Azevedo,53,Masculino,CE,6784.82,Ambos,6,311.47,60,9,1,1,1
+191,Dr. Théo Fogaça,50,Masculino,SP,5330.39,Produto,6,368.27,10,26,0,3,0
+192,Ayla Cavalcanti,44,Masculino,SP,5676.99,Serviço,3,250.17,4,12,1,5,0
+193,Dr. Nicolas Moura,38,Feminino,CE,5363.73,Ambos,6,329.79,60,25,0,2,1
+194,Davi Moreira,62,Feminino,SP,2817.22,Ambos,8,201.96,54,14,1,4,0
+195,Dr. Oliver da Luz,34,Feminino,RJ,8019.54,Produto,13,348.24,14,3,1,4,0
+196,Dra. Lunna Aparecida,21,Feminino,DF,7573.95,Serviço,13,246.64,16,2,0,2,0
+197,Bárbara Rodrigues,19,Masculino,RS,6513.98,Serviço,32,189.34,41,9,1,3,0
+198,Isabel Câmara,54,Masculino,DF,5826.87,Serviço,5,525.22,27,16,0,5,1
+199,Brenda da Luz,52,Feminino,BA,2883.23,Serviço,32,238.45,33,27,1,3,0
+200,Sofia Moraes,34,Masculino,RJ,3218.31,Produto,1,30.0,48,11,1,3,0
+201,Benjamim da Luz,67,Feminino,CE,5361.06,Produto,21,617.23,38,17,1,3,0
+202,Dra. Ana Cecília Teixeira,62,Masculino,PR,8564.33,Ambos,11,370.83,31,22,2,4,0
+203,Sr. Miguel Moura,30,Feminino,DF,8764.05,Ambos,1,461.45,3,29,0,3,0
+204,Lara Cunha,48,Masculino,BA,5367.77,Ambos,1,312.01,17,9,1,3,0
+205,Emanuel Cavalcanti,35,Feminino,BA,10077.38,Serviço,5,362.87,8,23,0,3,0
+206,Bella Cirino,29,Feminino,PE,4683.98,Produto,31,248.77,32,25,1,1,0
+207,Maya Castro,56,Feminino,PR,2975.79,Serviço,11,101.42,53,3,0,1,0
+208,Thales da Paz,46,Feminino,BA,4540.24,Produto,27,375.38,39,11,0,3,0
+209,Dr. Otávio Barbosa,57,Masculino,DF,4328.43,Serviço,8,500.28,28,2,0,4,0
+210,Isis da Mota,69,Masculino,CE,2749.16,Produto,43,282.12,48,4,0,5,0
+211,Dra. Olivia Vasconcelos,20,Feminino,MG,1200.0,Produto,1,293.48,9,11,1,3,0
+212,Miguel Câmara,61,Masculino,BA,8697.91,Produto,11,435.19,29,18,0,2,1
+213,Lorenzo Silva,59,Masculino,DF,2965.62,Ambos,7,362.0,18,23,1,2,0
+214,João Felipe Camargo,25,Masculino,CE,3401.78,Ambos,8,280.26,17,19,1,3,0
+215,Ravy Sampaio,30,Feminino,RJ,3644.87,Ambos,2,317.91,8,5,1,5,0
+216,Kamilly Castro,69,Masculino,MG,4770.31,Serviço,20,318.6,44,17,0,4,0
+217,Bárbara Cardoso,63,Feminino,MG,4934.49,Serviço,44,234.79,46,16,0,3,0
+218,Maria Luísa Costela,33,Feminino,RJ,7777.16,Produto,31,30.0,51,14,0,5,0
+219,Dr. Luiz Otávio Fonseca,22,Feminino,RJ,7492.17,Ambos,12,51.19,20,16,0,3,0
+220,Júlia Lopes,26,Feminino,DF,5579.68,Produto,20,269.42,21,21,1,4,0
+221,Dra. Maria Alice Fogaça,58,Masculino,RJ,6666.45,Ambos,11,140.82,38,13,0,4,0
+222,Dr. Léo Costela,51,Feminino,DF,6871.36,Produto,4,452.59,10,29,0,4,0
+223,Oliver Marques,36,Feminino,RJ,3591.06,Produto,5,212.6,55,4,1,4,0
+224,Asafe Jesus,50,Masculino,BA,5197.49,Serviço,10,284.36,42,5,0,4,0
+225,Davi Luiz Gonçalves,54,Feminino,SP,2555.74,Produto,0,385.56,3,20,0,3,0
+226,Arthur Pimenta,49,Feminino,PE,6627.73,Serviço,40,187.15,57,15,2,3,0
+227,Isadora Ferreira,37,Masculino,BA,2837.87,Serviço,2,373.91,30,14,0,3,0
+228,Arthur Sales,56,Feminino,PE,1660.44,Ambos,5,511.76,10,23,2,5,0
+229,Luigi Dias,26,Masculino,CE,3591.31,Serviço,23,130.98,49,10,0,3,0
+230,Milena Abreu,33,Feminino,MG,6512.7,Produto,1,130.44,10,27,0,4,0
+231,Júlia Nascimento,70,Masculino,CE,1200.0,Ambos,18,503.57,21,24,0,2,0
+232,Yasmin Dias,49,Masculino,RS,6943.65,Serviço,19,296.29,57,30,1,3,0
+233,Sr. Asafe Azevedo,31,Feminino,CE,9310.48,Produto,22,380.67,38,15,0,4,0
+234,Lunna Aparecida,36,Feminino,PE,5341.73,Ambos,0,277.92,35,4,1,5,0
+235,Maria Laura Pinto,41,Masculino,DF,3920.48,Produto,3,206.6,3,11,0,4,1
+236,Yan Nogueira,46,Masculino,BA,1740.81,Produto,35,366.22,49,4,0,5,0
+237,João Guilherme Nogueira,53,Feminino,BA,7058.31,Produto,24,356.71,24,16,0,1,1
+238,Ian Brito,69,Masculino,PE,8241.07,Produto,29,488.46,31,10,1,5,0
+239,Théo Pacheco,57,Feminino,SP,4683.8,Serviço,19,396.79,48,22,0,4,0
+240,Amanda Casa Grande,41,Feminino,SP,3750.36,Produto,21,303.13,22,18,0,3,0
+241,Augusto Brito,56,Masculino,DF,4303.97,Ambos,16,323.83,31,23,0,1,0
+242,Dr. Pedro Henrique Montenegro,58,Feminino,RJ,3776.96,Ambos,39,131.2,47,4,0,5,0
+243,Dr. Davi Miguel Santos,30,Masculino,CE,7682.62,Produto,1,193.95,2,13,0,4,0
+244,Asafe Freitas,65,Masculino,DF,3101.2,Ambos,3,615.89,47,17,2,3,0
+245,Davi Nunes,42,Feminino,PR,6215.13,Serviço,5,117.7,21,17,0,3,0
+246,Luiz Felipe Fogaça,57,Feminino,PR,10120.17,Ambos,12,288.47,31,17,0,3,0
+247,Ana Julia Sousa,67,Feminino,PR,4295.65,Serviço,6,329.1,19,10,0,3,0
+248,Liz das Neves,36,Feminino,MG,4930.02,Produto,8,512.5,8,26,1,3,0
+249,Luiz Miguel Viana,36,Masculino,CE,6415.5,Ambos,2,232.5,3,11,1,5,0
+250,Srta. Aurora Cirino,31,Feminino,RS,6243.62,Serviço,13,111.57,13,4,0,2,0
+251,Dra. Daniela Moura,33,Masculino,CE,2361.3,Produto,4,272.85,4,1,0,2,1
+252,Alícia Mendonça,24,Masculino,CE,5760.4,Produto,8,373.27,44,13,1,4,0
+253,Dr. José Miguel Correia,48,Feminino,RJ,6667.84,Ambos,12,355.1,42,10,0,3,1
+254,Mirella Moura,59,Masculino,MG,1946.9,Serviço,14,293.05,37,29,2,5,0
+255,Anna Liz Cunha,20,Masculino,PR,5859.24,Ambos,25,324.92,54,29,0,4,0
+256,Aylla Martins,20,Masculino,DF,6636.97,Serviço,1,316.06,1,29,0,5,0
+257,Milena Barros,51,Feminino,MG,2837.89,Ambos,8,426.38,32,8,3,2,1
+258,Enzo Araújo,64,Masculino,RS,5056.64,Produto,20,303.57,30,0,0,4,0
+259,Thomas da Mata,29,Feminino,RJ,2189.68,Ambos,40,360.12,40,16,0,3,0
+260,Oliver Abreu,29,Masculino,PR,5444.27,Produto,7,242.55,9,0,0,3,0
+261,Aurora Viana,39,Masculino,SP,4477.95,Ambos,18,316.2,20,8,0,4,0
+262,Luna da Cunha,60,Feminino,PR,7893.96,Produto,7,323.59,8,21,0,4,0
+263,Maria Flor Silveira,62,Masculino,CE,6735.53,Produto,4,333.96,8,7,1,5,0
+264,Agatha Sá,65,Feminino,RS,6426.8,Serviço,23,305.64,39,24,2,4,0
+265,Dr. João Vitor Monteiro,66,Feminino,DF,3965.42,Serviço,2,469.12,16,2,0,5,0
+266,Eloá Pires,50,Masculino,RS,6839.66,Serviço,9,337.66,13,10,2,5,0
+267,Calebe Lima,63,Feminino,PE,8159.14,Produto,31,237.26,38,25,0,1,1
+268,Srta. Nina Almeida,47,Feminino,SP,4399.28,Serviço,3,203.43,37,23,0,1,1
+269,Eduarda da Conceição,65,Feminino,SP,2991.72,Produto,9,207.86,14,11,0,4,0
+270,Sra. Lavínia Duarte,22,Feminino,PE,1200.0,Produto,30,155.11,60,5,1,4,0
+271,Marcela Moraes,41,Feminino,DF,4668.55,Serviço,24,200.93,58,12,2,1,0
+272,Sr. Valentim da Cruz,26,Feminino,SP,2754.56,Produto,22,345.89,42,16,1,2,0
+273,Allana Moraes,66,Feminino,CE,5332.9,Serviço,1,359.09,2,17,1,3,0
+274,Yan da Paz,40,Masculino,SP,3724.52,Produto,4,236.28,10,1,0,5,0
+275,Ana Liz Montenegro,33,Masculino,SP,6110.75,Produto,1,225.26,14,14,0,4,0
+276,Lara Aparecida,33,Masculino,SP,7841.01,Serviço,2,231.51,48,17,1,3,0
+277,Emilly Garcia,26,Feminino,BA,3895.55,Produto,18,375.95,33,18,0,4,0
+278,Daniela Viana,33,Masculino,MG,9714.75,Ambos,4,412.54,20,13,0,3,1
+279,Ísis Aparecida,58,Masculino,DF,3774.42,Serviço,27,253.48,44,11,3,5,0
+280,Henry Gabriel Pimenta,38,Feminino,RS,6317.09,Serviço,26,541.22,45,12,0,2,0
+281,Lucas Gabriel Teixeira,32,Masculino,DF,1502.91,Ambos,4,149.12,20,17,0,3,0
+282,Bárbara Novaes,26,Feminino,BA,4933.75,Produto,7,515.35,25,20,0,1,0
+283,Brayan Sales,23,Feminino,RJ,6389.52,Produto,12,172.7,35,21,0,4,1
+284,Vitor Hugo Pastor,30,Masculino,PR,4967.15,Serviço,48,442.61,52,15,0,3,0
+285,Emanuelly Siqueira,18,Masculino,RS,7411.26,Produto,14,341.18,14,23,0,5,0
+286,Diego Teixeira,62,Masculino,CE,6363.78,Produto,13,521.6,39,17,0,3,0
+287,Catarina Araújo,52,Feminino,CE,5480.05,Produto,22,336.67,42,16,1,5,0
+288,Sarah Dias,66,Feminino,RS,5811.24,Ambos,20,385.8,54,10,1,3,0
+289,Ana Cecília Montenegro,65,Feminino,PE,7017.04,Produto,0,483.8,10,9,1,2,1
+290,Gabriela Freitas,54,Feminino,CE,4259.35,Serviço,15,199.97,54,8,1,4,0
+291,Heloisa Fernandes,47,Masculino,DF,5836.51,Ambos,11,348.05,11,4,0,4,0
+292,Jade Borges,59,Masculino,SP,5382.2,Produto,4,305.57,4,30,1,5,1
+293,Luiz Gustavo Andrade,44,Masculino,SP,6290.97,Produto,3,559.59,9,0,1,3,0
+294,Manuela Pereira,57,Feminino,SP,5498.77,Ambos,39,489.29,41,0,1,1,0
+295,Vitória Rios,19,Feminino,PE,6215.79,Serviço,17,322.39,34,0,0,4,0
+296,Oliver Souza,69,Masculino,DF,5351.09,Produto,11,349.02,59,16,0,2,1
+297,Bruno Cassiano,34,Feminino,RS,7147.26,Produto,22,176.82,53,2,0,3,0
+298,Kaique Vasconcelos,62,Masculino,SP,1380.08,Serviço,9,415.8,15,20,1,5,0
+299,Maria Sophia da Rocha,23,Feminino,RJ,5734.2,Produto,12,236.9,26,1,0,4,0
+300,Liam Fonseca,49,Feminino,DF,8131.05,Serviço,27,292.11,55,18,1,5,0
+301,Pedro Lucas da Mota,20,Feminino,PR,2103.97,Ambos,6,36.14,15,8,0,1,1
+302,Gabriel da Costa,52,Feminino,PE,6297.27,Produto,2,418.48,37,0,0,5,0
+303,Giovanna Sousa,22,Feminino,MG,5487.6,Serviço,5,232.31,20,21,1,5,0
+304,Isis Pimenta,68,Feminino,RJ,6300.4,Serviço,5,288.1,45,1,0,1,1
+305,Aylla Pinto,39,Feminino,CE,2545.48,Ambos,39,499.22,39,24,0,3,0
+306,Jade Rios,49,Feminino,PE,4908.83,Serviço,11,329.2,15,13,1,2,0
+307,Srta. Camila Cardoso,23,Masculino,PE,2496.92,Produto,39,473.25,50,22,1,1,1
+308,Anthony Pastor,63,Feminino,PR,5685.45,Produto,40,354.81,51,10,2,3,1
+309,Lara Cavalcante,46,Masculino,DF,3111.26,Produto,24,338.79,24,2,0,2,0
+310,Dante Ramos,50,Feminino,BA,5393.04,Produto,3,385.08,27,17,1,1,0
+311,Leandro da Rosa,42,Masculino,RS,3647.22,Serviço,1,516.11,1,23,0,5,0
+312,Enzo Gabriel Viana,54,Masculino,MG,3518.34,Serviço,10,298.29,34,4,0,3,0
+313,Sra. Giovanna Siqueira,22,Feminino,RS,6681.29,Produto,6,221.69,11,15,0,4,0
+314,Josué Carvalho,64,Masculino,PE,4446.2,Serviço,31,296.95,41,14,0,2,1
+315,Levi Brito,39,Feminino,MG,4095.39,Produto,39,30.0,54,14,0,3,0
+316,Alícia Souza,37,Masculino,BA,7047.04,Ambos,19,168.76,21,15,2,3,0
+317,João Lucas Montenegro,36,Masculino,PE,3066.05,Serviço,44,294.27,48,10,0,3,0
+318,Sr. André Mendonça,41,Masculino,CE,9804.05,Serviço,3,297.29,8,21,1,4,1
+319,Sophie Mendonça,63,Masculino,CE,3247.36,Ambos,7,304.52,14,26,0,5,0
+320,Leonardo Lima,26,Masculino,CE,2996.76,Produto,19,266.27,41,22,0,3,0
+321,Rafael Araújo,56,Feminino,DF,6977.77,Serviço,25,374.8,31,17,0,1,0
+322,Luiz Gustavo Macedo,56,Masculino,SP,7798.71,Produto,5,410.96,41,21,0,4,0
+323,Thiago Leão,54,Feminino,RJ,8623.96,Produto,41,342.95,42,30,2,4,0
+324,Sophia Melo,34,Feminino,DF,7099.11,Serviço,7,235.77,15,14,0,4,0
+325,Bianca da Cruz,27,Feminino,MG,5229.07,Serviço,0,414.02,23,13,1,5,1
+326,Ana da Paz,40,Masculino,CE,5802.69,Serviço,10,561.9,20,16,1,3,0
+327,Isabelly Araújo,64,Feminino,BA,2936.85,Produto,28,236.48,45,1,1,5,0
+328,Ana Luiza Ribeiro,59,Masculino,DF,10930.02,Ambos,2,288.4,7,16,1,2,1
+329,Maria Souza,45,Masculino,SP,2744.35,Ambos,7,367.71,30,5,1,4,0
+330,Ana Luiza Porto,65,Feminino,PR,7182.09,Serviço,12,286.71,40,12,1,1,1
+331,José Miguel Almeida,66,Masculino,PR,1271.34,Serviço,4,191.81,46,11,0,3,0
+332,Lavínia Câmara,60,Feminino,RJ,5448.9,Serviço,31,425.65,56,19,0,3,0
+333,Matheus da Costa,40,Feminino,MG,4789.22,Serviço,14,513.7,23,29,2,4,1
+334,Gael Teixeira,38,Masculino,PE,6304.65,Produto,3,110.83,8,11,1,4,0
+335,Raquel Andrade,56,Masculino,MG,7953.08,Produto,9,465.61,9,15,1,4,0
+336,Marcela Pimenta,53,Masculino,BA,5988.06,Produto,7,331.28,11,10,0,5,0
+337,Maria Luísa Montenegro,18,Feminino,PE,5647.6,Produto,8,265.02,32,30,0,4,0
+338,Maria Vitória Fogaça,61,Feminino,RS,6087.2,Ambos,26,255.53,32,15,0,2,0
+339,Caio Porto,36,Feminino,CE,1200.0,Produto,2,328.22,3,5,0,4,0
+340,Rhavi Costela,53,Feminino,DF,4275.12,Serviço,7,165.64,33,24,1,4,0
+341,João Pedro Novaes,70,Feminino,RS,2410.64,Ambos,2,439.3,49,17,1,3,0
+342,Emilly Ramos,37,Feminino,RJ,4906.16,Serviço,2,357.24,56,27,0,5,0
+343,Eduardo Viana,67,Feminino,MG,1200.0,Produto,15,330.5,52,27,1,4,0
+344,Srta. Maria Flor Montenegro,57,Masculino,DF,6297.85,Ambos,3,132.96,9,18,1,3,0
+345,João Lucas Mendonça,28,Feminino,RJ,6694.16,Produto,9,446.7,21,30,0,5,0
+346,Raul Souza,26,Feminino,MG,5763.87,Ambos,26,351.6,49,27,0,4,0
+347,Letícia Nogueira,33,Feminino,PE,4393.38,Ambos,5,345.57,10,15,0,2,0
+348,Maria Alice Peixoto,42,Masculino,BA,4856.8,Serviço,2,295.53,29,12,0,4,0
+349,Dra. Ágatha Câmara,47,Masculino,BA,4738.17,Serviço,20,175.81,32,23,1,5,0
+350,Juliana Lopes,22,Feminino,PR,3822.47,Produto,34,301.12,51,26,0,3,0
+351,Bella Moura,39,Feminino,SP,6832.66,Produto,36,341.58,36,25,0,3,0
+352,Brenda Viana,20,Masculino,PE,1200.0,Produto,7,652.53,7,14,1,3,0
+353,Oliver Fogaça,30,Feminino,RJ,3123.06,Ambos,8,377.31,45,5,2,5,0
+354,Maria Cecília Rezende,59,Masculino,RS,3752.46,Produto,8,529.68,24,1,1,3,0
+355,Davi Miguel Marques,45,Masculino,RS,6740.14,Ambos,5,359.48,42,6,2,3,0
+356,Luiz Miguel Cassiano,51,Feminino,MG,6925.93,Produto,28,336.91,44,26,0,2,0
+357,João Gabriel Fogaça,48,Masculino,MG,7211.05,Produto,1,442.44,5,3,0,3,0
+358,Sr. Cauê Rodrigues,42,Masculino,MG,2820.81,Ambos,48,495.74,50,2,1,4,1
+359,Dante Ramos,46,Masculino,RS,7010.29,Produto,23,269.71,23,29,1,3,0
+360,Giovanna Moraes,23,Masculino,PE,6128.81,Produto,6,342.67,58,18,0,4,0
+361,Luiz Gustavo Freitas,38,Masculino,PR,7378.94,Produto,8,152.69,51,7,2,4,0
+362,Augusto Oliveira,67,Feminino,PE,7579.51,Ambos,1,268.63,45,6,0,4,0
+363,Helena Vieira,36,Masculino,RJ,4653.86,Ambos,3,301.87,42,15,0,3,0
+364,Sr. José Pereira,51,Feminino,PE,2443.95,Ambos,0,102.75,57,4,1,3,0
+365,Ryan Brito,41,Masculino,RS,1894.55,Ambos,11,263.58,35,0,0,4,1
+366,Mariah Sousa,20,Feminino,PE,8284.03,Ambos,3,421.18,60,16,1,3,0
+367,Augusto Câmara,45,Masculino,RS,6963.53,Produto,25,261.02,45,8,0,1,1
+368,Daniela Novaes,69,Masculino,RS,4091.51,Produto,8,297.61,10,9,0,4,0
+369,Ana da Luz,21,Masculino,MG,2220.86,Ambos,2,102.55,16,14,0,4,1
+370,Manuela da Mata,25,Masculino,PR,9657.24,Ambos,0,387.02,1,15,2,5,0
+371,Guilherme Rocha,28,Feminino,SP,6517.86,Ambos,4,333.74,24,23,0,5,0
+372,Hellena Fernandes,39,Masculino,RJ,4622.21,Produto,27,366.37,52,8,0,4,0
+373,Carlos Eduardo Melo,49,Feminino,PR,1614.09,Produto,16,288.2,30,27,0,4,0
+374,Lavínia Melo,67,Masculino,SP,6941.8,Produto,1,225.91,7,1,0,5,1
+375,Isabella Pinto,48,Masculino,PE,6836.63,Ambos,12,111.54,24,29,1,5,1
+376,Sr. Cauê Porto,32,Feminino,RJ,3035.03,Serviço,7,273.04,21,8,0,5,0
+377,Fernando Nascimento,50,Masculino,PR,3061.6,Produto,3,366.12,44,30,0,3,0
+378,Srta. Daniela Silva,67,Feminino,PR,3797.26,Produto,19,338.37,55,0,0,3,0
+379,Benjamim Mendonça,65,Feminino,DF,7794.83,Serviço,15,290.98,40,24,0,4,0
+380,Sofia Rios,66,Feminino,SP,5250.45,Produto,15,248.47,51,0,1,3,0
+381,Ana Luiza Borges,39,Feminino,PE,5097.72,Ambos,1,304.87,1,3,0,3,0
+382,Ana Cecília Sales,49,Masculino,DF,5999.27,Ambos,1,144.43,4,1,0,5,0
+383,Maria Luísa Aparecida,44,Masculino,PE,2512.27,Serviço,23,216.85,45,18,1,1,1
+384,Nathan Costa,22,Masculino,PE,4410.1,Produto,36,449.73,38,7,1,3,0
+385,Natália Viana,62,Feminino,MG,3329.31,Produto,47,557.42,54,8,0,3,0
+386,Erick Andrade,67,Masculino,RJ,6048.73,Produto,37,211.81,50,5,1,3,0
+387,Kaique Correia,52,Feminino,PR,7449.17,Serviço,6,494.81,23,8,0,5,1
+388,Asafe Vieira,70,Masculino,RS,3885.02,Serviço,44,135.62,46,26,0,5,0
+389,Ian Barbosa,40,Feminino,PE,5628.77,Produto,16,299.75,26,8,0,5,0
+390,Sr. Otto Abreu,46,Feminino,SP,3392.65,Produto,35,496.69,36,3,0,5,0
+391,Rodrigo Sales,21,Masculino,RJ,6952.77,Ambos,49,432.49,54,6,1,5,0
+392,Raquel Cunha,55,Masculino,CE,5605.37,Ambos,16,235.9,38,0,0,5,0
+393,Zoe Ramos,69,Feminino,MG,4241.74,Ambos,1,275.57,9,3,0,1,0
+394,Dr. Oliver Pacheco,54,Feminino,BA,2798.44,Ambos,26,214.64,28,0,0,3,0
+395,Nicole Souza,31,Feminino,RS,5068.17,Produto,11,207.6,59,28,0,2,0
+396,Sra. Juliana Alves,59,Feminino,PE,3756.36,Serviço,15,384.16,19,1,0,1,1
+397,Mariane da Costa,30,Masculino,DF,5661.76,Produto,33,400.02,42,12,0,4,0
+398,Maria Isis Gomes,68,Feminino,RS,2654.79,Ambos,22,151.98,32,12,2,3,1
+399,Mariana Pacheco,19,Masculino,RS,8345.14,Ambos,51,350.28,58,25,0,5,0
+400,Luiz Otávio da Conceição,28,Feminino,SP,5192.87,Serviço,3,218.29,7,17,1,5,0
+401,Enzo Marques,66,Masculino,BA,3018.62,Produto,12,375.53,15,5,0,3,0
+402,Dr. Guilherme Guerra,55,Masculino,CE,4777.55,Ambos,2,191.53,2,18,1,5,0
+403,Dr. Isaque Rezende,52,Masculino,DF,7182.62,Serviço,5,373.1,20,1,1,3,0
+404,Srta. Ana Cecília Carvalho,48,Masculino,BA,2815.37,Ambos,1,262.03,1,25,2,2,0
+405,Srta. Cecília Camargo,21,Masculino,BA,5150.37,Serviço,0,447.25,2,24,1,2,1
+406,Danilo Machado,22,Feminino,MG,3945.06,Ambos,22,343.4,24,18,2,2,1
+407,Valentim Andrade,28,Feminino,DF,3428.02,Ambos,27,140.25,47,20,0,3,0
+408,Nicolas Costela,62,Masculino,PR,5174.37,Ambos,39,384.97,57,21,0,4,0
+409,Lorena Moreira,64,Masculino,SP,2793.27,Produto,18,41.65,45,30,0,4,0
+410,Rael Fogaça,29,Masculino,MG,6672.65,Ambos,20,303.75,39,20,0,4,0
+411,Maria Cecília Fernandes,39,Feminino,BA,5163.66,Produto,4,288.13,48,5,0,4,0
+412,Ana Vitória Silva,46,Masculino,SP,6136.88,Produto,1,371.95,1,11,0,3,0
+413,Emilly Dias,21,Masculino,BA,4650.08,Ambos,14,209.31,25,28,0,3,0
+414,Luísa Costa,52,Masculino,SP,2926.85,Ambos,3,457.57,25,5,2,3,0
+415,Sr. Henry Gabriel Sales,36,Masculino,MG,4949.95,Produto,1,398.13,2,2,0,3,0
+416,Lucca Santos,64,Masculino,CE,3699.17,Ambos,4,363.56,5,10,0,4,0
+417,Larissa Pimenta,63,Masculino,RJ,2869.77,Ambos,1,263.37,2,19,0,5,0
+418,Lorena Pimenta,39,Feminino,SP,6015.52,Serviço,3,306.48,14,21,0,3,0
+419,Maria Luiza Mendes,43,Masculino,PR,5128.95,Ambos,35,62.94,37,1,0,3,0
+420,Mathias da Rosa,70,Masculino,PR,5566.6,Serviço,40,204.81,43,3,0,1,1
+421,Lunna Freitas,23,Feminino,RJ,8061.5,Produto,7,446.25,31,15,0,3,0
+422,Henry Pacheco,59,Feminino,CE,3622.67,Produto,24,292.48,35,11,1,2,1
+423,Emanuelly da Cruz,47,Masculino,RJ,3872.7,Ambos,7,250.69,17,4,0,4,0
+424,Pietro Sampaio,60,Masculino,DF,3773.19,Serviço,17,263.7,23,17,1,1,1
+425,Alícia da Cunha,44,Masculino,SP,5321.15,Serviço,30,300.37,35,15,1,3,0
+426,Maria Fernanda Ferreira,50,Masculino,MG,6899.11,Ambos,33,121.81,37,3,0,5,0
+427,Milena Carvalho,31,Feminino,MG,2912.05,Produto,12,274.92,52,2,1,5,0
+428,Bella Vargas,56,Masculino,BA,3985.78,Ambos,10,159.47,17,2,0,3,0
+429,Gael Machado,35,Masculino,PE,6082.93,Ambos,29,391.1,34,25,1,4,0
+430,Larissa Rios,25,Masculino,PR,3846.98,Produto,4,30.0,27,29,0,2,0
+431,Marcos Vinicius Barros,52,Feminino,CE,6726.2,Ambos,22,204.43,57,12,0,4,0
+432,Emilly Oliveira,20,Feminino,RS,2042.18,Serviço,4,322.0,12,1,0,3,0
+433,Clara Santos,21,Feminino,PR,3011.79,Ambos,30,296.29,48,0,0,3,0
+434,Ísis Souza,35,Masculino,CE,7393.14,Ambos,31,280.98,54,27,0,3,0
+435,Eduardo Garcia,67,Feminino,RS,2613.88,Produto,20,295.19,53,19,0,4,0
+436,Laís Pereira,70,Feminino,RJ,4654.11,Serviço,23,505.41,27,26,0,1,0
+437,Stella Sampaio,37,Masculino,SP,3250.36,Serviço,32,30.0,46,5,3,2,0
+438,Alícia Castro,33,Feminino,CE,7284.65,Produto,3,165.5,3,22,0,2,1
+439,Dra. Melissa Cardoso,50,Masculino,MG,6355.85,Ambos,20,241.45,26,7,0,3,0
+440,Henry Mendonça,48,Masculino,RJ,4823.31,Produto,35,410.56,38,26,1,5,0
+441,Srta. Esther Sousa,36,Masculino,RS,5553.09,Produto,1,395.94,2,27,1,3,0
+442,Murilo Vieira,35,Masculino,SP,2617.42,Serviço,26,307.52,42,15,1,5,0
+443,Ana Sophia Lopes,32,Feminino,CE,4542.03,Ambos,9,310.81,17,13,0,5,0
+444,Heloísa Lopes,34,Feminino,BA,4269.36,Produto,7,322.16,14,18,0,2,0
+445,Heloisa Cavalcanti,53,Feminino,PR,3395.01,Serviço,38,455.86,42,21,0,2,1
+446,Srta. Isabelly Fogaça,58,Feminino,SP,7400.83,Produto,8,221.17,21,6,1,2,0
+447,João Teixeira,69,Feminino,SP,7371.41,Ambos,51,386.27,55,21,0,3,0
+448,Bryan Gonçalves,59,Feminino,RS,6214.26,Produto,18,457.34,32,12,0,3,1
+449,Sra. Vitória Sousa,39,Feminino,PR,4354.64,Produto,45,269.9,47,29,1,5,0
+450,Davi Luiz Camargo,28,Masculino,PR,5911.78,Ambos,42,559.8,54,9,0,1,1
+451,Eloah da Costa,64,Masculino,RJ,7911.24,Ambos,35,515.91,52,30,2,4,0
+452,João Carvalho,32,Feminino,PR,4270.09,Ambos,7,199.29,23,13,1,4,0
+453,Maria Cecília Peixoto,55,Feminino,RJ,2910.38,Ambos,14,64.04,19,1,0,5,0
+454,Lorena Duarte,48,Feminino,MG,6158.89,Serviço,12,317.72,57,16,0,3,1
+455,Luiz Otávio Rios,26,Feminino,RJ,4557.49,Serviço,5,266.78,13,4,1,3,0
+456,Bárbara Rezende,49,Feminino,RS,6720.95,Ambos,20,230.03,22,20,3,1,0
+457,Olivia da Cunha,66,Masculino,MG,4502.62,Serviço,10,492.88,50,15,2,4,0
+458,Bárbara Moraes,57,Feminino,DF,2922.4,Serviço,20,360.35,28,30,0,3,1
+459,Daniel Jesus,30,Feminino,SP,5799.38,Ambos,23,221.84,47,24,1,5,0
+460,Ana Vitória Borges,58,Feminino,PR,7476.57,Produto,15,302.55,47,9,1,2,1
+461,Hellena Gomes,28,Feminino,BA,5481.51,Produto,0,612.2,5,14,0,4,0
+462,Ana Laura Siqueira,45,Feminino,MG,8622.75,Ambos,43,374.83,57,28,1,3,0
+463,Natália Vasconcelos,69,Masculino,MG,3755.24,Produto,0,357.37,26,6,0,4,0
+464,Lívia das Neves,25,Masculino,DF,4581.95,Serviço,22,197.94,24,12,1,5,0
+465,Antonella Viana,57,Masculino,RJ,8339.81,Ambos,4,347.36,4,20,1,5,1
+466,Sra. Carolina Vasconcelos,44,Feminino,SP,7393.26,Produto,12,226.83,29,15,0,4,0
+467,Igor Rezende,37,Feminino,RJ,2100.29,Produto,21,167.24,27,19,0,4,0
+468,Isaque Rezende,50,Masculino,RS,6444.76,Produto,39,255.26,47,25,1,2,1
+469,Mariana Sá,67,Feminino,DF,8453.93,Ambos,16,252.04,17,22,1,3,0
+470,Sra. Nina Fernandes,49,Feminino,RJ,2163.27,Serviço,13,88.7,59,10,1,3,1
+471,Cecilia Vasconcelos,25,Masculino,RJ,1948.69,Serviço,36,451.51,54,30,1,1,0
+472,Danilo Vasconcelos,34,Feminino,MG,3896.28,Serviço,14,606.98,42,8,1,3,1
+473,Nina Gomes,20,Feminino,SP,8084.22,Produto,18,540.73,55,13,0,4,1
+474,Gabriela Araújo,18,Masculino,PR,8261.86,Serviço,8,414.77,55,10,1,3,0
+475,Srta. Maya Borges,64,Masculino,PR,4985.91,Ambos,2,457.49,6,3,0,3,0
+476,Luigi da Luz,42,Masculino,MG,4659.63,Ambos,30,245.61,45,3,1,2,0
+477,Kaique Cavalcante,24,Feminino,SP,5176.81,Serviço,18,477.3,27,5,0,4,0
+478,Camila Freitas,61,Masculino,PE,4136.41,Ambos,53,193.67,57,15,0,5,0
+479,Maya Garcia,46,Feminino,RS,4834.64,Produto,0,285.39,3,0,0,4,0
+480,Isadora Costa,60,Masculino,BA,5379.7,Serviço,21,369.21,56,13,0,4,0
+481,Olivia Rocha,60,Masculino,CE,7442.07,Produto,41,369.85,44,0,0,4,0
+482,Aylla Guerra,49,Feminino,SP,7294.82,Produto,10,263.49,56,10,0,3,0
+483,Dr. Felipe Pastor,50,Masculino,CE,8769.17,Serviço,12,485.19,15,2,0,3,0
+484,Kaique Alves,23,Masculino,PE,2178.35,Serviço,31,159.06,55,15,0,4,1
+485,Júlia Santos,44,Feminino,CE,5281.77,Ambos,0,87.79,3,28,0,4,1
+486,Isis Montenegro,39,Feminino,CE,7065.93,Ambos,1,276.61,24,10,1,4,0
+487,Maria Luísa Azevedo,63,Masculino,BA,4615.78,Ambos,23,466.86,43,3,0,4,0
+488,Maria Julia Silveira,40,Feminino,SP,4944.97,Ambos,40,512.67,54,17,0,4,0
+489,Maria Fernanda Pinto,28,Feminino,RJ,6800.35,Ambos,8,393.37,32,3,0,3,0
+490,Dr. Léo da Mota,43,Masculino,SP,3003.23,Ambos,7,336.22,14,22,1,3,0
+491,Pedro Henrique Lopes,58,Feminino,MG,4799.69,Serviço,43,275.56,54,14,0,4,0
+492,Esther Mendonça,49,Feminino,MG,5710.04,Serviço,0,273.47,1,26,0,4,0
+493,Leandro Correia,62,Masculino,BA,6827.17,Ambos,11,203.62,38,3,0,3,0
+494,João Lucas Alves,50,Masculino,PR,3947.84,Serviço,24,298.32,57,8,0,3,0
+495,Giovanna Silveira,46,Feminino,DF,1200.0,Produto,8,406.09,52,26,0,4,0
+496,Sra. Maria Luiza Montenegro,58,Feminino,MG,5494.15,Produto,3,310.48,14,21,0,3,0
+497,Srta. Cecília Oliveira,50,Feminino,PE,1874.91,Ambos,20,236.51,35,17,2,3,0
+498,Valentina Souza,61,Feminino,PE,2779.2,Produto,34,368.05,48,25,0,1,1
+499,Isis Montenegro,27,Masculino,SP,5932.86,Produto,0,295.72,4,9,1,4,1
+500,Dra. Joana Lopes,62,Masculino,DF,3530.82,Produto,18,202.77,51,11,1,5,0
+501,Bella da Conceição,32,Masculino,PR,2968.36,Serviço,41,307.4,48,16,2,4,0
+502,Dr. Ryan Oliveira,62,Feminino,BA,5758.96,Ambos,3,517.38,43,13,0,5,0
+503,Dr. Pedro Sá,53,Masculino,CE,2855.72,Ambos,0,30.0,4,19,0,5,0
+504,Evelyn Caldeira,32,Feminino,RS,4103.24,Ambos,40,541.2,59,24,0,4,0
+505,Mariana Rezende,67,Masculino,DF,6238.31,Produto,12,546.9,47,21,0,1,0
+506,Sara Vieira,25,Feminino,SP,7794.45,Serviço,1,306.84,25,4,0,2,0
+507,Sr. Henrique Costa,39,Masculino,PR,3708.07,Ambos,22,204.1,30,4,0,5,0
+508,Pedro Lucas da Rocha,49,Masculino,MG,7323.87,Serviço,36,207.8,51,25,0,4,0
+509,Igor Sales,51,Feminino,BA,5646.16,Produto,4,269.72,5,2,2,3,0
+510,Melissa Moura,39,Feminino,SP,5634.94,Produto,9,296.17,24,17,1,5,0
+511,Srta. Esther da Rocha,25,Masculino,PE,4877.91,Serviço,22,211.7,43,30,1,1,0
+512,Sr. Davi Novais,68,Feminino,BA,3053.11,Produto,6,299.35,8,0,1,5,0
+513,Elisa Almeida,50,Masculino,DF,7618.95,Serviço,32,231.82,52,9,1,5,0
+514,João Felipe da Paz,23,Masculino,RS,1338.46,Ambos,2,324.08,7,20,1,1,0
+515,Maya Câmara,61,Feminino,MG,7376.29,Produto,26,364.41,28,20,0,5,1
+516,Oliver da Mota,19,Masculino,DF,5135.71,Produto,22,402.33,30,2,0,1,0
+517,Maria Laura Freitas,22,Feminino,BA,6965.15,Ambos,14,378.76,37,12,0,3,0
+518,Bianca Pinto,19,Masculino,SP,4330.45,Produto,21,251.56,25,20,0,4,1
+519,Hellena Vasconcelos,62,Masculino,RJ,5595.96,Produto,4,391.31,55,9,0,4,0
+520,Davi Miguel Sousa,36,Masculino,PE,9125.05,Produto,28,171.9,49,15,0,2,1
+521,Mariana da Rocha,68,Masculino,BA,5383.04,Produto,34,328.95,52,9,0,4,0
+522,Luiz Fernando Castro,18,Masculino,DF,4840.72,Produto,35,354.28,36,0,2,4,0
+523,Larissa Rodrigues,23,Feminino,DF,2621.98,Ambos,6,269.37,20,6,0,3,0
+524,Maria Luiza Ribeiro,27,Feminino,SP,7374.77,Produto,2,610.75,11,6,2,2,0
+525,Nina Nunes,66,Masculino,RS,3389.26,Serviço,35,371.57,60,9,2,4,0
+526,Heloisa Machado,64,Feminino,PR,2986.91,Ambos,31,436.79,38,4,0,4,0
+527,Isabella Monteiro,57,Feminino,MG,4669.2,Produto,1,456.72,5,10,0,4,0
+528,Melina Melo,54,Feminino,RS,7593.99,Ambos,23,297.26,37,5,0,1,1
+529,Nicole Sousa,63,Feminino,CE,6091.63,Serviço,41,199.21,48,4,1,4,0
+530,Joana Dias,47,Feminino,RJ,3869.43,Ambos,11,250.71,29,17,0,2,0
+531,Bernardo Dias,35,Masculino,RJ,8230.75,Produto,52,261.32,55,8,1,4,0
+532,Ana Júlia da Mota,19,Feminino,DF,6996.62,Serviço,32,248.21,55,24,0,4,0
+533,João Vitor Peixoto,34,Masculino,PR,5075.9,Serviço,34,316.27,35,11,0,3,0
+534,Apollo Moreira,26,Feminino,MG,2641.92,Serviço,16,442.52,30,11,1,4,0
+535,Thiago Moura,66,Masculino,MG,5566.58,Serviço,8,268.93,33,18,0,5,0
+536,Pedro Brito,65,Masculino,PR,3981.61,Ambos,30,393.3,47,7,1,4,0
+537,Aylla Vasconcelos,41,Feminino,SP,1200.0,Serviço,1,315.1,15,12,0,3,0
+538,Sr. Dante Nunes,20,Feminino,MG,6027.82,Produto,20,321.55,42,26,2,4,0
+539,João Felipe Fogaça,42,Masculino,RS,2575.82,Produto,24,400.11,42,16,2,3,0
+540,Eduarda Castro,51,Feminino,SP,4734.73,Ambos,11,183.06,26,15,0,4,0
+541,Thomas Marques,50,Masculino,MG,5281.66,Serviço,8,432.07,57,2,0,4,0
+542,Kevin Santos,29,Masculino,RJ,3929.34,Serviço,5,289.14,11,21,2,3,0
+543,Pietro Gonçalves,48,Masculino,SP,4129.56,Serviço,30,390.07,44,20,2,5,1
+544,João Lucas Carvalho,26,Masculino,PR,3129.12,Produto,37,430.32,37,28,1,4,1
+545,Olivia Moreira,29,Masculino,PR,5734.57,Serviço,25,520.58,34,28,0,4,0
+546,Sabrina Teixeira,23,Feminino,PE,1229.6,Serviço,7,264.45,14,27,0,3,0
+547,Lucas Rocha,56,Masculino,BA,2892.64,Ambos,9,171.86,10,19,1,4,0
+548,Calebe Moreira,47,Feminino,DF,6900.62,Produto,37,505.27,39,12,1,2,1
+549,Brenda Almeida,50,Masculino,SP,4791.1,Ambos,26,279.74,44,5,1,3,0
+550,Bento Santos,68,Masculino,DF,5140.1,Ambos,32,439.43,35,15,0,4,0
+551,Emanuel Câmara,70,Feminino,RS,5695.06,Serviço,1,439.62,1,27,0,1,0
+552,Sr. Ravi Lucca Casa Grande,69,Masculino,RS,6950.4,Produto,24,360.13,31,13,1,2,0
+553,Manuela Vasconcelos,23,Feminino,SP,1200.0,Ambos,19,381.35,19,8,0,2,0
+554,Dr. Danilo Novaes,54,Feminino,PE,7948.11,Serviço,7,257.76,34,20,0,3,0
+555,Sr. Pedro Miguel Dias,41,Feminino,BA,4725.1,Serviço,2,414.34,7,8,1,5,0
+556,Otávio Jesus,57,Feminino,BA,8279.93,Ambos,12,389.06,18,17,0,4,0
+557,Juan Cirino,53,Feminino,MG,3069.0,Produto,30,303.62,36,18,0,3,0
+558,Gabrielly Rios,60,Masculino,BA,9341.89,Serviço,3,278.89,8,3,1,3,0
+559,Anna Liz Castro,69,Masculino,PE,5087.2,Produto,3,503.41,36,25,1,1,1
+560,Evelyn Moura,23,Masculino,PE,3515.06,Produto,2,141.6,5,19,0,1,1
+561,Sra. Mirella Moreira,57,Masculino,CE,4559.61,Produto,33,51.86,42,30,0,4,0
+562,Nicolas Carvalho,46,Feminino,DF,1990.56,Ambos,0,391.21,1,6,0,1,1
+563,Nicolas Rezende,62,Feminino,RJ,4590.13,Serviço,5,300.82,15,7,0,4,0
+564,Clarice Costa,35,Feminino,RJ,4381.58,Produto,25,209.74,50,12,1,4,0
+565,Ravi Lucca Costa,23,Feminino,RS,1249.66,Ambos,18,313.8,36,11,1,5,0
+566,Davi Lucca Vargas,47,Feminino,RJ,5426.39,Serviço,25,209.76,60,5,0,3,0
+567,Bárbara Moreira,50,Feminino,PR,5207.09,Ambos,10,40.53,19,28,1,4,0
+568,Igor Machado,62,Masculino,CE,4201.78,Serviço,12,221.65,29,24,0,3,0
+569,Enrico Aragão,55,Feminino,RS,1393.72,Serviço,1,109.9,56,2,2,3,0
+570,Davi Miguel Freitas,61,Feminino,PR,6842.5,Ambos,14,234.92,45,30,2,3,0
+571,Dra. Melina Fonseca,33,Feminino,BA,4033.88,Produto,2,317.62,19,2,0,4,0
+572,Sra. Lara Guerra,40,Masculino,RS,5289.74,Serviço,14,226.23,14,30,1,4,0
+573,Leonardo Vieira,49,Masculino,RS,3335.41,Produto,12,34.9,48,27,0,3,0
+574,Aylla Pastor,57,Masculino,CE,4577.74,Ambos,4,181.54,23,29,1,1,0
+575,Rael Barbosa,57,Feminino,PR,4550.29,Ambos,0,222.0,1,19,2,3,0
+576,Thales Oliveira,49,Feminino,SP,7352.35,Ambos,12,91.92,12,12,0,3,0
+577,Benjamin Silva,51,Masculino,MG,6416.43,Serviço,27,327.99,52,16,1,3,0
+578,Emanuelly Gonçalves,47,Masculino,RJ,3775.13,Serviço,8,343.38,8,0,1,4,0
+579,Julia Sales,38,Masculino,BA,2712.55,Ambos,19,313.03,24,17,0,3,0
+580,Dra. Daniela Andrade,41,Feminino,PE,1605.81,Serviço,7,222.53,12,22,0,4,0
+581,Ana Beatriz Silva,35,Masculino,RS,3902.55,Serviço,5,311.14,29,26,0,1,1
+582,Alexandre Siqueira,53,Masculino,SP,1200.0,Produto,27,387.92,28,25,1,5,0
+583,Ana Lívia Leão,29,Feminino,SP,5941.96,Produto,15,401.47,27,25,0,3,0
+584,Léo Silva,43,Feminino,BA,2612.73,Produto,2,410.3,7,15,0,5,1
+585,Sr. Alexandre da Mata,34,Feminino,RS,4468.46,Serviço,11,472.01,24,11,2,1,1
+586,Renan da Conceição,54,Feminino,CE,4731.38,Produto,34,397.3,37,11,0,3,0
+587,Maitê Castro,23,Masculino,BA,1328.68,Produto,19,440.55,25,27,0,2,0
+588,Dr. Ravi Fonseca,44,Masculino,BA,7065.09,Serviço,39,435.2,41,2,0,2,1
+589,Maria Liz Garcia,59,Feminino,BA,4493.49,Serviço,8,154.26,19,8,0,5,0
+590,João Miguel Siqueira,65,Feminino,RS,4383.93,Ambos,33,393.56,38,5,0,2,1
+591,Dr. Enrico Garcia,60,Feminino,CE,5099.16,Produto,2,280.64,17,3,1,1,0
+592,José Almeida,53,Masculino,PE,4698.79,Ambos,0,214.35,4,3,0,3,1
+593,Sofia Azevedo,37,Feminino,MG,6929.7,Ambos,7,493.87,15,20,0,2,0
+594,Letícia Moraes,19,Feminino,DF,8782.78,Ambos,2,244.55,3,27,0,3,0
+595,Thiago Fogaça,35,Masculino,PE,4052.32,Produto,28,298.27,36,18,0,4,0
+596,Gustavo Sá,51,Feminino,CE,4795.74,Serviço,40,349.11,41,15,0,4,0
+597,Carolina Melo,37,Feminino,MG,4823.27,Produto,13,255.6,24,0,0,1,0
+598,Benício Pinto,40,Feminino,PE,1392.44,Serviço,15,257.4,19,30,1,4,0
+599,Alexia Aragão,69,Masculino,DF,4813.13,Produto,19,327.48,19,17,1,3,0
+600,Valentina Barbosa,45,Feminino,PE,1920.67,Produto,7,121.65,26,26,0,3,0
+601,Srta. Lívia Brito,58,Feminino,PR,2612.15,Ambos,16,317.15,16,9,0,4,0
+602,Emanuelly Rodrigues,44,Masculino,CE,8145.63,Produto,13,330.05,13,9,1,2,0
+603,Bryan Nunes,35,Feminino,SP,2873.2,Serviço,39,195.19,45,0,0,2,0
+604,Sarah Azevedo,29,Feminino,SP,4663.71,Produto,4,243.35,7,23,0,1,1
+605,Dr. Marcelo Costela,49,Feminino,BA,5122.23,Serviço,5,359.27,14,11,0,3,0
+606,Milena Sales,23,Masculino,CE,2854.51,Ambos,48,328.71,54,8,0,4,1
+607,Luigi Rios,29,Feminino,RS,4589.43,Produto,13,580.1,13,26,0,1,0
+608,Enrico Freitas,42,Masculino,DF,7201.92,Produto,28,535.0,50,6,1,3,0
+609,Felipe Castro,60,Feminino,SP,4069.38,Produto,7,287.29,14,29,0,3,0
+610,Felipe Andrade,65,Feminino,SP,1950.96,Serviço,35,328.91,60,15,3,4,0
+611,Raquel Fonseca,60,Feminino,RJ,4276.47,Produto,1,333.61,14,10,1,1,0
+612,Dr. Cauê Mendes,43,Masculino,MG,4750.76,Produto,15,159.29,51,18,1,4,0
+613,Dra. Brenda Gomes,41,Feminino,SP,5510.55,Produto,5,425.51,50,2,0,4,0
+614,Léo Novais,21,Masculino,DF,3188.54,Produto,20,221.55,23,4,1,3,0
+615,Alice Vargas,68,Feminino,BA,1200.0,Ambos,22,676.53,42,23,0,2,0
+616,Emanuel Oliveira,64,Feminino,CE,7387.91,Ambos,4,259.57,9,22,1,3,0
+617,Theo Gomes,30,Feminino,DF,7331.61,Serviço,11,275.47,37,23,1,3,0
+618,Manuella Camargo,28,Feminino,SP,4729.49,Produto,4,420.43,5,26,0,3,0
+619,Luara Lopes,67,Masculino,RS,6311.8,Produto,32,323.37,41,28,0,1,0
+620,Murilo Rezende,38,Feminino,DF,8914.13,Serviço,4,271.03,47,6,1,4,0
+621,Hadassa Freitas,27,Feminino,SP,4180.08,Produto,18,210.35,40,3,0,1,0
+622,Matheus Viana,26,Feminino,PE,3746.57,Produto,0,403.49,12,6,0,1,1
+623,Joana Jesus,60,Masculino,RS,3928.77,Produto,16,402.79,32,19,0,4,1
+624,Eloah Pereira,59,Masculino,PE,6450.19,Serviço,5,361.94,32,11,1,4,0
+625,Kevin da Costa,70,Feminino,PR,6600.82,Produto,22,390.51,24,16,1,1,1
+626,Antônio Almeida,22,Masculino,RS,5702.9,Produto,8,428.42,14,17,0,3,0
+627,Pedro Henrique Barros,54,Feminino,BA,3359.52,Serviço,11,297.12,41,23,0,2,0
+628,Pietro das Neves,61,Masculino,DF,3649.64,Serviço,22,282.66,30,5,0,4,0
+629,Thomas Fogaça,39,Feminino,BA,5213.57,Serviço,10,283.83,43,29,1,3,0
+630,Amanda Melo,41,Feminino,PE,5060.38,Serviço,24,373.03,27,19,0,3,0
+631,Thales Moraes,67,Feminino,SP,5002.41,Produto,16,201.95,36,14,1,5,1
+632,Larissa Ribeiro,36,Feminino,BA,1784.88,Serviço,1,208.47,39,0,0,3,0
+633,Nicole Jesus,19,Masculino,MG,6745.84,Ambos,44,224.41,50,3,1,1,1
+634,André Cunha,34,Feminino,RS,4443.22,Produto,18,376.0,24,25,0,3,0
+635,Srta. Marcela Cirino,64,Feminino,RJ,6270.84,Produto,5,151.29,5,5,1,3,0
+636,Ana Carolina Nunes,56,Feminino,BA,7721.32,Produto,19,142.94,42,2,0,4,0
+637,João Pedro Sampaio,40,Masculino,SP,5015.93,Serviço,52,420.45,57,27,0,4,0
+638,Caleb Montenegro,58,Feminino,MG,8601.02,Produto,40,448.67,50,16,0,1,0
+639,Lunna Peixoto,38,Feminino,RJ,2789.29,Produto,14,393.86,33,14,1,4,0
+640,Arthur Gabriel Jesus,32,Masculino,SP,5473.16,Ambos,9,464.37,28,4,0,3,0
+641,Bento Mendes,53,Feminino,CE,5784.83,Produto,8,238.92,26,24,0,4,0
+642,Cecilia Almeida,53,Masculino,RS,1333.32,Produto,7,296.63,13,17,0,4,0
+643,Antônio Almeida,33,Feminino,PE,3951.82,Ambos,2,318.28,5,21,1,5,1
+644,Bruna Gonçalves,45,Feminino,MG,5000.41,Produto,11,298.88,24,19,0,4,0
+645,Heitor da Mota,40,Feminino,BA,6910.19,Serviço,28,176.06,40,1,0,5,0
+646,Brayan Vasconcelos,27,Masculino,MG,6650.2,Ambos,46,195.94,49,23,0,1,0
+647,Fernanda Gomes,70,Masculino,RS,4454.05,Produto,0,206.7,19,9,0,3,1
+648,Kaique Barbosa,65,Feminino,MG,4047.56,Produto,13,404.93,35,17,2,3,0
+649,Sra. Lunna Azevedo,62,Masculino,PR,4547.48,Produto,42,390.73,45,8,1,2,1
+650,Isabelly da Cunha,21,Masculino,BA,4868.9,Ambos,20,537.8,30,12,0,4,0
+651,Davi Lucas Gonçalves,24,Feminino,RJ,7845.5,Ambos,1,411.15,2,7,0,5,0
+652,Anthony Araújo,38,Feminino,RS,6044.49,Produto,5,202.03,32,17,2,5,1
+653,Luísa Lima,51,Masculino,PR,5177.32,Serviço,10,323.68,20,0,0,3,0
+654,Beatriz Casa Grande,33,Feminino,SP,5406.61,Ambos,17,265.84,33,28,1,3,0
+655,Leandro Silveira,53,Feminino,DF,5815.85,Produto,7,285.0,18,21,0,2,0
+656,Pietro Nogueira,61,Feminino,PR,2112.29,Serviço,40,30.0,40,7,0,4,0
+657,Igor Mendonça,56,Masculino,RS,2190.87,Serviço,14,130.02,22,20,0,2,0
+658,Maria Eduarda Martins,26,Feminino,MG,4093.5,Ambos,16,474.3,20,29,2,5,0
+659,Clara Barbosa,38,Masculino,SP,4258.82,Serviço,4,552.46,5,5,1,3,0
+660,Daniel da Costa,66,Feminino,PR,6941.88,Ambos,13,492.27,21,14,0,4,0
+661,Breno da Luz,27,Masculino,PR,5752.82,Produto,12,191.75,50,0,1,4,0
+662,João Lucas Borges,56,Masculino,CE,2621.18,Serviço,14,497.12,37,21,1,1,1
+663,Gael Henrique Santos,26,Feminino,MG,4342.76,Ambos,30,372.38,33,5,0,5,0
+664,Enzo Gabriel Pastor,28,Masculino,RS,1512.3,Produto,3,314.28,13,29,1,3,0
+665,Breno Campos,66,Feminino,CE,1949.36,Produto,1,163.94,14,27,0,4,0
+666,Sr. João Vargas,33,Feminino,DF,4542.8,Ambos,12,180.68,28,23,0,3,0
+667,Laura Pires,51,Feminino,RS,6557.96,Serviço,2,30.0,42,14,0,5,1
+668,Anthony Gabriel Melo,51,Masculino,SP,4961.48,Ambos,25,268.45,35,17,1,3,0
+669,Ana Beatriz Moreira,30,Feminino,PE,2638.37,Produto,14,433.72,19,24,1,5,0
+670,Manuela Ramos,36,Masculino,DF,5876.95,Serviço,3,302.35,40,14,0,5,0
+671,Vinicius Albuquerque,25,Masculino,MG,4524.61,Serviço,12,323.07,12,12,0,3,0
+672,Isadora Cavalcanti,47,Masculino,MG,5203.71,Ambos,12,485.88,38,8,0,3,0
+673,Liz Pires,63,Feminino,PE,6977.34,Produto,7,137.83,47,20,2,3,0
+674,Fernando Ribeiro,64,Masculino,MG,5346.68,Serviço,32,329.27,51,12,1,4,1
+675,Sr. Benjamim Rocha,39,Masculino,PR,1798.19,Produto,9,200.58,37,5,0,4,1
+676,Bianca da Mota,37,Masculino,SP,3513.73,Produto,28,204.36,47,3,0,5,0
+677,Milena Fogaça,57,Feminino,CE,4648.29,Produto,16,499.38,49,27,0,3,0
+678,Liz da Rocha,33,Feminino,SP,6074.18,Serviço,9,306.2,14,13,0,3,0
+679,Sra. Ana Luiza Pereira,33,Masculino,BA,2479.67,Produto,35,226.04,57,1,0,2,1
+680,Anthony Gabriel Silva,20,Feminino,PE,5677.63,Serviço,0,180.7,10,10,1,5,1
+681,Manuela Duarte,29,Masculino,SP,5651.41,Produto,10,255.65,11,30,1,3,0
+682,Diogo Vargas,23,Feminino,DF,2659.96,Produto,19,401.83,50,26,0,1,0
+683,Augusto Vasconcelos,22,Feminino,RS,4531.96,Produto,15,355.96,19,10,0,4,0
+684,Marcela Farias,57,Masculino,PR,5660.13,Serviço,0,374.39,4,15,0,4,0
+685,Yuri Campos,45,Feminino,DF,3329.71,Produto,20,550.74,39,29,0,2,0
+686,Gabrielly Rocha,64,Masculino,RS,5075.72,Serviço,31,370.15,41,28,0,4,0
+687,Srta. Juliana Pinto,18,Masculino,PE,9047.21,Serviço,0,300.82,8,23,0,5,0
+688,Dr. Luiz Henrique Fernandes,44,Masculino,PR,6683.06,Produto,2,225.88,3,0,0,4,0
+689,Larissa Porto,68,Feminino,BA,1200.0,Produto,2,484.01,5,24,0,1,0
+690,Liam Pacheco,43,Masculino,BA,4598.5,Serviço,36,152.14,47,26,0,2,1
+691,Ravy da Luz,61,Masculino,DF,4141.51,Ambos,30,370.63,31,15,1,2,0
+692,Emanuel Sousa,39,Masculino,BA,1803.75,Ambos,25,355.46,30,26,0,4,0
+693,Emanuel Albuquerque,53,Feminino,RJ,3566.72,Produto,1,318.85,35,25,2,5,0
+694,Ana Sophia Moreira,27,Feminino,PE,5851.77,Produto,0,302.3,18,20,1,4,1
+695,Stella Mendes,29,Feminino,PR,8608.7,Ambos,7,277.09,39,22,0,5,0
+696,Elisa Moreira,44,Feminino,DF,7784.94,Ambos,3,441.03,6,14,0,5,0
+697,Dra. Brenda Fonseca,37,Masculino,DF,7968.23,Produto,1,342.67,12,24,0,3,1
+698,Sr. Calebe Moreira,19,Masculino,DF,6236.98,Ambos,30,275.1,52,6,0,3,0
+699,Sr. Gael Henrique Abreu,37,Masculino,MG,2499.18,Produto,20,372.54,50,26,0,5,0
+700,Rafaela Porto,31,Masculino,RJ,5939.14,Serviço,2,385.69,47,0,0,3,1
+701,Sr. Oliver da Cruz,39,Feminino,RS,4126.56,Produto,28,292.06,30,0,0,4,0
+702,Mariane Vargas,38,Feminino,MG,3407.66,Produto,3,340.68,13,24,0,3,0
+703,Vitor Hugo Gonçalves,28,Masculino,PR,6488.38,Produto,3,278.25,18,6,1,4,0
+704,Vitória Cassiano,27,Masculino,DF,3701.25,Serviço,18,458.56,46,2,0,3,0
+705,Yan Correia,46,Masculino,PE,5495.02,Produto,1,318.05,4,3,1,3,1
+706,Dr. Luiz Henrique Cassiano,29,Feminino,RS,7383.92,Ambos,38,228.93,46,19,0,3,0
+707,Srta. Alexia Mendonça,63,Masculino,MG,1200.0,Ambos,42,407.11,49,29,1,4,0
+708,Josué Gonçalves,23,Feminino,CE,5028.55,Ambos,51,185.53,53,3,0,3,0
+709,Stella Souza,48,Feminino,BA,5427.81,Produto,7,277.27,15,29,0,3,0
+710,Francisco Campos,68,Feminino,CE,5211.79,Produto,56,370.13,56,0,0,1,1
+711,Arthur Novais,47,Feminino,PE,6098.46,Produto,10,616.11,55,19,1,4,0
+712,Sra. Yasmin Novais,70,Masculino,PE,6558.55,Produto,6,265.13,46,25,2,3,0
+713,Davi Luiz Barbosa,33,Feminino,PE,4744.9,Serviço,15,481.34,40,12,0,1,1
+714,Sara Guerra,68,Masculino,CE,5818.06,Ambos,18,140.94,28,5,0,4,1
+715,Pietro Duarte,25,Masculino,PE,6773.77,Serviço,38,249.51,38,26,0,3,0
+716,Maria Cecília Novaes,22,Feminino,RJ,5022.28,Serviço,6,385.16,39,10,0,3,0
+717,Carlos Eduardo Pimenta,31,Masculino,DF,5873.48,Ambos,8,348.52,53,24,0,2,1
+718,Alice Cunha,36,Masculino,PR,7074.09,Serviço,19,388.87,25,6,1,4,0
+719,Henry Caldeira,45,Masculino,MG,5218.94,Ambos,22,426.3,46,19,0,5,0
+720,Rafael Lopes,36,Masculino,BA,3991.64,Ambos,2,290.22,4,0,0,4,0
+721,Ana Albuquerque,25,Masculino,BA,6380.47,Ambos,18,30.0,56,13,0,4,0
+722,Dr. Luan Casa Grande,63,Masculino,DF,2825.51,Produto,12,169.7,25,21,0,2,1
+723,Henrique Carvalho,42,Masculino,MG,7434.75,Ambos,23,398.47,54,9,1,5,0
+724,Ágatha Pires,18,Feminino,RJ,2875.41,Produto,5,156.21,5,21,1,3,0
+725,Sr. Davi Lucca Câmara,26,Feminino,DF,4079.47,Ambos,26,163.74,42,19,3,2,0
+726,Luna Andrade,70,Masculino,RS,7919.46,Produto,12,93.59,29,13,1,4,0
+727,Matteo Barbosa,63,Feminino,BA,8604.33,Serviço,17,345.97,33,1,0,5,0
+728,Bento Mendes,25,Masculino,PR,5836.8,Ambos,30,468.19,38,4,1,4,0
+729,Dra. Valentina Carvalho,47,Masculino,RJ,6300.9,Serviço,5,119.63,34,7,0,3,0
+730,Leonardo Moraes,61,Feminino,SP,6940.79,Ambos,34,396.4,41,19,0,1,1
+731,Agatha Farias,48,Feminino,PR,8991.33,Ambos,16,673.19,30,13,0,3,0
+732,Gabrielly Souza,36,Feminino,CE,7163.88,Serviço,0,419.46,11,23,0,4,1
+733,Dom Ribeiro,55,Feminino,CE,5460.14,Produto,9,359.73,11,25,2,4,1
+734,Ágatha Câmara,23,Feminino,PR,3928.08,Produto,8,364.8,9,8,0,2,1
+735,Eduardo da Cunha,18,Masculino,PR,5879.0,Serviço,7,393.47,48,21,1,3,0
+736,Maria Liz Montenegro,68,Masculino,MG,4988.81,Serviço,15,380.25,45,10,0,5,0
+737,Olívia das Neves,49,Masculino,RS,5908.37,Ambos,26,235.83,49,21,1,3,0
+738,Gabriela Vieira,54,Feminino,CE,4879.42,Produto,22,354.58,47,24,0,5,1
+739,Mirella Fernandes,43,Masculino,PR,6780.77,Serviço,19,369.02,31,12,0,4,0
+740,Isaac Monteiro,27,Feminino,SP,8638.45,Produto,27,304.79,34,12,1,4,0
+741,Sr. Liam Marques,24,Feminino,BA,5487.27,Serviço,34,466.41,59,19,0,5,0
+742,Daniel Vargas,35,Feminino,RS,4042.33,Produto,3,196.47,18,14,0,4,0
+743,Isadora Sá,51,Masculino,RJ,5753.15,Serviço,21,397.18,22,10,1,4,0
+744,Miguel Pereira,18,Feminino,RS,7223.16,Serviço,3,532.16,27,11,2,3,0
+745,Luiz Otávio da Luz,20,Masculino,RJ,4261.45,Produto,2,317.21,2,30,0,4,0
+746,Sr. Benjamim da Paz,23,Masculino,PR,2995.06,Produto,38,167.78,55,28,0,2,1
+747,Mathias Almeida,47,Feminino,BA,1955.28,Serviço,4,433.52,43,24,1,3,0
+748,Ian Moura,34,Masculino,PR,3928.4,Produto,1,95.12,11,12,1,3,0
+749,Luiz Miguel da Costa,70,Feminino,CE,4688.2,Serviço,5,234.21,17,29,1,3,0
+750,Vitor Hugo Cunha,24,Masculino,PR,7234.8,Ambos,8,473.82,10,19,0,4,0
+751,Vitor Hugo da Rosa,24,Feminino,MG,8040.68,Produto,0,240.63,3,24,0,3,0
+752,Antony Silveira,59,Feminino,PE,3072.48,Ambos,0,185.14,41,8,0,2,1
+753,Manuella Andrade,54,Feminino,RJ,2343.37,Serviço,1,309.3,1,27,1,4,0
+754,Dr. Leonardo da Costa,52,Feminino,BA,8027.2,Produto,0,226.4,15,3,1,4,0
+755,Levi Sá,39,Masculino,RJ,2783.49,Serviço,19,100.65,44,11,0,4,0
+756,Luiz Miguel Freitas,47,Masculino,RS,4833.12,Produto,49,126.04,49,5,0,4,0
+757,Benjamin Lima,37,Feminino,RS,6896.89,Ambos,24,145.69,45,15,1,1,0
+758,Otto Castro,26,Masculino,PR,4833.23,Produto,1,322.28,3,15,0,3,0
+759,Srta. Ana Júlia Oliveira,49,Masculino,SP,8346.9,Ambos,28,460.86,35,1,1,3,0
+760,Hellena das Neves,43,Feminino,MG,6622.79,Ambos,3,162.21,8,30,1,4,0
+761,Ana Beatriz Porto,65,Masculino,CE,2754.91,Ambos,14,189.9,38,23,0,2,0
+762,Bruno da Luz,57,Masculino,PR,4570.18,Ambos,1,333.22,3,0,0,2,1
+763,Renan Rodrigues,70,Masculino,RJ,7094.64,Serviço,6,440.35,51,26,0,4,0
+764,Ana Luiza Silva,25,Masculino,PE,5087.56,Produto,14,269.3,32,13,0,3,0
+765,Bernardo Farias,38,Masculino,RJ,6144.11,Produto,8,292.54,8,24,0,1,1
+766,Nina Porto,25,Masculino,RS,4229.23,Ambos,4,350.45,18,22,2,3,0
+767,Sophie Vieira,55,Feminino,RJ,4952.9,Produto,1,279.08,3,24,0,2,0
+768,Heitor Moura,18,Feminino,CE,5633.08,Ambos,0,322.76,1,13,0,4,0
+769,Dra. Alana Melo,62,Feminino,MG,4126.47,Produto,3,107.21,9,16,1,3,0
+770,Vitor Vieira,57,Feminino,PR,8499.17,Serviço,2,465.77,45,19,1,5,0
+771,Maria Fernanda Siqueira,40,Masculino,BA,3994.05,Serviço,0,331.62,27,3,0,5,0
+772,Catarina Ferreira,66,Masculino,MG,5718.37,Produto,32,368.15,35,8,0,1,1
+773,Ana Luiza Pires,61,Masculino,BA,3432.47,Serviço,30,217.14,55,21,0,5,1
+774,João Gabriel Mendonça,36,Feminino,DF,8410.03,Produto,6,263.9,14,1,1,2,1
+775,Maria Eduarda Nascimento,29,Masculino,BA,5815.75,Serviço,0,354.3,11,2,2,5,0
+776,Melina Novais,44,Feminino,RJ,5964.5,Serviço,11,151.48,13,7,1,4,0
+777,João Castro,33,Feminino,CE,3473.43,Ambos,26,304.55,48,28,0,3,0
+778,Beatriz Melo,21,Feminino,RS,5307.66,Produto,27,391.98,57,5,0,3,0
+779,Sophie Moura,58,Masculino,MG,3428.03,Produto,8,134.27,23,1,1,4,1
+780,Matteo da Luz,25,Masculino,MG,4538.27,Serviço,29,474.39,55,24,1,3,0
+781,Heloísa Ramos,68,Masculino,RJ,3788.28,Ambos,40,506.33,51,18,0,5,0
+782,Rafaela Mendonça,44,Masculino,SP,6076.65,Serviço,33,322.11,55,18,0,3,0
+783,Emanuel Sampaio,64,Masculino,MG,3900.89,Ambos,23,403.15,28,10,0,3,0
+784,Aylla Macedo,54,Masculino,DF,3619.23,Serviço,0,300.49,58,1,0,5,0
+785,Heloisa Fogaça,20,Masculino,SP,4013.75,Produto,16,473.24,28,14,1,3,1
+786,Ayla Mendonça,62,Masculino,RJ,4442.07,Ambos,26,266.43,47,11,0,3,0
+787,Dr. Anthony Pires,19,Feminino,CE,6085.41,Produto,19,175.34,31,27,2,4,0
+788,Vinicius Moreira,47,Feminino,CE,4337.38,Ambos,8,226.53,50,5,0,4,0
+789,Maria Eduarda Fernandes,63,Masculino,SP,5199.21,Ambos,0,100.83,41,12,0,5,0
+790,Bruna Gomes,36,Masculino,BA,2297.85,Produto,24,141.31,28,25,2,4,0
+791,Sr. Ravi Siqueira,65,Feminino,CE,2708.92,Serviço,3,136.4,60,28,0,1,1
+792,Sra. Maria Eduarda Alves,57,Masculino,BA,4540.4,Produto,2,197.83,3,17,0,4,0
+793,Maria Luísa Casa Grande,33,Masculino,BA,2198.65,Serviço,7,301.72,35,24,1,4,0
+794,Mateus Mendes,35,Masculino,DF,5349.64,Produto,27,319.76,33,11,1,3,0
+795,Luiz Gustavo Costa,25,Feminino,RJ,2793.95,Serviço,18,343.08,31,25,1,4,0
+796,Luan da Luz,30,Masculino,RJ,2925.96,Serviço,56,389.26,58,12,0,5,0
+797,Benjamin Carvalho,24,Masculino,SP,6951.63,Produto,4,410.21,11,15,0,2,1
+798,Ana Júlia Cunha,36,Masculino,SP,4437.96,Serviço,21,351.0,27,15,0,3,0
+799,Joaquim Cavalcante,36,Masculino,PE,4565.97,Produto,1,262.98,13,26,0,5,0
+800,Aylla Rodrigues,55,Feminino,DF,2164.75,Serviço,20,371.98,22,15,0,4,0
+801,Nina Mendes,46,Feminino,BA,2244.76,Serviço,9,232.23,30,5,0,4,0
+802,Clarice Almeida,36,Feminino,MG,5225.1,Produto,3,353.4,50,14,0,5,0
+803,Rodrigo Garcia,63,Masculino,MG,1828.03,Produto,18,74.41,35,26,0,4,0
+804,Dr. Bernardo Garcia,28,Feminino,MG,7171.85,Produto,3,426.63,16,18,0,2,1
+805,Breno Macedo,31,Feminino,MG,1200.0,Serviço,2,300.41,36,4,1,3,0
+806,Luiz Miguel Cavalcante,52,Feminino,CE,2972.21,Ambos,3,310.28,20,29,0,3,0
+807,Marcelo da Mota,38,Feminino,PR,4328.54,Ambos,0,205.27,10,20,0,4,0
+808,Maria Cecília Carvalho,66,Feminino,SP,3008.37,Ambos,9,378.14,37,10,0,4,0
+809,Vicente da Mata,26,Masculino,BA,4735.83,Produto,35,321.21,44,12,0,4,0
+810,Ana Sophia Nascimento,23,Masculino,PR,4400.65,Serviço,1,293.98,21,18,1,4,0
+811,Vitor Hugo Cavalcante,30,Feminino,DF,10241.59,Serviço,0,166.56,2,21,1,4,1
+812,Emanuel Carvalho,43,Masculino,PE,5561.27,Produto,7,511.03,13,29,2,4,0
+813,Renan Pastor,41,Feminino,DF,1200.0,Produto,11,277.58,25,11,1,3,0
+814,Dra. Hadassa Gonçalves,23,Feminino,PE,5667.46,Ambos,11,264.29,14,25,1,3,0
+815,Zoe Pimenta,64,Masculino,DF,4630.83,Produto,26,216.22,58,4,2,3,0
+816,Levi Brito,39,Masculino,PE,6696.86,Ambos,4,30.37,5,0,1,3,0
+817,Maysa Nascimento,29,Masculino,DF,3786.6,Ambos,29,325.35,36,6,0,2,1
+818,Vinicius Garcia,49,Feminino,SP,4410.44,Ambos,2,461.54,3,15,1,4,0
+819,Catarina Costa,68,Feminino,PE,2844.26,Produto,0,217.35,1,3,0,4,0
+820,Felipe Teixeira,29,Feminino,BA,3751.31,Produto,15,277.86,32,15,0,5,1
+821,Gabrielly Sá,55,Feminino,SP,8523.38,Ambos,27,266.06,31,22,1,5,0
+822,Marcos Vinicius Brito,34,Feminino,MG,4582.09,Produto,9,553.22,11,14,0,5,0
+823,Danilo Vieira,21,Feminino,RJ,6197.59,Serviço,11,380.2,18,1,0,3,0
+824,Eloah da Costa,50,Masculino,BA,7793.19,Serviço,12,349.76,13,19,1,4,0
+825,Emilly Ribeiro,70,Feminino,DF,2711.48,Ambos,43,306.87,55,21,1,4,0
+826,Davi Lucca Campos,55,Feminino,MG,3558.72,Produto,4,363.46,23,11,0,4,0
+827,Maria Clara Alves,24,Masculino,DF,5593.15,Serviço,2,355.58,14,25,2,5,0
+828,Sra. Ester Cardoso,52,Masculino,MG,6568.26,Ambos,35,337.27,46,13,0,3,1
+829,Benjamin Rocha,19,Feminino,DF,2934.95,Produto,22,347.75,31,4,0,5,0
+830,Zoe Jesus,66,Masculino,MG,3024.34,Ambos,5,411.99,22,23,0,5,0
+831,Calebe Cardoso,62,Masculino,RJ,2820.73,Produto,9,205.83,15,2,0,3,0
+832,Laís da Rocha,22,Masculino,DF,6701.3,Ambos,1,281.19,2,6,0,2,0
+833,Ana Carolina da Luz,55,Feminino,RJ,3184.49,Produto,3,482.31,4,1,1,1,0
+834,Maria Sophia da Mata,68,Masculino,MG,3684.33,Serviço,3,402.54,8,5,1,4,1
+835,Jade Cirino,65,Masculino,RS,5343.68,Produto,18,366.39,18,27,0,4,0
+836,Giovanna Araújo,50,Masculino,PR,3365.2,Produto,4,226.85,37,16,1,3,0
+837,Emanuel Peixoto,28,Masculino,CE,1948.14,Serviço,48,374.14,58,29,1,3,0
+838,Maria Fernanda Ramos,41,Masculino,PE,6425.26,Produto,37,391.15,45,5,0,5,0
+839,Lunna Farias,31,Feminino,CE,5520.88,Serviço,14,235.34,33,3,0,3,0
+840,Dr. José Duarte,66,Masculino,PR,4079.85,Produto,22,292.03,24,2,0,3,0
+841,Bella Barbosa,47,Feminino,PE,5699.3,Serviço,19,112.22,39,7,0,4,0
+842,Sr. Brayan Correia,30,Feminino,CE,2529.31,Ambos,4,439.76,55,30,2,4,0
+843,Maysa Ferreira,61,Masculino,RJ,5670.12,Serviço,6,337.94,7,3,0,2,0
+844,Dr. Francisco Araújo,65,Masculino,PE,3585.41,Ambos,57,315.04,60,11,0,5,0
+845,Dr. Ravy Melo,25,Feminino,PR,6513.58,Ambos,13,373.5,15,24,2,4,0
+846,Manuella Costela,66,Feminino,PE,4805.33,Serviço,51,239.55,51,11,0,3,0
+847,Vicente Teixeira,49,Feminino,RS,4921.39,Produto,17,283.86,33,3,1,2,0
+848,Dra. Milena Gomes,58,Masculino,MG,7163.53,Produto,0,142.53,9,26,0,1,0
+849,Sr. José Souza,42,Masculino,CE,7669.81,Produto,20,375.57,39,24,0,1,0
+850,Raquel das Neves,68,Feminino,DF,5773.62,Produto,6,430.92,30,15,0,4,0
+851,Luiza Camargo,52,Masculino,CE,6933.52,Ambos,0,339.67,2,12,0,3,0
+852,Isadora Almeida,47,Feminino,MG,5289.78,Produto,0,302.87,3,28,1,4,0
+853,Brenda Vieira,37,Masculino,DF,3363.14,Serviço,24,483.88,46,18,0,4,0
+854,Lorena Barros,54,Masculino,PE,6407.28,Serviço,30,319.1,31,16,1,1,1
+855,Benjamim Rios,57,Feminino,MG,2058.39,Ambos,22,316.94,44,10,3,1,0
+856,Antonella Guerra,41,Feminino,BA,6383.62,Serviço,23,491.68,23,12,0,1,1
+857,Rafael Camargo,44,Masculino,RJ,8908.31,Serviço,1,239.31,23,7,1,4,0
+858,Dr. Davi Luiz Fonseca,37,Feminino,DF,8925.17,Produto,5,300.44,8,1,1,3,0
+859,José Pedro Câmara,44,Masculino,RJ,3515.03,Serviço,0,241.76,18,10,1,3,0
+860,Dr. Murilo das Neves,69,Masculino,BA,6125.76,Serviço,6,194.42,32,10,0,3,0
+861,João Miguel Rocha,28,Feminino,RJ,6905.2,Produto,19,356.84,40,6,0,3,0
+862,Dra. Catarina Nogueira,52,Feminino,RJ,8108.32,Produto,4,402.48,14,18,3,3,0
+863,Caroline Leão,63,Feminino,CE,1200.0,Produto,37,264.41,55,8,0,1,0
+864,Emanuelly Cavalcanti,45,Feminino,DF,1690.54,Ambos,5,364.66,14,16,1,5,0
+865,Daniel Teixeira,38,Feminino,SP,1521.87,Serviço,6,433.55,13,21,0,4,0
+866,Theodoro Vieira,58,Feminino,CE,4852.1,Ambos,33,245.8,46,6,0,4,0
+867,Luiz Henrique Abreu,35,Feminino,DF,6863.14,Serviço,40,331.35,60,29,1,4,0
+868,Vinicius Pacheco,30,Masculino,PE,5857.58,Produto,14,259.07,24,23,1,4,0
+869,Lavínia Pacheco,44,Feminino,PR,3208.89,Serviço,2,419.52,21,8,2,5,0
+870,Ana Liz Lopes,61,Masculino,PR,5506.33,Serviço,15,398.44,39,4,1,2,1
+871,Apollo Castro,47,Masculino,PR,3967.14,Serviço,27,276.42,32,6,4,2,1
+872,Sr. Joaquim Monteiro,68,Masculino,CE,3667.43,Serviço,17,278.68,52,20,0,5,0
+873,Murilo Silveira,68,Masculino,PE,4646.45,Ambos,0,114.17,2,10,0,4,0
+874,Sophie Monteiro,41,Feminino,RS,1595.57,Ambos,42,244.46,43,30,1,5,0
+875,Ravi Sá,25,Feminino,RJ,2970.13,Ambos,32,208.66,37,15,0,5,0
+876,Lucas Gabriel Freitas,67,Feminino,PE,3460.01,Produto,20,144.47,52,25,1,4,0
+877,Dr. Benicio Sampaio,31,Feminino,SP,6190.06,Produto,1,233.11,10,14,0,3,0
+878,Carolina Monteiro,49,Masculino,RS,6762.37,Serviço,23,254.37,35,10,0,4,0
+879,Brenda Rocha,35,Feminino,SP,4937.12,Ambos,50,198.19,57,15,0,4,0
+880,Guilherme Fogaça,59,Masculino,PR,7704.06,Produto,38,333.86,58,22,0,5,0
+881,Bryan Lopes,53,Feminino,RS,5367.67,Serviço,9,623.16,25,28,0,5,0
+882,Joaquim Rios,46,Feminino,RJ,2147.24,Ambos,0,393.76,25,29,0,5,1
+883,Luiz Felipe Pastor,70,Masculino,PE,4838.8,Produto,15,200.03,49,29,0,3,0
+884,Théo Caldeira,68,Feminino,BA,2628.28,Ambos,2,30.0,3,15,1,4,0
+885,Dr. Luiz Otávio Cavalcanti,63,Masculino,RJ,7258.95,Ambos,28,381.8,28,26,1,2,1
+886,Srta. Yasmin Pires,40,Feminino,MG,7447.71,Ambos,19,316.42,27,14,2,4,0
+887,Rael Moraes,58,Masculino,RJ,4902.21,Serviço,25,131.38,29,12,1,3,0
+888,Kaique Barbosa,25,Masculino,BA,7493.78,Serviço,3,292.56,11,27,0,4,0
+889,Isabel Fonseca,46,Feminino,BA,4453.76,Produto,8,426.53,31,25,0,3,1
+890,Valentim Abreu,29,Masculino,RS,8125.78,Ambos,12,267.12,26,0,0,5,0
+891,Luiz Fernando Câmara,23,Masculino,PR,5523.9,Produto,6,149.39,30,1,0,3,0
+892,Maitê da Cunha,27,Masculino,CE,9437.56,Produto,2,280.91,6,0,0,4,0
+893,Srta. Aurora Cavalcanti,70,Masculino,PR,1200.0,Produto,31,403.66,44,6,1,5,0
+894,Maria Flor da Mata,36,Feminino,PR,2416.95,Produto,31,334.9,48,27,0,3,0
+895,Kevin da Rosa,64,Feminino,PR,3784.25,Serviço,12,235.31,44,25,1,2,1
+896,Maria Liz Campos,33,Feminino,SP,2790.27,Ambos,28,326.46,40,18,0,4,0
+897,Alana Araújo,48,Feminino,PE,3935.38,Ambos,5,443.42,9,21,0,3,0
+898,Rodrigo Gonçalves,65,Masculino,BA,7359.45,Produto,16,323.29,39,1,1,3,0
+899,Oliver Vasconcelos,56,Masculino,PR,2795.42,Ambos,38,381.76,43,0,0,3,0
+900,Ísis Rezende,43,Masculino,CE,4278.7,Produto,23,364.67,43,18,0,2,1
+901,Ana Carolina Mendes,39,Feminino,RJ,6069.63,Produto,29,447.48,57,22,1,4,0
+902,Isabella Peixoto,38,Feminino,PR,1200.0,Serviço,1,229.85,3,23,0,3,0
+903,Ana Laura Aparecida,57,Feminino,CE,6658.26,Ambos,48,296.72,54,13,0,5,0
+904,Camila das Neves,66,Feminino,MG,3126.99,Ambos,8,219.87,10,1,0,2,1
+905,Milena Albuquerque,20,Feminino,CE,4860.84,Produto,16,406.8,31,13,0,2,0
+906,Sofia Moreira,20,Feminino,MG,3786.27,Ambos,11,354.92,29,14,0,3,0
+907,Igor Gomes,25,Feminino,PR,8878.39,Produto,2,131.88,23,5,2,5,0
+908,Gabriela da Rocha,54,Masculino,RJ,4229.96,Serviço,42,345.96,58,16,0,4,0
+909,Alana Teixeira,33,Feminino,RJ,3801.27,Serviço,31,166.8,50,0,0,3,0
+910,Olívia Oliveira,43,Masculino,CE,6536.41,Ambos,18,325.85,24,26,0,3,1
+911,Beatriz Cavalcante,63,Feminino,SP,3698.33,Serviço,30,300.22,43,19,0,4,0
+912,Valentina Pereira,59,Masculino,PR,1200.0,Produto,28,506.96,40,6,1,5,0
+913,Maria Vitória Almeida,38,Feminino,PE,4908.98,Ambos,3,249.09,52,2,0,3,0
+914,Benjamin Ribeiro,23,Feminino,MG,5498.36,Produto,0,192.78,2,9,0,4,0
+915,Juliana Aparecida,25,Feminino,RJ,4167.61,Ambos,15,164.39,20,28,1,4,0
+916,Larissa Correia,41,Feminino,RJ,3929.33,Serviço,12,343.01,33,15,1,3,0
+917,Sr. Rael Mendonça,66,Masculino,DF,6371.02,Produto,25,521.83,28,13,1,4,1
+918,Júlia Machado,39,Masculino,DF,5196.14,Produto,21,455.5,30,29,1,3,0
+919,João Guilherme Carvalho,23,Feminino,PR,4610.61,Serviço,14,292.3,19,9,2,2,1
+920,Ana Beatriz Ramos,33,Masculino,RJ,6390.04,Produto,27,124.53,34,17,1,1,1
+921,Benício Novais,50,Feminino,DF,5662.68,Produto,13,364.01,28,11,0,3,1
+922,Davi Luiz Pereira,19,Masculino,PR,6752.09,Produto,7,476.72,8,26,1,3,1
+923,Dr. Thiago Fernandes,38,Feminino,MG,3792.04,Ambos,29,272.45,38,19,0,5,0
+924,Sr. Guilherme Moraes,31,Feminino,SP,3359.65,Ambos,1,149.83,12,27,2,4,0
+925,Dra. Cecilia Macedo,18,Feminino,CE,6280.96,Produto,3,277.14,26,14,0,4,0
+926,Srta. Natália Costa,37,Feminino,SP,2809.2,Produto,39,335.81,40,25,1,3,0
+927,Maria Laura Garcia,30,Masculino,MG,1701.93,Serviço,0,301.19,8,27,0,1,1
+928,Calebe Mendonça,59,Masculino,CE,7411.99,Ambos,13,393.29,16,2,1,3,0
+929,Camila Almeida,45,Masculino,CE,3102.17,Produto,0,509.68,2,23,0,4,0
+930,Bryan Fogaça,19,Masculino,SP,4459.68,Serviço,28,371.27,56,9,1,4,0
+931,Júlia Montenegro,39,Feminino,DF,3995.45,Serviço,0,240.87,1,13,0,5,0
+932,Emanuel Garcia,36,Feminino,PE,7446.17,Produto,3,268.94,3,7,0,4,0
+933,Sophie Vargas,54,Feminino,BA,5458.63,Produto,17,505.52,21,28,0,3,0
+934,Lucca Ribeiro,46,Feminino,RS,1200.0,Produto,27,291.76,45,23,0,2,1
+935,Laís Nascimento,50,Feminino,PE,2581.93,Ambos,10,271.4,15,4,0,5,0
+936,Lorena Cirino,44,Feminino,MG,6822.73,Serviço,43,312.69,54,25,0,3,0
+937,João Oliveira,57,Masculino,MG,6704.36,Serviço,4,450.17,14,21,2,3,0
+938,Anna Liz Azevedo,56,Feminino,SP,6464.98,Ambos,6,334.65,32,9,0,3,0
+939,Raul Aragão,40,Masculino,SP,5933.43,Produto,16,360.76,57,5,0,5,0
+940,Davi Luiz Barbosa,69,Masculino,BA,2739.59,Serviço,2,589.4,5,3,0,4,0
+941,Ana Sophia Barbosa,68,Feminino,DF,5297.82,Ambos,1,218.47,23,28,1,2,0
+942,Maria Sophia Rocha,56,Feminino,RJ,5846.68,Ambos,6,549.69,43,25,0,3,0
+943,Ravy Monteiro,24,Masculino,MG,5515.51,Serviço,39,150.99,51,26,0,4,0
+944,Ester Cavalcanti,58,Masculino,DF,4868.05,Ambos,3,354.08,8,23,0,3,0
+945,Sr. Bryan Cavalcante,49,Feminino,RS,4172.79,Produto,6,526.52,47,10,0,5,0
+946,Dr. Miguel Pires,46,Masculino,DF,2167.13,Ambos,24,378.38,27,26,0,5,0
+947,Oliver Pereira,28,Feminino,DF,7165.38,Produto,2,243.47,6,11,1,4,0
+948,Bruno Santos,44,Feminino,DF,2425.67,Produto,14,132.35,51,13,1,5,0
+949,Maria Sophia Martins,68,Feminino,DF,1961.31,Ambos,23,30.0,44,4,1,4,0
+950,Maria Julia Siqueira,22,Masculino,MG,7400.52,Produto,2,244.42,6,13,1,1,0
+951,Arthur Casa Grande,54,Feminino,PR,1260.52,Ambos,4,253.38,4,12,1,5,0
+952,Júlia Vargas,64,Masculino,MG,5380.85,Ambos,20,353.91,48,26,0,3,0
+953,Benjamin Dias,62,Feminino,PE,4946.34,Serviço,14,238.34,26,22,0,3,0
+954,Pedro Miguel Souza,67,Feminino,MG,5907.02,Produto,4,182.12,13,12,1,4,0
+955,Leonardo Cassiano,51,Feminino,SP,4314.9,Produto,18,320.46,35,16,0,3,0
+956,Hadassa da Mata,19,Feminino,PE,5533.35,Serviço,50,191.16,57,7,2,5,0
+957,Eduarda Araújo,50,Feminino,RJ,6429.22,Ambos,0,54.01,8,20,0,4,1
+958,Oliver Monteiro,46,Feminino,DF,5806.6,Ambos,18,351.31,20,10,1,5,0
+959,Júlia Rios,56,Masculino,RJ,4069.57,Produto,11,265.34,15,22,0,3,0
+960,Vinícius Câmara,38,Feminino,PE,8469.87,Ambos,12,197.19,34,14,1,1,0
+961,Melissa Cavalcanti,23,Masculino,DF,2595.7,Serviço,0,252.52,6,15,0,3,1
+962,Sr. José Miguel Pinto,43,Feminino,PE,2600.28,Serviço,35,264.93,38,27,1,3,0
+963,Eduarda Moreira,46,Feminino,CE,5028.49,Ambos,31,110.84,45,26,2,2,0
+964,Isis Vasconcelos,63,Masculino,MG,5450.53,Ambos,4,383.13,30,22,1,3,0
+965,Vitor Hugo Leão,53,Feminino,SP,5404.66,Serviço,3,495.82,24,3,1,2,0
+966,Brayan Rezende,51,Feminino,MG,6550.31,Produto,1,366.36,10,9,0,3,1
+967,Sr. Pietro Novaes,27,Feminino,CE,5303.76,Serviço,37,450.58,51,28,1,3,0
+968,Sra. Heloísa Brito,18,Masculino,CE,6464.47,Produto,8,274.39,8,13,0,3,0
+969,Emanuella Lima,39,Masculino,CE,4886.82,Serviço,24,446.28,51,24,0,2,0
+970,Lucas Silva,60,Feminino,PE,6345.89,Ambos,4,88.25,29,2,0,4,0
+971,Matheus Brito,42,Masculino,PR,4811.08,Produto,12,350.35,15,30,1,4,0
+972,Sra. Amanda Monteiro,59,Masculino,PR,7083.45,Produto,6,370.03,6,18,1,4,0
+973,Dra. Isabel Pinto,53,Masculino,SP,3586.21,Serviço,7,402.67,42,6,1,5,0
+974,Eloah da Mota,54,Masculino,SP,8298.96,Ambos,12,428.47,34,3,1,4,0
+975,Maria Fernanda Garcia,35,Feminino,PE,2413.72,Produto,13,368.69,51,2,0,5,0
+976,Ana Barros,55,Masculino,DF,1200.0,Ambos,3,451.36,3,10,0,3,0
+977,Josué Sousa,38,Masculino,PR,4398.28,Produto,8,154.86,25,17,2,2,1
+978,Thales Fernandes,67,Feminino,BA,3319.06,Produto,1,273.03,6,21,0,2,0
+979,Dr. Caio Vasconcelos,29,Feminino,BA,7097.41,Produto,2,498.65,2,3,0,3,0
+980,Enrico Pires,34,Masculino,DF,4252.68,Produto,3,239.13,25,24,2,4,0
+981,José Miguel Nascimento,66,Feminino,RJ,1200.0,Ambos,24,458.2,33,1,0,3,0
+982,Sophie Costa,48,Masculino,RJ,4635.16,Serviço,1,303.73,2,8,1,4,0
+983,Sr. Thomas Sousa,33,Masculino,DF,5193.66,Serviço,35,239.54,49,9,0,4,0
+984,Breno da Paz,31,Masculino,DF,5082.65,Produto,9,353.16,51,25,0,3,0
+985,Heitor Mendes,46,Feminino,CE,2960.99,Ambos,0,412.13,3,20,1,5,1
+986,Júlia da Luz,35,Feminino,DF,3739.56,Ambos,16,308.39,39,11,0,5,0
+987,Ravi Lucca Rodrigues,36,Masculino,MG,5864.53,Ambos,1,356.41,3,9,0,1,0
+988,Bella Siqueira,64,Masculino,BA,6271.32,Ambos,17,234.15,36,19,1,4,0
+989,Maria Isis Rios,58,Feminino,BA,1200.0,Produto,14,226.8,17,10,1,3,0
+990,Maria Liz da Cunha,19,Masculino,MG,6354.72,Produto,44,207.0,59,19,0,3,0
+991,Beatriz Rocha,44,Masculino,DF,1200.0,Ambos,31,255.02,36,25,0,5,0
+992,Isis Ribeiro,19,Feminino,PE,6346.26,Ambos,53,30.0,58,21,0,2,0
+993,Beatriz Vieira,70,Masculino,CE,7657.28,Produto,22,337.58,39,3,1,3,0
+994,Miguel Costela,18,Feminino,PR,4081.82,Ambos,0,216.65,15,6,0,1,0
+995,Eloah Aparecida,69,Feminino,RS,8396.19,Produto,14,196.19,46,30,0,3,0
+996,Luiz Felipe Macedo,18,Masculino,MG,4806.75,Serviço,13,250.08,13,27,1,3,0
+997,Kevin da Conceição,53,Masculino,MG,2365.74,Ambos,10,393.12,13,2,2,4,0
+998,Vitor Gabriel da Conceição,34,Feminino,DF,4061.72,Ambos,36,128.62,60,6,0,5,1
+999,Breno das Neves,57,Masculino,SP,6950.62,Ambos,17,361.88,17,30,1,3,0
+1000,Dra. Maria Cecília Gomes,38,Feminino,BA,2792.66,Ambos,27,260.31,28,3,1,4,0

@@ -1,0 +1,1001 @@
+id_cliente,nome,idade,genero,estado,renda_mensal,tipo_cliente,qtd_compras_ultimos_12m,ticket_medio,tempo_como_cliente,visitas_site_mes,reclamacoes_12m,satisfacao,churn,cluster,pca1,pca2,perfil_cliente
+1,Srta. Marina Leão,58,Masculino,DF,5993.43,Ambos,0,283.41,8,7,1,2,1,3,-1.7926092104125102,0.07459249854752532,"Alto Valor, Baixo Engajamento"
+2,Dr. André Borges,23,Masculino,DF,4531.69,Produto,27,271.9,38,6,0,3,0,2,0.8789375047244705,-0.6291653620093858,Novatos em Potencial
+3,Srta. Alexia Cavalcante,30,Feminino,SP,5558.08,Ambos,41,421.26,46,7,1,3,0,2,1.898137833306069,0.3962741049458594,Novatos em Potencial
+4,Bernardo Moraes,66,Feminino,BA,3838.24,Serviço,10,236.98,52,8,0,2,0,1,0.5990491778197126,-0.43036569767280414,Clientes em Risco
+5,Luana Novaes,24,Feminino,CE,5483.92,Produto,3,70.41,6,19,0,3,1,0,-1.6835704399602616,-0.8234445377379199,Clientes Premium
+6,Gabrielly Sá,52,Feminino,BA,6632.89,Produto,6,117.13,8,26,0,4,0,0,-1.4728039809174,-0.3990427566211204,Clientes Premium
+7,Henry Gabriel Casa Grande,54,Masculino,RS,3183.95,Produto,11,130.52,13,24,0,3,1,0,-0.8581915628194839,-0.45241444896220634,Clientes Premium
+8,Milena Araújo,24,Feminino,PR,3741.05,Serviço,8,371.73,25,5,0,3,0,3,-0.5802005390156905,-0.24659403039067135,"Alto Valor, Baixo Engajamento"
+9,Sophia Montenegro,62,Masculino,PE,3911.23,Serviço,43,313.31,60,17,1,4,0,2,2.6624088930816248,-0.2063150942915226,Novatos em Potencial
+10,Sra. Heloísa da Cruz,35,Masculino,SP,3798.72,Serviço,40,265.0,60,21,1,3,0,2,2.516297548032982,0.15984790949647654,Novatos em Potencial
+11,Maria Isis Ribeiro,32,Feminino,BA,4973.01,Ambos,2,173.07,53,8,0,1,0,1,0.16329585280596665,-0.2596914942436238,Clientes em Risco
+12,Luigi Mendes,31,Feminino,DF,4541.1,Produto,31,346.72,42,4,1,3,0,2,1.249928536646673,-0.3357145162381396,Novatos em Potencial
+13,Pedro Lucas Peixoto,52,Feminino,DF,10556.63,Ambos,13,443.24,17,11,0,3,0,3,-0.937385137572995,1.35569454881511,"Alto Valor, Baixo Engajamento"
+14,Diego Silva,49,Masculino,PE,6476.93,Produto,6,320.56,6,4,0,4,0,3,-1.5859273370268567,-0.6446959370322254,"Alto Valor, Baixo Engajamento"
+15,Ana Clara Rodrigues,56,Feminino,SP,2981.83,Produto,3,110.0,5,16,0,3,0,0,-1.6109429744128791,-1.0861425213173461,Clientes Premium
+16,Maria Sophia Peixoto,61,Feminino,PE,4078.72,Serviço,7,426.85,47,24,0,4,0,0,0.30668076797552274,0.8284564819947985,Clientes Premium
+17,Apollo Casa Grande,28,Feminino,RJ,2738.9,Ambos,0,316.13,30,16,1,4,0,0,-0.7161864504030048,-0.4246201472682747,Clientes Premium
+18,Lunna Machado,58,Masculino,DF,6164.25,Serviço,20,406.53,20,4,1,3,0,3,-0.27493974336955396,0.2043120117458015,"Alto Valor, Baixo Engajamento"
+19,Kaique Mendonça,18,Masculino,PR,4585.67,Serviço,20,225.18,39,29,0,3,0,0,0.6177498025210405,0.5231246802837209,Clientes Premium
+20,Luiza Dias,33,Masculino,DF,5662.53,Ambos,1,417.07,4,2,0,4,0,3,-1.880520324212766,-0.336545974731817,"Alto Valor, Baixo Engajamento"
+21,Daniel Montenegro,67,Masculino,RS,4644.54,Serviço,2,250.75,9,8,0,4,0,3,-1.582344766024536,-1.0157637044967829,"Alto Valor, Baixo Engajamento"
+22,Vitória Porto,52,Feminino,CE,6625.05,Serviço,46,462.75,49,12,1,5,0,2,2.2521433416434014,0.2544937249930274,Novatos em Potencial
+23,Bianca Vasconcelos,51,Masculino,RS,5723.27,Produto,3,222.59,29,10,1,1,0,1,-0.7777946966218464,0.2683015909795441,Clientes em Risco
+24,Luana Machado,18,Masculino,RJ,4928.35,Serviço,5,487.76,5,2,0,5,0,3,-1.5882242711977024,-0.4325604032610155,"Alto Valor, Baixo Engajamento"
+25,Sophia Macedo,50,Masculino,CE,4202.72,Serviço,8,292.7,16,17,0,2,0,0,-0.9422011854778445,0.5316984426754608,Clientes Premium
+26,Camila da Mata,33,Masculino,PE,5174.09,Ambos,30,264.12,51,3,0,1,0,1,1.5143879642401077,0.01611484720938039,Clientes em Risco
+27,Brenda Ferreira,44,Masculino,RJ,6807.06,Ambos,27,302.28,30,1,0,3,0,3,0.4383673752729347,-0.4849510321229869,"Alto Valor, Baixo Engajamento"
+28,Manuella Ferreira,33,Masculino,RJ,7955.79,Serviço,3,237.81,13,13,0,2,0,3,-1.5154890985360123,0.4239097287414124,"Alto Valor, Baixo Engajamento"
+29,Ravi Lucca Viana,46,Masculino,MG,4575.68,Produto,35,248.78,52,2,0,5,0,2,1.8453531622362327,-1.8187121990024084,Novatos em Potencial
+30,Maria Vitória Mendes,44,Feminino,PE,6830.8,Produto,30,339.45,32,28,1,1,1,1,0.7525093924297448,2.2049530956136714,Clientes em Risco
+31,Emanuel Albuquerque,34,Feminino,DF,5194.16,Ambos,50,416.24,60,13,2,4,0,2,2.964644633818182,0.28355181884738756,Novatos em Potencial
+32,Augusto Montenegro,60,Feminino,DF,4486.74,Produto,31,255.86,46,6,0,5,0,2,1.4133958239547577,-1.541040867482289,Novatos em Potencial
+33,Ana Laura Jesus,21,Feminino,SP,5592.24,Produto,20,331.33,48,16,0,5,0,2,0.9139189616001034,-0.39746340834123306,Novatos em Potencial
+34,José Miguel Monteiro,50,Masculino,RS,1200.0,Produto,6,341.46,6,21,0,5,0,0,-1.2840799578519382,-0.5154578563892832,Clientes Premium
+35,Evelyn da Paz,55,Feminino,PR,4314.57,Serviço,2,203.73,39,21,1,4,0,0,-0.3222582862438432,-0.5617447474015175,Clientes Premium
+36,Antonella da Mota,31,Feminino,BA,8772.37,Produto,20,320.95,43,4,0,4,0,3,0.5241411872834904,-0.4019618324154319,"Alto Valor, Baixo Engajamento"
+37,Letícia da Mata,66,Masculino,MG,4962.9,Produto,4,99.18,60,2,0,4,0,2,0.5299563801091808,-2.266623490191469,Novatos em Potencial
+38,Juan Aparecida,40,Feminino,PR,5120.46,Ambos,4,595.59,57,9,0,2,0,1,0.4792474626564069,1.7527466559454934,Clientes em Risco
+39,Lavínia Costela,57,Feminino,MG,5955.51,Serviço,41,268.92,52,29,0,4,0,2,2.1703334987761607,0.5413687192622089,Novatos em Potencial
+40,Thales Campos,34,Masculino,BA,4930.58,Ambos,1,159.76,8,8,1,3,0,3,-1.7014357521260108,-1.080119517940162,"Alto Valor, Baixo Engajamento"
+41,Luigi Moura,31,Feminino,RJ,7285.65,Ambos,40,390.23,44,8,0,5,0,2,1.688800644413422,-0.318709116286864,Novatos em Potencial
+42,Eloah Rezende,58,Masculino,PR,3396.34,Produto,26,466.08,28,10,1,4,0,2,0.5147748515022208,0.16664397742921191,Novatos em Potencial
+43,Benjamin Pereira,28,Feminino,MG,3238.72,Serviço,28,309.23,48,17,1,1,1,1,1.4274262936533595,0.9003438681971834,Clientes em Risco
+44,Sr. Breno da Mota,52,Masculino,SP,8413.21,Serviço,2,404.83,3,13,0,2,1,3,-1.9716737034649199,1.4184837496481115,"Alto Valor, Baixo Engajamento"
+45,Aurora Montenegro,40,Masculino,PE,1898.67,Produto,10,308.23,14,11,1,4,0,0,-0.8231676808352998,-0.8327392891049933,Clientes Premium
+46,Vicente Cirino,57,Masculino,MG,3161.15,Ambos,9,485.99,48,27,1,2,0,1,0.5046708984462519,2.046272930604043,Clientes em Risco
+47,Ana Laura Peixoto,44,Feminino,RS,3433.49,Ambos,0,261.35,2,25,2,5,0,0,-1.8578558640637475,-0.45088422241273446,Clientes Premium
+48,Calebe da Luz,35,Masculino,CE,7087.72,Produto,11,363.17,11,27,0,3,0,0,-1.0835872149983985,1.4913476080488781,Clientes Premium
+49,João Vitor da Conceição,40,Masculino,PR,1785.03,Produto,7,322.16,20,12,0,3,0,0,-0.7278970035067303,-0.31655532593589025,Clientes Premium
+50,Lorenzo Castro,40,Feminino,PR,2119.92,Produto,32,442.89,42,30,0,1,0,1,1.4987569071782514,2.3271977409226587,Clientes em Risco
+51,Davi Pacheco,29,Feminino,DF,6043.88,Produto,16,335.64,38,11,2,4,0,2,0.26577828672791287,-0.21355567209802254,Novatos em Potencial
+52,Enrico Santos,25,Masculino,DF,5452.58,Produto,18,401.69,25,22,0,3,0,0,-0.09028206901927396,1.1916995566383646,Clientes Premium
+53,Daniel Campos,61,Masculino,BA,5586.14,Ambos,47,214.28,47,11,0,3,0,2,2.23280489547316,-0.4910970017119602,Novatos em Potencial
+54,Ana Clara Farias,57,Feminino,PE,5349.67,Ambos,21,153.98,21,16,1,3,0,0,-0.14092414031823255,-0.5518223421583912,Clientes Premium
+55,Valentim Garcia,62,Feminino,MG,6469.0,Produto,17,185.46,19,21,0,5,0,0,-0.45700747089156274,-0.7516618068570874,Clientes Premium
+56,Sr. Davi Fonseca,57,Masculino,BA,7317.19,Serviço,19,201.52,37,9,1,3,0,3,0.2956386797021925,-0.5150903901302373,"Alto Valor, Baixo Engajamento"
+57,Diego Correia,47,Feminino,MG,6644.12,Serviço,14,527.62,29,25,0,5,0,0,-0.1614393792809369,1.3908847239050148,Clientes Premium
+58,Melissa Almeida,60,Feminino,PR,2260.26,Serviço,2,207.39,6,2,0,5,0,3,-1.6128740333096871,-2.312219463723802,"Alto Valor, Baixo Engajamento"
+59,Dom Aragão,32,Masculino,RJ,4845.8,Produto,12,340.94,52,7,1,5,0,2,0.6722673156435234,-1.0101987253309415,Novatos em Potencial
+60,Maria Luiza Oliveira,47,Feminino,SP,5026.0,Serviço,20,474.42,27,15,0,3,0,1,0.10205639627171985,1.112411005561904,Clientes em Risco
+61,João Miguel Moreira,66,Feminino,DF,2187.19,Ambos,49,295.86,56,7,1,2,0,2,2.8545069485781154,-0.2960529269485815,Novatos em Potencial
+62,Pedro Miguel Moura,47,Masculino,DF,5083.96,Produto,4,283.53,4,14,0,2,0,3,-1.6846368990957719,0.4127084034262259,"Alto Valor, Baixo Engajamento"
+63,Lucas Gabriel Machado,53,Feminino,PE,4553.07,Ambos,20,385.68,39,19,0,5,0,2,0.6144953145682692,-0.020565758765114864,Novatos em Potencial
+64,Davi Lucas Siqueira,53,Feminino,PR,4751.74,Produto,28,388.84,29,14,3,3,0,1,0.5948287026979934,0.5553959616111409,Clientes em Risco
+65,Mariane Rezende,67,Masculino,RS,7091.14,Serviço,33,258.94,50,8,0,3,0,2,1.558025458668704,-0.28020753110621693,Novatos em Potencial
+66,Leonardo Albuquerque,35,Masculino,MG,5428.19,Ambos,10,150.51,22,4,2,2,1,3,-0.7100012923683016,-0.9184519629885264,"Alto Valor, Baixo Engajamento"
+67,João Felipe Moura,63,Feminino,PE,5461.91,Serviço,1,202.93,14,17,1,3,1,0,-1.451875893299428,-0.23162456997732384,Clientes Premium
+68,Olívia Gonçalves,42,Masculino,CE,7114.85,Serviço,49,306.16,58,27,1,5,0,2,2.772449664703779,0.36192130687101015,Novatos em Potencial
+69,Ester Campos,18,Feminino,RS,3081.98,Ambos,9,465.84,23,17,0,4,0,0,-0.5290514446175546,0.5360058154723838,Clientes Premium
+70,Alice Garcia,49,Masculino,PE,6030.07,Serviço,8,361.65,15,12,2,3,0,3,-1.0718194252032198,0.4188445468198106,"Alto Valor, Baixo Engajamento"
+71,Dante Freitas,64,Masculino,SP,7874.71,Ambos,7,300.88,11,29,1,3,0,0,-1.3286236097618283,1.3559417011043593,Clientes Premium
+72,Maria Isis Cavalcanti,23,Feminino,RS,5464.59,Produto,27,321.14,42,5,0,1,1,1,0.9954010688397049,0.4991425453078549,Clientes em Risco
+73,Gustavo Henrique Pires,47,Feminino,PR,3454.35,Ambos,10,271.58,21,8,0,4,0,3,-0.6264875416227914,-1.0466696814670884,"Alto Valor, Baixo Engajamento"
+74,Brenda Mendes,23,Masculino,SP,4920.73,Ambos,1,235.84,31,30,0,3,0,0,-0.6972014826802885,0.6611674860790892,Clientes Premium
+75,Yago Castro,66,Masculino,RJ,6372.52,Produto,0,106.47,2,19,0,2,1,0,-2.039383210635333,-0.11060385778836372,Clientes Premium
+76,Sra. Maria Vitória Lopes,54,Feminino,RJ,3213.76,Serviço,7,259.82,14,5,0,4,0,3,-1.0631907685065833,-1.3200701825514547,"Alto Valor, Baixo Engajamento"
+77,Léo Cassiano,67,Masculino,PE,3569.39,Ambos,10,381.55,53,18,1,1,1,1,0.6972254157725447,1.3605592932773747,Clientes em Risco
+78,Paulo Mendonça,43,Masculino,RJ,5091.14,Produto,12,221.81,46,3,0,4,0,2,0.38932823558962043,-1.472330734498544,Novatos em Potencial
+79,João Felipe Ferreira,68,Feminino,BA,7726.87,Produto,2,399.45,37,21,1,3,0,3,-0.5405181839520196,1.3396244048419899,"Alto Valor, Baixo Engajamento"
+80,Sra. Isabela Vasconcelos,18,Masculino,CE,7096.04,Ambos,26,224.57,55,13,0,5,0,2,1.413858319916925,-0.9949339548530882,Novatos em Potencial
+81,Arthur Gabriel Machado,63,Feminino,CE,3414.96,Produto,6,286.23,10,19,0,5,0,0,-1.2387933543301806,-0.6871440423907275,Clientes Premium
+82,Sr. Enrico Martins,47,Feminino,RJ,3456.36,Ambos,26,499.36,28,10,0,5,0,2,0.5184894733967396,-0.04783978675966945,Novatos em Potencial
+83,Ana Sophia Albuquerque,35,Feminino,SP,4050.11,Produto,28,221.6,57,18,0,4,0,2,1.7522652554139388,-0.6596490724650845,Novatos em Potencial
+84,Sra. Olivia Fernandes,49,Masculino,PR,6890.76,Produto,20,451.97,55,11,0,4,0,2,1.1339660235110627,0.5124084145578924,Novatos em Potencial
+85,Dra. Heloísa Alves,53,Feminino,CE,9244.31,Produto,0,423.9,1,15,0,4,1,3,-2.1815004096583936,0.9340555428192702,"Alto Valor, Baixo Engajamento"
+86,Isabella Brito,59,Masculino,RS,3538.52,Serviço,31,146.41,46,2,1,3,0,2,1.427512025057019,-1.6955112340514975,Novatos em Potencial
+87,Dra. Elisa Pereira,37,Feminino,BA,4525.22,Produto,37,524.64,43,13,0,5,0,2,1.654172673426555,0.4014563045360902,Novatos em Potencial
+88,Diogo Rezende,62,Masculino,DF,1200.0,Produto,8,177.07,30,3,0,4,0,3,-0.2872275006593235,-2.1663890033252913,"Alto Valor, Baixo Engajamento"
+89,Vinicius da Mota,66,Feminino,DF,1200.0,Produto,11,143.98,45,8,1,4,0,2,0.48426843764789596,-2.0597428177387456,Novatos em Potencial
+90,Clara Cavalcanti,56,Feminino,DF,4743.18,Ambos,3,244.12,19,7,1,3,0,3,-1.1374647189692597,-0.7105873735964635,"Alto Valor, Baixo Engajamento"
+91,Gael Azevedo,26,Feminino,CE,5809.95,Ambos,1,409.17,18,22,0,5,0,0,-1.2612921787657088,0.44298093595385285,Clientes Premium
+92,Miguel Campos,24,Feminino,SP,5398.12,Serviço,0,227.97,56,15,0,3,1,1,0.19370660775983878,-0.2934307645344742,Clientes em Risco
+93,Manuela Correia,34,Masculino,SP,6294.33,Produto,30,315.13,56,12,0,3,0,2,1.7017310258875793,0.1677357302918599,Novatos em Potencial
+94,Sra. Rafaela da Luz,27,Masculino,RS,8172.03,Ambos,9,151.46,10,7,0,2,0,3,-1.36572417116622,-0.38313136173217716,"Alto Valor, Baixo Engajamento"
+95,Murilo Jesus,67,Feminino,PR,6373.7,Serviço,24,308.52,34,9,0,5,0,2,0.4945960504719987,-0.8326143513875272,Novatos em Potencial
+96,Maria Isis Rocha,54,Masculino,PR,5561.98,Serviço,3,225.28,40,30,0,4,0,0,-0.2592918327213084,0.26230127670835435,Clientes Premium
+97,Sabrina da Costa,60,Masculino,CE,6769.98,Produto,1,244.26,6,5,0,1,0,3,-1.8712790054555624,0.23803213318657068,"Alto Valor, Baixo Engajamento"
+98,Dra. Maria Alice Campos,36,Feminino,RS,3821.27,Produto,1,401.95,3,22,0,5,1,0,-1.775301615340659,0.18980954221233884,Clientes Premium
+99,Davi Lucca Fogaça,34,Masculino,MG,6904.02,Serviço,50,474.31,51,13,2,2,1,1,2.5235903192816265,1.636186212961147,Clientes em Risco
+100,Fernanda Freitas,35,Masculino,PR,3342.01,Produto,9,232.78,53,25,1,3,0,0,0.6631105114277516,0.12677062835164374,Clientes Premium
+101,Emanuel Barros,46,Feminino,CE,4958.2,Serviço,7,314.08,8,30,0,3,0,0,-1.3089108159019116,1.1476152694644557,Clientes Premium
+102,Gabriela Castro,23,Feminino,SP,3661.59,Ambos,2,439.43,39,19,2,3,1,0,-0.27060778780340194,0.949429543065768,Clientes Premium
+103,Dr. Diogo Moraes,66,Masculino,PR,6650.83,Serviço,17,397.62,44,15,0,4,0,2,0.5509779323790815,0.4415012723216556,Novatos em Potencial
+104,Luana Cassiano,29,Feminino,BA,5024.29,Serviço,27,411.71,38,2,1,3,0,2,0.8615387556315673,-0.042325427808690703,Novatos em Potencial
+105,Marcela Câmara,60,Feminino,DF,4521.55,Produto,2,402.48,7,9,0,4,0,3,-1.6355218856609137,-0.12449657701356186,"Alto Valor, Baixo Engajamento"
+106,Leandro Sampaio,20,Feminino,DF,5648.33,Produto,2,284.38,30,3,1,5,0,3,-0.7889790038690241,-1.458114054249273,"Alto Valor, Baixo Engajamento"
+107,Marcela Freitas,70,Masculino,CE,3363.56,Serviço,1,551.09,1,16,0,3,0,0,-1.8385693041181128,1.4069595037078697,Clientes Premium
+108,Davi Carvalho,66,Masculino,CE,7409.85,Produto,1,156.4,4,29,1,3,0,0,-1.9173301519713242,0.4996745353647821,Clientes Premium
+109,Nathan Mendes,25,Masculino,DF,3601.71,Serviço,2,298.94,2,22,0,2,0,0,-1.7738021538750122,0.8144633326613789,Clientes Premium
+110,Matheus Garcia,44,Masculino,MG,6950.24,Ambos,1,282.35,6,14,0,5,0,3,-1.838895625179029,-0.5982950876609778,"Alto Valor, Baixo Engajamento"
+111,Dra. Bruna Gonçalves,49,Feminino,RS,6227.68,Produto,45,462.95,60,13,0,5,0,2,2.666546886417929,0.2503025550518459,Novatos em Potencial
+112,Davi Lucas Vargas,47,Masculino,PE,5489.93,Produto,9,239.17,36,27,0,1,0,1,-0.12219408582561651,1.3815598979680312,Clientes em Risco
+113,Esther Fernandes,39,Masculino,CE,6118.22,Serviço,50,404.7,60,9,0,4,0,2,2.9081968788097785,0.08298414451793672,Novatos em Potencial
+114,Henry Gabriel Moraes,27,Feminino,BA,2103.83,Serviço,17,131.1,29,17,3,4,0,0,0.13010995740890413,-1.4307670016948402,Clientes Premium
+115,Maitê Pimenta,30,Masculino,CE,3563.11,Serviço,15,274.39,45,27,1,4,1,0,0.6525887581287398,0.12526259101630902,Clientes Premium
+116,Davi Lucas Pereira,63,Masculino,BA,6715.32,Produto,51,280.81,59,15,0,5,0,2,2.8961146626564704,-0.5647586054866298,Novatos em Potencial
+117,Gabriela Camargo,24,Feminino,MG,4395.35,Serviço,54,299.45,56,0,0,4,0,2,2.993783734710842,-1.2475183514664965,Novatos em Potencial
+118,Sr. Raul Pimenta,22,Feminino,DF,5645.44,Produto,16,200.73,31,20,1,1,1,1,0.004220821503363829,0.7762035941874517,Clientes em Risco
+119,Ana Sophia Nascimento,42,Feminino,RS,4782.48,Ambos,20,348.21,21,27,0,4,0,0,-0.10691814292114879,0.7279898498652112,Clientes Premium
+120,Larissa da Rocha,58,Masculino,RJ,4313.6,Ambos,18,354.92,44,13,1,5,0,2,0.7029566436581411,-0.6017618646509417,Novatos em Potencial
+121,Daniela Freitas,46,Masculino,BA,5139.31,Produto,11,418.02,11,1,1,3,1,3,-1.0624692249107353,-0.04185162525115078,"Alto Valor, Baixo Engajamento"
+122,Ana Clara Vasconcelos,41,Feminino,MG,5947.25,Produto,4,306.52,28,18,0,4,0,0,-0.7358658353152834,0.039148305291948876,Clientes Premium
+123,Jade Almeida,23,Masculino,CE,7902.29,Serviço,24,415.11,40,15,0,5,0,2,0.6965919107841677,0.3012527275755474,Novatos em Potencial
+124,Heloísa Pires,58,Masculino,DF,7400.82,Produto,14,517.93,17,28,1,5,0,0,-0.6740087982373139,1.6319692396451115,Clientes Premium
+125,João Vitor Silveira,28,Feminino,CE,4778.14,Ambos,3,417.16,5,20,1,5,0,0,-1.6400360669562806,0.26539365239861906,Clientes Premium
+126,Sra. Giovanna da Mata,37,Masculino,PR,4684.55,Ambos,6,137.39,13,7,0,3,0,3,-1.235674708108069,-1.2938684668375318,"Alto Valor, Baixo Engajamento"
+127,Alice da Luz,62,Feminino,SP,3481.73,Ambos,0,318.05,19,8,3,1,0,1,-1.2258514395864988,0.4169636258112095,Clientes em Risco
+128,Dra. Maria Alice Duarte,56,Feminino,BA,6900.85,Ambos,31,230.77,48,24,1,4,0,2,1.4290325045034762,0.12181704695698602,Novatos em Potencial
+129,Lavínia Cardoso,32,Masculino,SP,2359.53,Serviço,12,519.78,41,20,2,1,0,1,0.39527141251350384,2.1288793221227436,Clientes em Risco
+130,Léo Porto,37,Feminino,BA,4852.78,Produto,28,266.13,51,23,2,2,0,1,1.487908067401183,0.8134396923276952,Clientes em Risco
+131,Isaac Campos,65,Feminino,MG,1573.73,Produto,5,462.46,27,16,3,4,0,0,-0.5066972530283358,0.26161662249376416,Clientes Premium
+132,Luara Rocha,34,Feminino,CE,1811.14,Ambos,52,228.07,59,23,0,5,0,2,3.1939962776191897,-0.9466965373781151,Novatos em Potencial
+133,Eloah da Paz,22,Feminino,RJ,5518.78,Ambos,3,336.28,10,30,2,5,0,0,-1.4531861072575105,0.5146184109521372,Clientes Premium
+134,Sr. Benicio da Cunha,68,Masculino,PR,4099.87,Produto,0,374.74,26,14,0,3,0,0,-0.942383053219168,0.35176831026034067,Clientes Premium
+135,Bella Vasconcelos,55,Masculino,DF,2262.82,Ambos,20,364.26,25,21,1,3,1,0,0.1543858024680025,0.5456137145093288,Clientes Premium
+136,Srta. Mariane Andrade,38,Masculino,PR,3344.21,Produto,39,263.54,59,20,1,5,0,2,2.4471421210419737,-0.7766860692342278,Novatos em Potencial
+137,Sra. Alana Nascimento,59,Masculino,RS,5229.72,Produto,3,486.15,27,9,1,5,0,3,-0.7961340147104818,-0.012681592346776974,"Alto Valor, Baixo Engajamento"
+138,Lorenzo da Costa,52,Feminino,PE,7053.16,Serviço,6,319.93,9,18,0,4,0,3,-1.4503744428258731,0.27981504595088513,"Alto Valor, Baixo Engajamento"
+139,Sr. Lucas Oliveira,59,Feminino,CE,6290.75,Serviço,7,464.24,7,1,1,4,0,3,-1.476160474307925,-0.05542440664707493,"Alto Valor, Baixo Engajamento"
+140,Raul Novais,33,Feminino,SP,7116.85,Produto,23,88.95,55,17,0,5,0,2,1.252991333875682,-1.5029084122553416,Novatos em Potencial
+141,Raquel Alves,43,Feminino,SP,6772.13,Ambos,6,283.55,18,2,0,4,0,3,-1.1253986455748715,-0.9573785418868762,"Alto Valor, Baixo Engajamento"
+142,Maria Alice Barros,21,Masculino,DF,8004.71,Produto,21,308.89,51,25,0,4,1,2,0.9953799129894154,0.7246768700666717,Novatos em Potencial
+143,João Vitor Alves,31,Masculino,SP,6963.09,Ambos,13,339.68,38,10,1,4,0,3,0.06557191142257021,-0.14881458279106427,"Alto Valor, Baixo Engajamento"
+144,João Guilherme Vargas,35,Feminino,SP,4970.56,Ambos,9,395.57,55,25,0,2,0,1,0.6857368301111842,1.6263069769827747,Clientes em Risco
+145,Bryan Duarte,26,Masculino,SP,5768.13,Ambos,1,296.08,1,18,0,3,0,0,-1.9768709483510787,0.40389105144651244,Clientes Premium
+146,Marina Pereira,26,Masculino,RJ,7245.36,Serviço,26,127.06,48,15,0,3,0,2,1.1130547255257923,-0.5706533332206056,Novatos em Potencial
+147,Ana Cecília Aparecida,46,Masculino,DF,5733.2,Ambos,14,187.21,33,23,0,4,0,0,-0.007986602829757047,-0.3284046369549453,Clientes Premium
+148,Theo Fernandes,37,Masculino,RJ,6494.74,Ambos,20,265.12,30,15,0,5,0,2,0.13324235290694922,-0.6894668241611537,Novatos em Potencial
+149,Giovanna Carvalho,49,Masculino,PR,3028.55,Produto,28,360.49,46,10,0,4,1,2,1.3492648473665396,-0.487756365312721,Novatos em Potencial
+150,Ana Beatriz Moreira,57,Feminino,CE,3369.0,Serviço,37,232.92,41,12,0,5,0,2,1.5880618540026936,-1.411951977616789,Novatos em Potencial
+151,João Gabriel Carvalho,50,Masculino,DF,4785.94,Produto,27,175.77,39,27,0,4,0,2,0.9598627984566411,-0.2432623484490117,Novatos em Potencial
+152,Ana Sophia Almeida,64,Masculino,PE,5114.95,Serviço,13,30.0,56,13,1,3,0,2,0.8470958220492625,-1.52357848342731,Novatos em Potencial
+153,Luiz Felipe Barbosa,64,Feminino,CE,6029.18,Serviço,5,444.56,7,11,0,5,0,3,-1.5376765465964937,0.011613113537426153,"Alto Valor, Baixo Engajamento"
+154,Maysa Brito,22,Feminino,MG,4775.34,Produto,6,273.48,6,3,1,4,0,3,-1.5152178093158741,-1.1704287686517678,"Alto Valor, Baixo Engajamento"
+155,Dra. Lavínia da Cunha,53,Feminino,PE,3939.0,Ambos,4,230.9,4,21,0,2,1,0,-1.6170077826131288,0.41639435134631425,Clientes Premium
+156,Dra. Bruna Fonseca,64,Feminino,CE,9748.28,Serviço,2,262.71,4,3,0,4,0,3,-2.0362052247409927,-0.6409549761092806,"Alto Valor, Baixo Engajamento"
+157,Sarah Pinto,32,Feminino,PE,8289.94,Produto,6,270.12,55,3,0,4,0,3,0.2998930728015792,-0.8485834475708275,"Alto Valor, Baixo Engajamento"
+158,Carlos Eduardo Gonçalves,53,Masculino,PR,6702.8,Serviço,39,181.45,50,19,1,5,0,2,1.913319288460584,-0.8781099225466342,Novatos em Potencial
+159,Ian Carvalho,19,Feminino,MG,3055.46,Ambos,4,309.54,12,29,0,3,1,0,-1.2166650758324355,0.8215953412669484,Clientes Premium
+160,Sra. Ana Lívia Novaes,54,Masculino,PE,1787.11,Produto,25,324.42,43,2,0,4,0,2,1.1031595097466185,-1.3303802076544478,Novatos em Potencial
+161,Pietro Vargas,47,Feminino,SP,4626.19,Produto,5,294.27,22,24,0,5,0,0,-0.846382396329519,-0.21065014713525634,Clientes Premium
+162,Maria Eduarda Freitas,27,Masculino,CE,3706.85,Produto,9,170.21,11,8,0,3,0,3,-1.108944577129555,-1.1580611180259939,"Alto Valor, Baixo Engajamento"
+163,Luigi Câmara,44,Masculino,CE,5436.45,Ambos,6,409.27,18,11,1,3,0,3,-1.0230657261470322,0.541646358296178,"Alto Valor, Baixo Engajamento"
+164,Clara Sousa,51,Feminino,RS,3252.05,Produto,19,299.6,43,19,0,1,1,1,0.765116797888151,0.9631721685663462,Clientes em Risco
+165,Ana Cecília Martins,67,Masculino,MG,8046.25,Produto,4,364.67,9,0,0,3,0,3,-1.6499425997956143,-0.06228220612894648,"Alto Valor, Baixo Engajamento"
+166,Henry Ribeiro,42,Feminino,PE,4223.86,Serviço,14,219.79,35,2,0,3,0,3,0.08303911478910485,-1.2211604512828609,"Alto Valor, Baixo Engajamento"
+167,Brayan Casa Grande,19,Feminino,PE,6852.36,Produto,29,529.13,30,18,0,3,0,1,0.6179582198598674,1.8308102860155793,Clientes em Risco
+168,Sofia Almeida,36,Feminino,BA,5055.38,Produto,6,315.28,8,5,0,5,0,3,-1.4340083823271033,-1.191215573973849,"Alto Valor, Baixo Engajamento"
+169,Sofia Teixeira,23,Feminino,PR,3698.71,Produto,27,241.54,28,18,0,3,1,2,0.545487895478962,-0.14010294745250607,Novatos em Potencial
+170,Ryan Pires,65,Masculino,DF,3342.83,Produto,7,234.58,22,2,1,4,0,3,-0.7579994375399755,-1.6426144307957542,"Alto Valor, Baixo Engajamento"
+171,Valentim Farias,30,Masculino,MG,1200.0,Produto,49,382.16,58,7,1,2,1,2,2.9922256254609874,0.0612575582372425,Novatos em Potencial
+172,Lívia Macedo,56,Feminino,CE,5780.51,Produto,10,289.81,10,14,2,4,0,3,-1.1596687780922532,-0.2799917552121975,"Alto Valor, Baixo Engajamento"
+173,Otávio Rocha,61,Feminino,CE,6001.83,Serviço,56,182.69,60,27,1,5,0,2,3.2510578737995255,-0.44535900197945827,Novatos em Potencial
+174,Vitória Aragão,22,Feminino,PR,1661.19,Serviço,28,365.2,31,18,1,1,0,1,0.8242269740546493,1.1114259189691444,Clientes em Risco
+175,Sr. Ravi Fogaça,47,Feminino,RJ,3473.48,Produto,1,83.41,29,2,0,4,0,3,-0.8097158176451236,-2.487453686974214,"Alto Valor, Baixo Engajamento"
+176,Maria Luísa Moura,57,Masculino,RS,4082.76,Produto,32,263.19,39,14,1,5,0,2,1.2255901927887418,-1.041712525194522,Novatos em Potencial
+177,Agatha Ramos,38,Masculino,BA,2721.72,Serviço,30,332.13,39,14,0,2,0,1,1.1875107265300844,0.39256090672143595,Clientes em Risco
+178,Thiago Farias,63,Masculino,DF,3696.33,Serviço,4,305.69,6,7,0,4,0,3,-1.5521421969475178,-0.8775345992895867,"Alto Valor, Baixo Engajamento"
+179,Augusto Montenegro,51,Feminino,SP,3796.06,Produto,10,391.23,40,12,1,3,0,1,0.1495956721989063,0.27967357997893977,Clientes em Risco
+180,Kamilly Moura,68,Feminino,PR,3553.32,Produto,41,592.06,41,3,0,4,0,2,1.8016849824169476,0.45880655350852406,Novatos em Potencial
+181,Rael Carvalho,64,Masculino,BA,6154.14,Ambos,42,275.63,55,10,2,1,0,1,2.271468957232859,0.6449652934136767,Clientes em Risco
+182,Nathan Moraes,37,Masculino,BA,5339.46,Produto,42,310.73,42,9,0,4,0,2,1.7928230858483805,-0.5168059951206672,Novatos em Potencial
+183,João Guilherme Alves,70,Feminino,MG,5173.18,Produto,8,281.32,9,16,0,3,0,0,-1.2723983813420738,0.1278821017817528,Clientes Premium
+184,Eloá Souza,31,Masculino,RJ,4760.3,Produto,15,313.65,22,4,1,1,0,1,-0.40281450153954884,0.32157746495171313,Clientes em Risco
+185,Heloísa Silveira,50,Masculino,MG,4363.04,Ambos,34,261.71,50,21,1,3,0,2,1.775885477668066,0.21381402775342367,Novatos em Potencial
+186,Pietro das Neves,56,Masculino,RS,1200.0,Produto,4,343.29,25,23,1,3,0,0,-0.6181922491666905,0.39597883613708756,Clientes Premium
+187,Heitor da Rocha,46,Feminino,CE,4499.75,Ambos,18,456.13,40,7,0,4,0,2,0.5251735164243895,0.023672419279027773,Novatos em Potencial
+188,Davi Miguel Cassiano,30,Feminino,DF,1258.42,Ambos,21,257.82,24,14,1,4,0,0,0.18093955333020229,-0.9988763424026597,Clientes Premium
+189,Maria Liz Sá,51,Masculino,BA,5653.85,Ambos,5,273.71,27,27,0,3,0,0,-0.6908364931094324,0.7873480403651772,Clientes Premium
+190,Emanuel Azevedo,53,Masculino,CE,6784.82,Ambos,6,311.47,60,9,1,1,1,1,0.5880441959224207,0.7815831388757651,Clientes em Risco
+191,Dr. Théo Fogaça,50,Masculino,SP,5330.39,Produto,6,368.27,10,26,0,3,0,0,-1.3021508369906138,1.2404171941616366,Clientes Premium
+192,Ayla Cavalcanti,44,Masculino,SP,5676.99,Serviço,3,250.17,4,12,1,5,0,3,-1.766917846633858,-1.045070401775891,"Alto Valor, Baixo Engajamento"
+193,Dr. Nicolas Moura,38,Feminino,CE,5363.73,Ambos,6,329.79,60,25,0,2,1,1,0.7063840021321772,1.2949409073151121,Clientes em Risco
+194,Davi Moreira,62,Feminino,SP,2817.22,Ambos,8,201.96,54,14,1,4,0,2,0.6424798406898433,-1.1951927970092318,Novatos em Potencial
+195,Dr. Oliver da Luz,34,Feminino,RJ,8019.54,Produto,13,348.24,14,3,1,4,0,3,-0.9731215182229456,-0.36866365560216996,"Alto Valor, Baixo Engajamento"
+196,Dra. Lunna Aparecida,21,Feminino,DF,7573.95,Serviço,13,246.64,16,2,0,2,0,3,-0.8918502314544399,-0.23770583988646027,"Alto Valor, Baixo Engajamento"
+197,Bárbara Rodrigues,19,Masculino,RS,6513.98,Serviço,32,189.34,41,9,1,3,0,2,1.1640387125465186,-0.6605146734497216,Novatos em Potencial
+198,Isabel Câmara,54,Masculino,DF,5826.87,Serviço,5,525.22,27,16,0,5,1,3,-0.6953021566007462,0.710922272557472,"Alto Valor, Baixo Engajamento"
+199,Brenda da Luz,52,Feminino,BA,2883.23,Serviço,32,238.45,33,27,1,3,0,0,1.0698096209409882,0.3022507806189587,Clientes Premium
+200,Sofia Moraes,34,Masculino,RJ,3218.31,Produto,1,30.0,48,11,1,3,0,0,-0.012553807069529974,-1.8829719355118162,Clientes Premium
+201,Benjamim da Luz,67,Feminino,CE,5361.06,Produto,21,617.23,38,17,1,3,0,1,0.6061627245669695,2.0515480106250803,Clientes em Risco
+202,Dra. Ana Cecília Teixeira,62,Masculino,PR,8564.33,Ambos,11,370.83,31,22,2,4,0,3,-0.35596644799513055,0.9630873727412691,"Alto Valor, Baixo Engajamento"
+203,Sr. Miguel Moura,30,Feminino,DF,8764.05,Ambos,1,461.45,3,29,0,3,0,0,-1.9829772023621506,2.3537080097983134,Clientes Premium
+204,Lara Cunha,48,Masculino,BA,5367.77,Ambos,1,312.01,17,9,1,3,0,3,-1.3362847722806446,-0.13684376763743744,"Alto Valor, Baixo Engajamento"
+205,Emanuel Cavalcanti,35,Feminino,BA,10077.38,Serviço,5,362.87,8,23,0,3,0,3,-1.6659778568857238,1.5931602895245267,"Alto Valor, Baixo Engajamento"
+206,Bella Cirino,29,Feminino,PE,4683.98,Produto,31,248.77,32,25,1,1,0,1,0.8842800725239476,1.2628610391873758,Clientes em Risco
+207,Maya Castro,56,Feminino,PR,2975.79,Serviço,11,101.42,53,3,0,1,0,1,0.6973145766642663,-1.1868862300302814,Clientes em Risco
+208,Thales da Paz,46,Feminino,BA,4540.24,Produto,27,375.38,39,11,0,3,0,2,0.9466206053141979,0.2524052355745818,Novatos em Potencial
+209,Dr. Otávio Barbosa,57,Masculino,DF,4328.43,Serviço,8,500.28,28,2,0,4,0,3,-0.476899223747306,-0.060078289377342164,"Alto Valor, Baixo Engajamento"
+210,Isis da Mota,69,Masculino,CE,2749.16,Produto,43,282.12,48,4,0,5,0,2,2.1919532620988726,-1.7069973363000133,Novatos em Potencial
+211,Dra. Olivia Vasconcelos,20,Feminino,MG,1200.0,Produto,1,293.48,9,11,1,3,0,0,-1.4611110827015543,-0.6005865086636664,Clientes Premium
+212,Miguel Câmara,61,Masculino,BA,8697.91,Produto,11,435.19,29,18,0,2,1,1,-0.4515415916385248,1.9043232619073076,Clientes em Risco
+213,Lorenzo Silva,59,Masculino,DF,2965.62,Ambos,7,362.0,18,23,1,2,0,0,-0.8287959397726008,1.133399704925075,Clientes Premium
+214,João Felipe Camargo,25,Masculino,CE,3401.78,Ambos,8,280.26,17,19,1,3,0,0,-0.8576349109881992,0.08288419948332647,Clientes Premium
+215,Ravy Sampaio,30,Feminino,RJ,3644.87,Ambos,2,317.91,8,5,1,5,0,3,-1.5741365233659244,-1.3524647634332703,"Alto Valor, Baixo Engajamento"
+216,Kamilly Castro,69,Masculino,MG,4770.31,Serviço,20,318.6,44,17,0,4,0,2,0.7897181854328437,-0.09183490459312589,Novatos em Potencial
+217,Bárbara Cardoso,63,Feminino,MG,4934.49,Serviço,44,234.79,46,16,0,3,0,2,2.085397669705229,-0.1505987856481794,Novatos em Potencial
+218,Maria Luísa Costela,33,Feminino,RJ,7777.16,Produto,31,30.0,51,14,0,5,0,2,1.4570681353433126,-1.9145639474796738,Novatos em Potencial
+219,Dr. Luiz Otávio Fonseca,22,Feminino,RJ,7492.17,Ambos,12,51.19,20,16,0,3,0,3,-0.7586688888003918,-0.8811547918528729,"Alto Valor, Baixo Engajamento"
+220,Júlia Lopes,26,Feminino,DF,5579.68,Produto,20,269.42,21,21,1,4,0,0,-0.1717333843656446,0.016094063289743138,Clientes Premium
+221,Dra. Maria Alice Fogaça,58,Masculino,RJ,6666.45,Ambos,11,140.82,38,13,0,4,0,3,-0.03970306250319097,-1.1050398801144015,"Alto Valor, Baixo Engajamento"
+222,Dr. Léo Costela,51,Feminino,DF,6871.36,Produto,4,452.59,10,29,0,4,0,0,-1.4556244233378708,1.6669729433735794,Clientes Premium
+223,Oliver Marques,36,Feminino,RJ,3591.06,Produto,5,212.6,55,4,1,4,0,2,0.4637120432863209,-1.6683031838535953,Novatos em Potencial
+224,Asafe Jesus,50,Masculino,BA,5197.49,Serviço,10,284.36,42,5,0,4,0,3,0.13325724042388112,-0.9868076068539415,"Alto Valor, Baixo Engajamento"
+225,Davi Luiz Gonçalves,54,Feminino,SP,2555.74,Produto,0,385.56,3,20,0,3,0,0,-1.7804331662782378,0.634844883770707,Clientes Premium
+226,Arthur Pimenta,49,Feminino,PE,6627.73,Serviço,40,187.15,57,15,2,3,0,2,2.235414575779021,-0.29953662704310197,Novatos em Potencial
+227,Isadora Ferreira,37,Masculino,BA,2837.87,Serviço,2,373.91,30,14,0,3,0,0,-0.6186866284476779,0.1938726098361847,Clientes Premium
+228,Arthur Sales,56,Feminino,PE,1660.44,Ambos,5,511.76,10,23,2,5,0,0,-1.1684285208286633,0.5985389517313571,Clientes Premium
+229,Luigi Dias,26,Masculino,CE,3591.31,Serviço,23,130.98,49,10,0,3,0,2,1.1551885352477913,-1.3008194153445207,Novatos em Potencial
+230,Milena Abreu,33,Feminino,MG,6512.7,Produto,1,130.44,10,27,0,4,0,0,-1.6397470038043036,-0.2904926344227689,Clientes Premium
+231,Júlia Nascimento,70,Masculino,CE,1200.0,Ambos,18,503.57,21,24,0,2,0,1,-0.03687361007506116,1.7849037322449017,Clientes em Risco
+232,Yasmin Dias,49,Masculino,RS,6943.65,Serviço,19,296.29,57,30,1,3,0,2,1.1950376650937684,1.2295036925942393,Novatos em Potencial
+233,Sr. Asafe Azevedo,31,Feminino,CE,9310.48,Produto,22,380.67,38,15,0,4,0,2,0.4401024506208169,0.6839879438187979,Novatos em Potencial
+234,Lunna Aparecida,36,Feminino,PE,5341.73,Ambos,0,277.92,35,4,1,5,0,3,-0.6736718255122628,-1.4805963473013726,"Alto Valor, Baixo Engajamento"
+235,Maria Laura Pinto,41,Masculino,DF,3920.48,Produto,3,206.6,3,11,0,4,1,3,-1.7359759616778259,-1.1501816561118197,"Alto Valor, Baixo Engajamento"
+236,Yan Nogueira,46,Masculino,BA,1740.81,Produto,35,366.22,49,4,0,5,0,2,1.8772079893618767,-1.3777997220302955,Novatos em Potencial
+237,João Guilherme Nogueira,53,Feminino,BA,7058.31,Produto,24,356.71,24,16,0,1,1,1,0.07576756864214083,1.5887741568234564,Clientes em Risco
+238,Ian Brito,69,Masculino,PE,8241.07,Produto,29,488.46,31,10,1,5,0,2,0.5694832486380883,0.46352418360077047,Novatos em Potencial
+239,Théo Pacheco,57,Feminino,SP,4683.8,Serviço,19,396.79,48,22,0,4,0,2,0.9283057887675463,0.6315061526160163,Novatos em Potencial
+240,Amanda Casa Grande,41,Feminino,SP,3750.36,Produto,21,303.13,22,18,0,3,0,0,-0.0012493756203698007,0.20585261351008874,Clientes Premium
+241,Augusto Brito,56,Masculino,DF,4303.97,Ambos,16,323.83,31,23,0,1,0,1,0.09114311818090146,1.4835898580171045,Clientes em Risco
+242,Dr. Pedro Henrique Montenegro,58,Feminino,RJ,3776.96,Ambos,39,131.2,47,4,0,5,0,2,1.8782919871982047,-2.42674813870368,Novatos em Potencial
+243,Dr. Davi Miguel Santos,30,Masculino,CE,7682.62,Produto,1,193.95,2,13,0,4,0,3,-2.0510965412915256,-0.6500410898826071,"Alto Valor, Baixo Engajamento"
+244,Asafe Freitas,65,Masculino,DF,3101.2,Ambos,3,615.89,47,17,2,3,0,1,0.146524045032493,1.7261770909803131,Clientes em Risco
+245,Davi Nunes,42,Feminino,PR,6215.13,Serviço,5,117.7,21,17,0,3,0,0,-1.0084987440895037,-0.6179235643048441,Clientes Premium
+246,Luiz Felipe Fogaça,57,Feminino,PR,10120.17,Ambos,12,288.47,31,17,0,3,0,3,-0.40450559841277567,0.7916410298492828,"Alto Valor, Baixo Engajamento"
+247,Ana Julia Sousa,67,Feminino,PR,4295.65,Serviço,6,329.1,19,10,0,3,0,3,-0.9422927498030673,-0.1021852023892574,"Alto Valor, Baixo Engajamento"
+248,Liz das Neves,36,Feminino,MG,4930.02,Produto,8,512.5,8,26,1,3,0,0,-1.2430583755332854,1.9990441167317126,Clientes Premium
+249,Luiz Miguel Viana,36,Masculino,CE,6415.5,Ambos,2,232.5,3,11,1,5,0,3,-1.8985969920368517,-1.1168641154879249,"Alto Valor, Baixo Engajamento"
+250,Srta. Aurora Cirino,31,Feminino,RS,6243.62,Serviço,13,111.57,13,4,0,2,0,3,-0.961823011306667,-1.0168494536141777,"Alto Valor, Baixo Engajamento"
+251,Dra. Daniela Moura,33,Masculino,CE,2361.3,Produto,4,272.85,4,1,0,2,1,3,-1.5971043351127912,-0.7737510682362119,"Alto Valor, Baixo Engajamento"
+252,Alícia Mendonça,24,Masculino,CE,5760.4,Produto,8,373.27,44,13,1,4,0,3,0.1192825790627742,0.05995578555777756,"Alto Valor, Baixo Engajamento"
+253,Dr. José Miguel Correia,48,Feminino,RJ,6667.84,Ambos,12,355.1,42,10,0,3,1,3,0.18894853298067882,0.29920971699145277,"Alto Valor, Baixo Engajamento"
+254,Mirella Moura,59,Masculino,MG,1946.9,Serviço,14,293.05,37,29,2,5,0,0,0.3639070593643061,-0.23583764761389966,Clientes Premium
+255,Anna Liz Cunha,20,Masculino,PR,5859.24,Ambos,25,324.92,54,29,0,4,0,2,1.43707974510998,0.8070425480551372,Novatos em Potencial
+256,Aylla Martins,20,Masculino,DF,6636.97,Serviço,1,316.06,1,29,0,5,0,0,-1.9777619158186577,0.48501396307170946,Clientes Premium
+257,Milena Barros,51,Feminino,MG,2837.89,Ambos,8,426.38,32,8,3,2,1,1,-0.24184345877874852,0.5285274873342366,Clientes em Risco
+258,Enzo Araújo,64,Masculino,RS,5056.64,Produto,20,303.57,30,0,0,4,0,3,0.1585845194431391,-1.1676463709104388,"Alto Valor, Baixo Engajamento"
+259,Thomas da Mata,29,Feminino,RJ,2189.68,Ambos,40,360.12,40,16,0,3,0,2,1.7805195164647791,0.21868574682213518,Novatos em Potencial
+260,Oliver Abreu,29,Masculino,PR,5444.27,Produto,7,242.55,9,0,0,3,0,3,-1.388763894801618,-1.0440459394433397,"Alto Valor, Baixo Engajamento"
+261,Aurora Viana,39,Masculino,SP,4477.95,Ambos,18,316.2,20,8,0,4,0,3,-0.29639681531331674,-0.6605838113738912,"Alto Valor, Baixo Engajamento"
+262,Luna da Cunha,60,Feminino,PR,7893.96,Produto,7,323.59,8,21,0,4,0,3,-1.4691651841849487,0.5890840119268553,"Alto Valor, Baixo Engajamento"
+263,Maria Flor Silveira,62,Masculino,CE,6735.53,Produto,4,333.96,8,7,1,5,0,3,-1.6074985251548402,-0.7674873921777843,"Alto Valor, Baixo Engajamento"
+264,Agatha Sá,65,Feminino,RS,6426.8,Serviço,23,305.64,39,24,2,4,0,2,0.6841180234446655,0.4797279876175512,Novatos em Potencial
+265,Dr. João Vitor Monteiro,66,Feminino,DF,3965.42,Serviço,2,469.12,16,2,0,5,0,3,-1.2558826969433645,-0.6741392280682885,"Alto Valor, Baixo Engajamento"
+266,Eloá Pires,50,Masculino,RS,6839.66,Serviço,9,337.66,13,10,2,5,0,3,-1.143037391263045,-0.5480724663901774,"Alto Valor, Baixo Engajamento"
+267,Calebe Lima,63,Feminino,PE,8159.14,Produto,31,237.26,38,25,0,1,1,1,0.962832106211759,1.6041074593482152,Clientes em Risco
+268,Srta. Nina Almeida,47,Feminino,SP,4399.28,Serviço,3,203.43,37,23,0,1,1,1,-0.3566644959409217,0.7935658384838757,Clientes em Risco
+269,Eduarda da Conceição,65,Feminino,SP,2991.72,Produto,9,207.86,14,11,0,4,0,0,-0.938377956944571,-1.260501466131696,Clientes Premium
+270,Sra. Lavínia Duarte,22,Feminino,PE,1200.0,Produto,30,155.11,60,5,1,4,0,2,2.063199178740343,-2.1717414762472296,Novatos em Potencial
+271,Marcela Moraes,41,Feminino,DF,4668.55,Serviço,24,200.93,58,12,2,1,0,1,1.5299686481178287,0.13848176803029233,Clientes em Risco
+272,Sr. Valentim da Cruz,26,Feminino,SP,2754.56,Produto,22,345.89,42,16,1,2,0,1,0.9020385862919029,0.5763486085582967,Clientes em Risco
+273,Allana Moraes,66,Feminino,CE,5332.9,Serviço,1,359.09,2,17,1,3,0,0,-1.9112159220038207,0.6378710613518425,Clientes Premium
+274,Yan da Paz,40,Masculino,SP,3724.52,Produto,4,236.28,10,1,0,5,0,3,-1.4158561544849768,-2.041763673382011,"Alto Valor, Baixo Engajamento"
+275,Ana Liz Montenegro,33,Masculino,SP,6110.75,Produto,1,225.26,14,14,0,4,0,3,-1.485911651345315,-0.6216924804404051,"Alto Valor, Baixo Engajamento"
+276,Lara Aparecida,33,Masculino,SP,7841.01,Serviço,2,231.51,48,17,1,3,0,3,-0.13417215457115642,0.15779414914833767,"Alto Valor, Baixo Engajamento"
+277,Emilly Garcia,26,Feminino,BA,3895.55,Produto,18,375.95,33,18,0,4,0,0,0.29307408110085,0.19734335466531525,Clientes Premium
+278,Daniela Viana,33,Masculino,MG,9714.75,Ambos,4,412.54,20,13,0,3,1,3,-1.2391139296119904,1.1867903582965948,"Alto Valor, Baixo Engajamento"
+279,Ísis Aparecida,58,Masculino,DF,3774.42,Serviço,27,253.48,44,11,3,5,0,2,1.1739677637177919,-1.3349208616352477,Novatos em Potencial
+280,Henry Gabriel Pimenta,38,Feminino,RS,6317.09,Serviço,26,541.22,45,12,0,2,0,1,1.0756697714965977,1.839943516381764,Clientes em Risco
+281,Lucas Gabriel Teixeira,32,Masculino,DF,1502.91,Ambos,4,149.12,20,17,0,3,0,0,-0.8763187500759815,-1.0063706924917357,Clientes Premium
+282,Bárbara Novaes,26,Feminino,BA,4933.75,Produto,7,515.35,25,20,0,1,0,1,-0.6300599163303957,2.4279222877691615,Clientes em Risco
+283,Brayan Sales,23,Feminino,RJ,6389.52,Produto,12,172.7,35,21,0,4,1,0,-0.06876737069862966,-0.46092002365561036,Clientes Premium
+284,Vitor Hugo Pastor,30,Masculino,PR,4967.15,Serviço,48,442.61,52,15,0,3,0,2,2.555656580807002,0.9413102533735953,Novatos em Potencial
+285,Emanuelly Siqueira,18,Masculino,RS,7411.26,Produto,14,341.18,14,23,0,5,0,0,-0.8325288678235874,0.34976943928263987,Clientes Premium
+286,Diego Teixeira,62,Masculino,CE,6363.78,Produto,13,521.6,39,17,0,3,0,1,0.17499288813773117,1.6245384684693298,Clientes em Risco
+287,Catarina Araújo,52,Feminino,CE,5480.05,Produto,22,336.67,42,16,1,5,0,2,0.7805968554721014,-0.36783500952906073,Novatos em Potencial
+288,Sarah Dias,66,Feminino,RS,5811.24,Ambos,20,385.8,54,10,1,3,0,2,1.1304442166778481,0.36281994608938467,Novatos em Potencial
+289,Ana Cecília Montenegro,65,Feminino,PE,7017.04,Produto,0,483.8,10,9,1,2,1,3,-1.7287398125860403,1.4276751275841828,"Alto Valor, Baixo Engajamento"
+290,Gabriela Freitas,54,Feminino,CE,4259.35,Serviço,15,199.97,54,8,1,4,0,2,0.9182774451239519,-1.3913124596621902,Novatos em Potencial
+291,Heloisa Fernandes,47,Masculino,DF,5836.51,Ambos,11,348.05,11,4,0,4,0,3,-1.0925574863512215,-0.5674284531026862,"Alto Valor, Baixo Engajamento"
+292,Jade Borges,59,Masculino,SP,5382.2,Produto,4,305.57,4,30,1,5,1,0,-1.6414623085139062,0.3396442338867543,Clientes Premium
+293,Luiz Gustavo Andrade,44,Masculino,SP,6290.97,Produto,3,559.59,9,0,1,3,0,3,-1.5951760958810346,0.8067686960017361,"Alto Valor, Baixo Engajamento"
+294,Manuela Pereira,57,Feminino,SP,5498.77,Ambos,39,489.29,41,0,1,1,0,1,1.5787688382482907,1.1507573860629086,Clientes em Risco
+295,Vitória Rios,19,Feminino,PE,6215.79,Serviço,17,322.39,34,0,0,4,0,3,0.11357764152000781,-0.9370752847618409,"Alto Valor, Baixo Engajamento"
+296,Oliver Souza,69,Masculino,DF,5351.09,Produto,11,349.02,59,16,0,2,1,1,0.9003693451045531,0.8555342872081981,Clientes em Risco
+297,Bruno Cassiano,34,Feminino,RS,7147.26,Produto,22,176.82,53,2,0,3,0,2,1.0810831419641156,-1.1244632472567926,Novatos em Potencial
+298,Kaique Vasconcelos,62,Masculino,SP,1380.08,Serviço,9,415.8,15,20,1,5,0,0,-0.7677477729961469,-0.1525126588783415,Clientes Premium
+299,Maria Sophia da Rocha,23,Feminino,RJ,5734.2,Produto,12,236.9,26,1,0,4,0,3,-0.4528414341173275,-1.4031655301650081,"Alto Valor, Baixo Engajamento"
+300,Liam Fonseca,49,Feminino,DF,8131.05,Serviço,27,292.11,55,18,1,5,0,2,1.4402708496067196,-0.18658989578594778,Novatos em Potencial
+301,Pedro Lucas da Mota,20,Feminino,PR,2103.97,Ambos,6,36.14,15,8,0,1,1,1,-1.0486572361746425,-1.2923124238088062,Clientes em Risco
+302,Gabriel da Costa,52,Feminino,PE,6297.27,Produto,2,418.48,37,0,0,5,0,3,-0.5286138247885954,-0.8338252386012046,"Alto Valor, Baixo Engajamento"
+303,Giovanna Sousa,22,Feminino,MG,5487.6,Serviço,5,232.31,20,21,1,5,0,0,-0.9840466501613748,-0.633218200724595,Clientes Premium
+304,Isis Pimenta,68,Feminino,RJ,6300.4,Serviço,5,288.1,45,1,0,1,1,1,-0.07352008483542195,0.12277731500328572,Clientes em Risco
+305,Aylla Pinto,39,Feminino,CE,2545.48,Ambos,39,499.22,39,24,0,3,0,2,1.7128709223062772,1.5256336445467702,Novatos em Potencial
+306,Jade Rios,49,Feminino,PE,4908.83,Serviço,11,329.2,15,13,1,2,0,1,-0.8680822077293644,0.578633581582385,Clientes em Risco
+307,Srta. Camila Cardoso,23,Masculino,PE,2496.92,Produto,39,473.25,50,22,1,1,1,1,2.1457041796859917,2.0469498761248466,Clientes em Risco
+308,Anthony Pastor,63,Feminino,PR,5685.45,Produto,40,354.81,51,10,2,3,1,2,2.0431805216522165,0.2183843855211087,Novatos em Potencial
+309,Lara Cavalcante,46,Masculino,DF,3111.26,Produto,24,338.79,24,2,0,2,0,1,0.21904259472219145,-0.2517569565314896,Clientes em Risco
+310,Dante Ramos,50,Feminino,BA,5393.04,Produto,3,385.08,27,17,1,1,0,1,-0.8022198137223899,1.564794076923382,Clientes em Risco
+311,Leandro da Rosa,42,Masculino,RS,3647.22,Serviço,1,516.11,1,23,0,5,0,0,-1.8307790498485013,0.8667420271825819,Clientes Premium
+312,Enzo Gabriel Viana,54,Masculino,MG,3518.34,Serviço,10,298.29,34,4,0,3,0,3,-0.1150737708338903,-0.7527002235872517,"Alto Valor, Baixo Engajamento"
+313,Sra. Giovanna Siqueira,22,Feminino,RS,6681.29,Produto,6,221.69,11,15,0,4,0,3,-1.3733007944438598,-0.4974633170940397,"Alto Valor, Baixo Engajamento"
+314,Josué Carvalho,64,Masculino,PE,4446.2,Serviço,31,296.95,41,14,0,2,1,1,1.234920661666209,0.4020120059124815,Clientes em Risco
+315,Levi Brito,39,Feminino,MG,4095.39,Produto,39,30.0,54,14,0,3,0,2,2.158414148138706,-1.5315408431990554,Novatos em Potencial
+316,Alícia Souza,37,Masculino,BA,7047.04,Ambos,19,168.76,21,15,2,3,0,3,-0.32456708996217254,-0.3328141653539431,"Alto Valor, Baixo Engajamento"
+317,João Lucas Montenegro,36,Masculino,PE,3066.05,Serviço,44,294.27,48,10,0,3,0,2,2.243239636270688,-0.41742605524934057,Novatos em Potencial
+318,Sr. André Mendonça,41,Masculino,CE,9804.05,Serviço,3,297.29,8,21,1,4,1,3,-1.7681158673347914,0.6637490365703181,"Alto Valor, Baixo Engajamento"
+319,Sophie Mendonça,63,Masculino,CE,3247.36,Ambos,7,304.52,14,26,0,5,0,0,-0.9947869973254213,-0.17830100774287003,Clientes Premium
+320,Leonardo Lima,26,Masculino,CE,2996.76,Produto,19,266.27,41,22,0,3,0,0,0.7056810290257485,0.12412901816293427,Clientes Premium
+321,Rafael Araújo,56,Feminino,DF,6977.77,Serviço,25,374.8,31,17,0,1,0,1,0.4191697955657356,1.731748006205397,Clientes em Risco
+322,Luiz Gustavo Macedo,56,Masculino,SP,7798.71,Produto,5,410.96,41,21,0,4,0,3,-0.22366433311242415,1.0050674403808857,"Alto Valor, Baixo Engajamento"
+323,Thiago Leão,54,Feminino,RJ,8623.96,Produto,41,342.95,42,30,2,4,0,2,1.6537493746891192,1.3479716617044772,Novatos em Potencial
+324,Sophia Melo,34,Feminino,DF,7099.11,Serviço,7,235.77,15,14,0,4,0,3,-1.1808139880474684,-0.43584901747165605,"Alto Valor, Baixo Engajamento"
+325,Bianca da Cruz,27,Feminino,MG,5229.07,Serviço,0,414.02,23,13,1,5,1,3,-1.1096945698467762,-0.1648626253199205,"Alto Valor, Baixo Engajamento"
+326,Ana da Paz,40,Masculino,CE,5802.69,Serviço,10,561.9,20,16,1,3,0,3,-0.7191789017982091,1.7442198638752413,"Alto Valor, Baixo Engajamento"
+327,Isabelly Araújo,64,Feminino,BA,2936.85,Produto,28,236.48,45,1,1,5,0,2,1.2734603678119738,-2.1460293680216433,Novatos em Potencial
+328,Ana Luiza Ribeiro,59,Masculino,DF,10930.02,Ambos,2,288.4,7,16,1,2,1,3,-1.9333623319832889,1.2521993769136952,"Alto Valor, Baixo Engajamento"
+329,Maria Souza,45,Masculino,SP,2744.35,Ambos,7,367.71,30,5,1,4,0,3,-0.3813205979134989,-0.8038585991535967,"Alto Valor, Baixo Engajamento"
+330,Ana Luiza Porto,65,Feminino,PR,7182.09,Serviço,12,286.71,40,12,1,1,1,1,0.07674157671379062,0.9203886387899562,Clientes em Risco
+331,José Miguel Almeida,66,Masculino,PR,1271.34,Serviço,4,191.81,46,11,0,3,0,0,0.1726206820409305,-1.2095923566815532,Clientes Premium
+332,Lavínia Câmara,60,Feminino,RJ,5448.9,Serviço,31,425.65,56,19,0,3,0,2,1.8273096603666878,1.1133426306648007,Novatos em Potencial
+333,Matheus da Costa,40,Feminino,MG,4789.22,Serviço,14,513.7,23,29,2,4,1,0,-0.30945219954274295,1.7550277342803158,Clientes Premium
+334,Gael Teixeira,38,Masculino,PE,6304.65,Produto,3,110.83,8,11,1,4,0,3,-1.6573442890381018,-1.404550773967437,"Alto Valor, Baixo Engajamento"
+335,Raquel Andrade,56,Masculino,MG,7953.08,Produto,9,465.61,9,15,1,4,0,3,-1.3283359477109828,1.0151450072377268,"Alto Valor, Baixo Engajamento"
+336,Marcela Pimenta,53,Masculino,BA,5988.06,Produto,7,331.28,11,10,0,5,0,3,-1.288029531234467,-0.6855903770199605,"Alto Valor, Baixo Engajamento"
+337,Maria Luísa Montenegro,18,Feminino,PE,5647.6,Produto,8,265.02,32,30,0,4,0,0,-0.3235868580806142,0.5150554950422074,Clientes Premium
+338,Maria Vitória Fogaça,61,Feminino,RS,6087.2,Ambos,26,255.53,32,15,0,2,0,1,0.5343798186276503,0.4351030137643539,Clientes em Risco
+339,Caio Porto,36,Feminino,CE,1200.0,Produto,2,328.22,3,5,0,4,0,3,-1.6629606735919824,-1.1729140630725656,"Alto Valor, Baixo Engajamento"
+340,Rhavi Costela,53,Feminino,DF,4275.12,Serviço,7,165.64,33,24,1,4,0,0,-0.3007467913157287,-0.5733727477193928,Clientes Premium
+341,João Pedro Novaes,70,Feminino,RS,2410.64,Ambos,2,439.3,49,17,1,3,0,1,0.1859842256752909,0.6598752688539471,Clientes em Risco
+342,Emilly Ramos,37,Feminino,RJ,4906.16,Serviço,2,357.24,56,27,0,5,0,0,0.3762046126397141,0.29653858738755007,Clientes Premium
+343,Eduardo Viana,67,Feminino,MG,1200.0,Produto,15,330.5,52,27,1,4,0,0,1.0528767655358664,0.14298491816170386,Clientes Premium
+344,Srta. Maria Flor Montenegro,57,Masculino,DF,6297.85,Ambos,3,132.96,9,18,1,3,0,0,-1.5955531312865854,-0.44616717984840376,Clientes Premium
+345,João Lucas Mendonça,28,Feminino,RJ,6694.16,Produto,9,446.7,21,30,0,5,0,0,-0.7403229431064058,1.2604449400799735,Clientes Premium
+346,Raul Souza,26,Feminino,MG,5763.87,Ambos,26,351.6,49,27,0,4,0,2,1.288533631992927,0.8300349899962957,Novatos em Potencial
+347,Letícia Nogueira,33,Feminino,PE,4393.38,Ambos,5,345.57,10,15,0,2,0,0,-1.3476412249457135,0.7280980335776525,Clientes Premium
+348,Maria Alice Peixoto,42,Masculino,BA,4856.8,Serviço,2,295.53,29,12,0,4,0,3,-0.7667783932762238,-0.5275750480082914,"Alto Valor, Baixo Engajamento"
+349,Dra. Ágatha Câmara,47,Masculino,BA,4738.17,Serviço,20,175.81,32,23,1,5,0,0,0.3086461612268408,-0.9035790723739153,Clientes Premium
+350,Juliana Lopes,22,Feminino,PR,3822.47,Produto,34,301.12,51,26,0,3,0,2,1.8612429050783141,0.6747305921531069,Novatos em Potencial
+351,Bella Moura,39,Feminino,SP,6832.66,Produto,36,341.58,36,25,0,3,0,2,1.2197613964551541,1.2244133371887511,Novatos em Potencial
+352,Brenda Viana,20,Masculino,PE,1200.0,Produto,7,652.53,7,14,1,3,0,0,-1.1786849054276938,1.5891744424334886,Clientes Premium
+353,Oliver Fogaça,30,Feminino,RJ,3123.06,Ambos,8,377.31,45,5,2,5,0,2,0.2622050030624102,-1.1338559810252136,Novatos em Potencial
+354,Maria Cecília Rezende,59,Masculino,RS,3752.46,Produto,8,529.68,24,1,1,3,0,3,-0.6132485120518942,0.38497954595155176,"Alto Valor, Baixo Engajamento"
+355,Davi Miguel Marques,45,Masculino,RS,6740.14,Ambos,5,359.48,42,6,2,3,0,3,-0.18687714954533946,0.07210809511641954,"Alto Valor, Baixo Engajamento"
+356,Luiz Miguel Cassiano,51,Feminino,MG,6925.93,Produto,28,336.91,44,26,0,2,0,1,1.1258648790241281,1.649593368701749,Clientes em Risco
+357,João Gabriel Fogaça,48,Masculino,MG,7211.05,Produto,1,442.44,5,3,0,3,0,3,-1.9087473607104122,0.4550849358987819,"Alto Valor, Baixo Engajamento"
+358,Sr. Cauê Rodrigues,42,Masculino,MG,2820.81,Ambos,48,495.74,50,2,1,4,1,2,2.545770662954799,-0.22557722005695183,Novatos em Potencial
+359,Dante Ramos,46,Masculino,RS,7010.29,Produto,23,269.71,23,29,1,3,0,0,0.018293346085008547,1.090693234106885,Clientes Premium
+360,Giovanna Moraes,23,Masculino,PE,6128.81,Produto,6,342.67,58,18,0,4,0,2,0.5754804967248484,0.2166010605966102,Novatos em Potencial
+361,Luiz Gustavo Freitas,38,Masculino,PR,7378.94,Produto,8,152.69,51,7,2,4,0,3,0.2812171969441812,-1.351110580024726,"Alto Valor, Baixo Engajamento"
+362,Augusto Oliveira,67,Feminino,PE,7579.51,Ambos,1,268.63,45,6,0,4,0,3,-0.32025119163006943,-0.7497297419504584,"Alto Valor, Baixo Engajamento"
+363,Helena Vieira,36,Masculino,RJ,4653.86,Ambos,3,301.87,42,15,0,3,0,0,-0.1731555655598804,0.05554562222752977,Clientes Premium
+364,Sr. José Pereira,51,Feminino,PE,2443.95,Ambos,0,102.75,57,4,1,3,0,2,0.32408316550910526,-2.0205573537433907,Novatos em Potencial
+365,Ryan Brito,41,Masculino,RS,1894.55,Ambos,11,263.58,35,0,0,4,1,3,0.03905043614090972,-1.7915878674713108,"Alto Valor, Baixo Engajamento"
+366,Mariah Sousa,20,Feminino,PE,8284.03,Ambos,3,421.18,60,16,1,3,0,1,0.4022767525864352,1.1827788008732723,Clientes em Risco
+367,Augusto Câmara,45,Masculino,RS,6963.53,Produto,25,261.02,45,8,0,1,1,1,0.9447173072747151,0.5213625275929964,Clientes em Risco
+368,Daniela Novaes,69,Masculino,RS,4091.51,Produto,8,297.61,10,9,0,4,0,3,-1.1977099737366466,-0.7506645083926718,"Alto Valor, Baixo Engajamento"
+369,Ana da Luz,21,Masculino,MG,2220.86,Ambos,2,102.55,16,14,0,4,1,0,-1.186991238441292,-1.7673936875636598,Clientes Premium
+370,Manuela da Mata,25,Masculino,PR,9657.24,Ambos,0,387.02,1,15,2,5,0,3,-2.2030344224097096,0.3728067491039249,"Alto Valor, Baixo Engajamento"
+371,Guilherme Rocha,28,Feminino,SP,6517.86,Ambos,4,333.74,24,23,0,5,0,0,-0.9036218494102575,0.16704884263056366,Clientes Premium
+372,Hellena Fernandes,39,Masculino,RJ,4622.21,Produto,27,366.37,52,8,0,4,0,2,1.4604281609204186,-0.39996596560718584,Novatos em Potencial
+373,Carlos Eduardo Melo,49,Feminino,PR,1614.09,Produto,16,288.2,30,27,0,4,0,0,0.1909458589983017,-0.004736172961818106,Clientes Premium
+374,Lavínia Melo,67,Masculino,SP,6941.8,Produto,1,225.91,7,1,0,5,1,3,-1.843537121022092,-1.7160989146860959,"Alto Valor, Baixo Engajamento"
+375,Isabella Pinto,48,Masculino,PE,6836.63,Ambos,12,111.54,24,29,1,5,1,0,-0.5157452541114917,-0.6411897199023485,Clientes Premium
+376,Sr. Cauê Porto,32,Feminino,RJ,3035.03,Serviço,7,273.04,21,8,0,5,0,3,-0.7591273310359463,-1.500353156172267,"Alto Valor, Baixo Engajamento"
+377,Fernando Nascimento,50,Masculino,PR,3061.6,Produto,3,366.12,44,30,0,3,0,0,0.03440163346455599,1.1442229468971183,Clientes Premium
+378,Srta. Daniela Silva,67,Feminino,PR,3797.26,Produto,19,338.37,55,0,0,3,0,2,1.1779354503334498,-0.7610935761808426,Novatos em Potencial
+379,Benjamim Mendonça,65,Feminino,DF,7794.83,Serviço,15,290.98,40,24,0,4,0,0,0.24597394953542817,0.54510996635892,Clientes Premium
+380,Sofia Rios,66,Feminino,SP,5250.45,Produto,15,248.47,51,0,1,3,0,2,0.7307898588386113,-1.0870275904604607,Novatos em Potencial
+381,Ana Luiza Borges,39,Feminino,PE,5097.72,Ambos,1,304.87,1,3,0,3,0,3,-1.9887444726848316,-0.5531830506513236,"Alto Valor, Baixo Engajamento"
+382,Ana Cecília Sales,49,Masculino,DF,5999.27,Ambos,1,144.43,4,1,0,5,0,3,-1.9308587052359254,-2.2753666303801094,"Alto Valor, Baixo Engajamento"
+383,Maria Luísa Aparecida,44,Masculino,PE,2512.27,Serviço,23,216.85,45,18,1,1,1,1,1.0736146403150058,0.3587875392155717,Clientes em Risco
+384,Nathan Costa,22,Masculino,PE,4410.1,Produto,36,449.73,38,7,1,3,0,2,1.3741306762349819,0.42059285948707104,Novatos em Potencial
+385,Natália Viana,62,Feminino,MG,3329.31,Produto,47,557.42,54,8,0,3,0,2,2.6550717541907023,0.9450875030471089,Novatos em Potencial
+386,Erick Andrade,67,Masculino,RJ,6048.73,Produto,37,211.81,50,5,1,3,0,2,1.7983965228404817,-0.8434901710823245,Novatos em Potencial
+387,Kaique Correia,52,Feminino,PR,7449.17,Serviço,6,494.81,23,8,0,5,1,3,-0.908577187410443,0.2505304949219688,"Alto Valor, Baixo Engajamento"
+388,Asafe Vieira,70,Masculino,RS,3885.02,Serviço,44,135.62,46,26,0,5,0,2,2.1563552936598565,-1.0205376006452833,Novatos em Potencial
+389,Ian Barbosa,40,Feminino,PE,5628.77,Produto,16,299.75,26,8,0,5,0,3,-0.2106406570419789,-1.0339558154170536,"Alto Valor, Baixo Engajamento"
+390,Sr. Otto Abreu,46,Feminino,SP,3392.65,Produto,35,496.69,36,3,0,5,0,2,1.288063408548206,-0.49828672066397933,Novatos em Potencial
+391,Rodrigo Sales,21,Masculino,RJ,6952.77,Ambos,49,432.49,54,6,1,5,0,2,2.572139026620815,-0.24686694813028534,Novatos em Potencial
+392,Raquel Cunha,55,Masculino,CE,5605.37,Ambos,16,235.9,38,0,0,5,0,3,0.2437091145994379,-1.903742792855999,"Alto Valor, Baixo Engajamento"
+393,Zoe Ramos,69,Feminino,MG,4241.74,Ambos,1,275.57,9,3,0,1,0,3,-1.6338911256135167,-0.0184058572229292,"Alto Valor, Baixo Engajamento"
+394,Dr. Oliver Pacheco,54,Feminino,BA,2798.44,Ambos,26,214.64,28,0,0,3,0,2,0.47944802520371416,-1.5094623570921395,Novatos em Potencial
+395,Nicole Souza,31,Feminino,RS,5068.17,Produto,11,207.6,59,28,0,2,0,1,0.931396551218721,0.7785480684523428,Clientes em Risco
+396,Sra. Juliana Alves,59,Feminino,PE,3756.36,Serviço,15,384.16,19,1,0,1,1,1,-0.4771656911222142,0.4122666858618793,Clientes em Risco
+397,Mariane da Costa,30,Masculino,DF,5661.76,Produto,33,400.02,42,12,0,4,0,2,1.3333875283854826,0.18484638695350028,Novatos em Potencial
+398,Maria Isis Gomes,68,Feminino,RS,2654.79,Ambos,22,151.98,32,12,2,3,1,2,0.4690211264063139,-1.147228376683249,Novatos em Potencial
+399,Mariana Pacheco,19,Masculino,RS,8345.14,Ambos,51,350.28,58,25,0,5,0,2,2.8177328471956793,0.6335976566835866,Novatos em Potencial
+400,Luiz Otávio da Conceição,28,Feminino,SP,5192.87,Serviço,3,218.29,7,17,1,5,0,0,-1.6122840850237259,-0.9757828261309749,Clientes Premium
+401,Enzo Marques,66,Masculino,BA,3018.62,Produto,12,375.53,15,5,0,3,0,3,-0.7436142780418458,-0.2881289275999258,"Alto Valor, Baixo Engajamento"
+402,Dr. Guilherme Guerra,55,Masculino,CE,4777.55,Ambos,2,191.53,2,18,1,5,0,0,-1.8468739400709124,-1.1057697488309095,Clientes Premium
+403,Dr. Isaque Rezende,52,Masculino,DF,7182.62,Serviço,5,373.1,20,1,1,3,0,3,-1.1095245744667275,-0.07274674519933882,"Alto Valor, Baixo Engajamento"
+404,Srta. Ana Cecília Carvalho,48,Masculino,BA,2815.37,Ambos,1,262.03,1,25,2,2,0,0,-1.824790982235886,0.7009355473438542,Clientes Premium
+405,Srta. Cecília Camargo,21,Masculino,BA,5150.37,Serviço,0,447.25,2,24,1,2,1,0,-1.9249743107379007,1.9410075851102315,Clientes Premium
+406,Danilo Machado,22,Feminino,MG,3945.06,Ambos,22,343.4,24,18,2,2,1,1,0.12471077100935743,0.8570565361391851,Clientes em Risco
+407,Valentim Andrade,28,Feminino,DF,3428.02,Ambos,27,140.25,47,20,0,3,0,2,1.3190939557243146,-0.6410055325358894,Novatos em Potencial
+408,Nicolas Costela,62,Masculino,PR,5174.37,Ambos,39,384.97,57,21,0,4,0,2,2.2965213789481043,0.5858253084256567,Novatos em Potencial
+409,Lorena Moreira,64,Masculino,SP,2793.27,Produto,18,41.65,45,30,0,4,0,0,0.8231896288786176,-1.065842921021222,Clientes Premium
+410,Rael Fogaça,29,Masculino,MG,6672.65,Ambos,20,303.75,39,20,0,4,0,2,0.5057850846879485,0.24608642153217772,Novatos em Potencial
+411,Maria Cecília Fernandes,39,Feminino,BA,5163.66,Produto,4,288.13,48,5,0,4,0,3,0.0681540795721243,-0.990869320936398,"Alto Valor, Baixo Engajamento"
+412,Ana Vitória Silva,46,Masculino,SP,6136.88,Produto,1,371.95,1,11,0,3,0,3,-2.00531873166508,0.43638919264557696,"Alto Valor, Baixo Engajamento"
+413,Emilly Dias,21,Masculino,BA,4650.08,Ambos,14,209.31,25,28,0,3,0,0,-0.26543563805147596,0.3924311613912822,Clientes Premium
+414,Luísa Costa,52,Masculino,SP,2926.85,Ambos,3,457.57,25,5,2,3,0,3,-0.7894177872494252,0.12265501801277714,"Alto Valor, Baixo Engajamento"
+415,Sr. Henry Gabriel Sales,36,Masculino,MG,4949.95,Produto,1,398.13,2,2,0,3,0,3,-1.932752274171513,-0.11723041381872726,"Alto Valor, Baixo Engajamento"
+416,Lucca Santos,64,Masculino,CE,3699.17,Ambos,4,363.56,5,10,0,4,0,3,-1.5765984139122229,-0.369666962562186,"Alto Valor, Baixo Engajamento"
+417,Larissa Pimenta,63,Masculino,RJ,2869.77,Ambos,1,263.37,2,19,0,5,0,0,-1.7973800732360141,-0.8754006054989232,Clientes Premium
+418,Lorena Pimenta,39,Feminino,SP,6015.52,Serviço,3,306.48,14,21,0,3,0,0,-1.3498261143668675,0.6590221406468982,Clientes Premium
+419,Maria Luiza Mendes,43,Masculino,PR,5128.95,Ambos,35,62.94,37,1,0,3,0,2,1.182552522314641,-2.008086294173615,Novatos em Potencial
+420,Mathias da Rosa,70,Masculino,PR,5566.6,Serviço,40,204.81,43,3,0,1,1,1,1.6813751724846324,-0.23413999516157336,Clientes em Risco
+421,Lunna Freitas,23,Feminino,RJ,8061.5,Produto,7,446.25,31,15,0,3,0,3,-0.5524859069867007,1.287687458136554,"Alto Valor, Baixo Engajamento"
+422,Henry Pacheco,59,Feminino,CE,3622.67,Produto,24,292.48,35,11,1,2,1,1,0.6603922028464858,0.09033902438300918,Clientes em Risco
+423,Emanuelly da Cruz,47,Masculino,RJ,3872.7,Ambos,7,250.69,17,4,0,4,0,3,-0.9768711618933618,-1.3585934512460762,"Alto Valor, Baixo Engajamento"
+424,Pietro Sampaio,60,Masculino,DF,3773.19,Serviço,17,263.7,23,17,1,1,1,1,-0.18090876193623245,0.7314115967060966,Clientes em Risco
+425,Alícia da Cunha,44,Masculino,SP,5321.15,Serviço,30,300.37,35,15,1,3,0,2,0.9057493124568862,0.1887827212475694,Novatos em Potencial
+426,Maria Fernanda Ferreira,50,Masculino,MG,6899.11,Ambos,33,121.81,37,3,0,5,0,2,1.0146055517282284,-2.163071780648306,Novatos em Potencial
+427,Milena Carvalho,31,Feminino,MG,2912.05,Produto,12,274.92,52,2,1,5,0,2,0.7396506215337373,-1.915493964094396,Novatos em Potencial
+428,Bella Vargas,56,Masculino,BA,3985.78,Ambos,10,159.47,17,2,0,3,0,3,-0.8470223769339179,-1.562411976962087,"Alto Valor, Baixo Engajamento"
+429,Gael Machado,35,Masculino,PE,6082.93,Ambos,29,391.1,34,25,1,4,0,2,0.8213657218927242,0.9934049804744011,Novatos em Potencial
+430,Larissa Rios,25,Masculino,PR,3846.98,Produto,4,30.0,27,29,0,2,0,0,-0.6848399319658949,-0.25142882415970175,Clientes Premium
+431,Marcos Vinicius Barros,52,Feminino,CE,6726.2,Ambos,22,204.43,57,12,0,4,0,2,1.2977324702770605,-0.8170351715959268,Novatos em Potencial
+432,Emilly Oliveira,20,Feminino,RS,2042.18,Serviço,4,322.0,12,1,0,3,0,3,-1.2504533546361754,-0.9584057472021933,"Alto Valor, Baixo Engajamento"
+433,Clara Santos,21,Feminino,PR,3011.79,Ambos,30,296.29,48,0,0,3,0,2,1.4941350885562035,-1.0561573874552472,Novatos em Potencial
+434,Ísis Souza,35,Masculino,CE,7393.14,Ambos,31,280.98,54,27,0,3,0,2,1.6612044241761559,1.0404669325371738,Novatos em Potencial
+435,Eduardo Garcia,67,Feminino,RS,2613.88,Produto,20,295.19,53,19,0,4,0,2,1.2571412407610347,-0.3699918379170224,Novatos em Potencial
+436,Laís Pereira,70,Feminino,RJ,4654.11,Serviço,23,505.41,27,26,0,1,0,1,0.30585098028480195,2.7365600076101906,Clientes em Risco
+437,Stella Sampaio,37,Masculino,SP,3250.36,Serviço,32,30.0,46,5,3,2,0,2,1.4845486344538037,-1.7819882431615535,Novatos em Potencial
+438,Alícia Castro,33,Feminino,CE,7284.65,Produto,3,165.5,3,22,0,2,1,0,-1.8705982998521458,0.5146085844486616,Clientes Premium
+439,Dra. Melissa Cardoso,50,Masculino,MG,6355.85,Ambos,20,241.45,26,7,0,3,0,3,-0.05320267649983785,-0.5123304304227789,"Alto Valor, Baixo Engajamento"
+440,Henry Mendonça,48,Masculino,RJ,4823.31,Produto,35,410.56,38,26,1,5,0,2,1.3591913731090854,0.6113684304431815,Novatos em Potencial
+441,Srta. Esther Sousa,36,Masculino,RS,5553.09,Produto,1,395.94,2,27,1,3,0,0,-1.8873731339247142,1.4855922199526976,Clientes Premium
+442,Murilo Vieira,35,Masculino,SP,2617.42,Serviço,26,307.52,42,15,1,5,0,2,1.1142003471284108,-0.9252373238638716,Novatos em Potencial
+443,Ana Sophia Lopes,32,Feminino,CE,4542.03,Ambos,9,310.81,17,13,0,5,0,3,-0.8685112339406833,-0.7923713296907323,"Alto Valor, Baixo Engajamento"
+444,Heloísa Lopes,34,Feminino,BA,4269.36,Produto,7,322.16,14,18,0,2,0,0,-1.071092499650621,0.7660067588145796,Clientes Premium
+445,Heloisa Cavalcanti,53,Feminino,PR,3395.01,Serviço,38,455.86,42,21,0,2,1,1,1.7261388776322755,1.6009208266764914,Clientes em Risco
+446,Srta. Isabelly Fogaça,58,Feminino,SP,7400.83,Produto,8,221.17,21,6,1,2,0,3,-0.9310828004907394,-0.17009560733819235,"Alto Valor, Baixo Engajamento"
+447,João Teixeira,69,Feminino,SP,7371.41,Ambos,51,386.27,55,21,0,3,0,2,2.729972657809551,1.2870551090042286,Novatos em Potencial
+448,Bryan Gonçalves,59,Feminino,RS,6214.26,Produto,18,457.34,32,12,0,3,1,1,0.13434992641844032,0.9625771975171502,Clientes em Risco
+449,Sra. Vitória Sousa,39,Feminino,PR,4354.64,Produto,45,269.9,47,29,1,5,0,2,2.252018408207277,-0.034791191229196786,Novatos em Potencial
+450,Davi Luiz Camargo,28,Masculino,PR,5911.78,Ambos,42,559.8,54,9,0,1,1,1,2.274890604257958,2.1310199857816143,Clientes em Risco
+451,Eloah da Costa,64,Masculino,RJ,7911.24,Ambos,35,515.91,52,30,2,4,0,2,1.80310360889673,2.1942283375591423,Novatos em Potencial
+452,João Carvalho,32,Feminino,PR,4270.09,Ambos,7,199.29,23,13,1,4,0,0,-0.7328485454420952,-1.0502608091157046,Clientes Premium
+453,Maria Cecília Peixoto,55,Feminino,RJ,2910.38,Ambos,14,64.04,19,1,0,5,0,3,-0.5196820371933198,-3.0893486682829443,"Alto Valor, Baixo Engajamento"
+454,Lorena Duarte,48,Feminino,MG,6158.89,Serviço,12,317.72,57,16,0,3,1,1,0.8318623602015709,0.37743415293196564,Clientes em Risco
+455,Luiz Otávio Rios,26,Feminino,RJ,4557.49,Serviço,5,266.78,13,4,1,3,0,3,-1.2740518742705775,-0.7788878227861574,"Alto Valor, Baixo Engajamento"
+456,Bárbara Rezende,49,Feminino,RS,6720.95,Ambos,20,230.03,22,20,3,1,0,1,-0.1996477447074878,1.0889562442320426,Clientes em Risco
+457,Olivia da Cunha,66,Masculino,MG,4502.62,Serviço,10,492.88,50,15,2,4,0,2,0.5445232765711948,0.6903497035740347,Novatos em Potencial
+458,Bárbara Moraes,57,Feminino,DF,2922.4,Serviço,20,360.35,28,30,0,3,1,0,0.27086457626120003,1.1532940616169154,Clientes Premium
+459,Daniel Jesus,30,Feminino,SP,5799.38,Ambos,23,221.84,47,24,1,5,0,2,1.0285937567978134,-0.4786273655120454,Novatos em Potencial
+460,Ana Vitória Borges,58,Feminino,PR,7476.57,Produto,15,302.55,47,9,1,2,1,1,0.4960804323211115,0.4464089271556662,Clientes em Risco
+461,Hellena Gomes,28,Feminino,BA,5481.51,Produto,0,612.2,5,14,0,4,0,3,-1.823462841323267,1.4605560140011344,"Alto Valor, Baixo Engajamento"
+462,Ana Laura Siqueira,45,Feminino,MG,8622.75,Ambos,43,374.83,57,28,1,3,0,2,2.358765507669234,1.786784126193456,Novatos em Potencial
+463,Natália Vasconcelos,69,Masculino,MG,3755.24,Produto,0,357.37,26,6,0,4,0,3,-0.9497031078377749,-0.685500506706736,"Alto Valor, Baixo Engajamento"
+464,Lívia das Neves,25,Masculino,DF,4581.95,Serviço,22,197.94,24,12,1,5,0,2,0.06617645336600037,-1.461833221037323,Novatos em Potencial
+465,Antonella Viana,57,Masculino,RJ,8339.81,Ambos,4,347.36,4,20,1,5,1,3,-1.8040330576095744,0.30703046509460535,"Alto Valor, Baixo Engajamento"
+466,Sra. Carolina Vasconcelos,44,Feminino,SP,7393.26,Produto,12,226.83,29,15,0,4,0,3,-0.3690804848390665,-0.4017578813492769,"Alto Valor, Baixo Engajamento"
+467,Igor Rezende,37,Feminino,RJ,2100.29,Produto,21,167.24,27,19,0,4,0,0,0.26627008323392604,-1.0967106141018315,Clientes Premium
+468,Isaque Rezende,50,Masculino,RS,6444.76,Produto,39,255.26,47,25,1,2,1,1,1.8239936348112697,1.09368523590272,Clientes em Risco
+469,Mariana Sá,67,Feminino,DF,8453.93,Ambos,16,252.04,17,22,1,3,0,0,-0.6756703895339384,0.72953258818138,Clientes Premium
+470,Sra. Nina Fernandes,49,Feminino,RJ,2163.27,Serviço,13,88.7,59,10,1,3,1,2,1.1047395943731253,-1.7404512920333317,Novatos em Potencial
+471,Cecilia Vasconcelos,25,Masculino,RJ,1948.69,Serviço,36,451.51,54,30,1,1,0,1,2.1990749442026916,2.342710596061031,Clientes em Risco
+472,Danilo Vasconcelos,34,Feminino,MG,3896.28,Serviço,14,606.98,42,8,1,3,1,1,0.44720732111934736,1.2448855424005456,Clientes em Risco
+473,Nina Gomes,20,Feminino,SP,8084.22,Produto,18,540.73,55,13,0,4,1,2,0.9919677578213478,1.2664934740538107,Novatos em Potencial
+474,Gabriela Araújo,18,Masculino,PR,8261.86,Serviço,8,414.77,55,10,1,3,0,1,0.4407529634941276,0.7917216103150654,Clientes em Risco
+475,Srta. Maya Borges,64,Masculino,PR,4985.91,Ambos,2,457.49,6,3,0,3,0,3,-1.7108599300933867,0.27322917558608456,"Alto Valor, Baixo Engajamento"
+476,Luigi da Luz,42,Masculino,MG,4659.63,Ambos,30,245.61,45,3,1,2,0,1,1.2960683760784373,-0.5443171148543471,Clientes em Risco
+477,Kaique Cavalcante,24,Feminino,SP,5176.81,Serviço,18,477.3,27,5,0,4,0,3,-0.034996679923032896,0.11931666802835171,"Alto Valor, Baixo Engajamento"
+478,Camila Freitas,61,Masculino,PE,4136.41,Ambos,53,193.67,57,15,0,5,0,2,3.0281734805796963,-1.348536868965245,Novatos em Potencial
+479,Maya Garcia,46,Feminino,RS,4834.64,Produto,0,285.39,3,0,0,4,0,3,-1.9561588273504575,-1.2889162169627097,"Alto Valor, Baixo Engajamento"
+480,Isadora Costa,60,Masculino,BA,5379.7,Serviço,21,369.21,56,13,0,4,0,2,1.2921809386156728,-0.0029303032343179192,Novatos em Potencial
+481,Olivia Rocha,60,Masculino,CE,7442.07,Produto,41,369.85,44,0,0,4,0,2,1.7045448645958976,-0.4987744073899679,Novatos em Potencial
+482,Aylla Guerra,49,Feminino,SP,7294.82,Produto,10,263.49,56,10,0,3,0,2,0.6106800719170694,-0.16004897260168394,Novatos em Potencial
+483,Dr. Felipe Pastor,50,Masculino,CE,8769.17,Serviço,12,485.19,15,2,0,3,0,3,-1.007590725209431,0.8207775011170101,"Alto Valor, Baixo Engajamento"
+484,Kaique Alves,23,Masculino,PE,2178.35,Serviço,31,159.06,55,15,0,4,1,2,1.8970744134830069,-1.405969887968729,Novatos em Potencial
+485,Júlia Santos,44,Feminino,CE,5281.77,Ambos,0,87.79,3,28,0,4,1,0,-1.9190041087831113,-0.6026629764926467,Clientes Premium
+486,Isis Montenegro,39,Feminino,CE,7065.93,Ambos,1,276.61,24,10,1,4,0,3,-1.1319251134953072,-0.4860743709120538,"Alto Valor, Baixo Engajamento"
+487,Maria Luísa Azevedo,63,Masculino,BA,4615.78,Ambos,23,466.86,43,3,0,4,0,2,0.8884702887264395,-0.1453404385969004,Novatos em Potencial
+488,Maria Julia Silveira,40,Feminino,SP,4944.97,Ambos,40,512.67,54,17,0,4,0,2,2.241743839053719,1.0260912550933314,Novatos em Potencial
+489,Maria Fernanda Pinto,28,Feminino,RJ,6800.35,Ambos,8,393.37,32,3,0,3,0,3,-0.4435778109400609,0.10371781852234144,"Alto Valor, Baixo Engajamento"
+490,Dr. Léo da Mota,43,Masculino,SP,3003.23,Ambos,7,336.22,14,22,1,3,0,0,-0.9959728169191981,0.5336117837625444,Clientes Premium
+491,Pedro Henrique Lopes,58,Feminino,MG,4799.69,Serviço,43,275.56,54,14,0,4,0,2,2.364883267692853,-0.48502022289196917,Novatos em Potencial
+492,Esther Mendonça,49,Feminino,MG,5710.04,Serviço,0,273.47,1,26,0,4,0,0,-2.002574522188678,0.3574075216302177,Clientes Premium
+493,Leandro Correia,62,Masculino,BA,6827.17,Ambos,11,203.62,38,3,0,3,0,3,-0.07128718923067202,-0.9488599602513806,"Alto Valor, Baixo Engajamento"
+494,João Lucas Alves,50,Masculino,PR,3947.84,Serviço,24,298.32,57,8,0,3,0,2,1.528323406273621,-0.46520050719792255,Novatos em Potencial
+495,Giovanna Silveira,46,Feminino,DF,1200.0,Produto,8,406.09,52,26,0,4,0,0,0.6981756332857654,0.48711322938446777,Clientes Premium
+496,Sra. Maria Luiza Montenegro,58,Feminino,MG,5494.15,Produto,3,310.48,14,21,0,3,0,0,-1.3249569195468471,0.618975107371745,Clientes Premium
+497,Srta. Cecília Oliveira,50,Feminino,PE,1874.91,Ambos,20,236.51,35,17,2,3,0,0,0.548808474141034,-0.47175446145715044,Clientes Premium
+498,Valentina Souza,61,Feminino,PE,2779.2,Produto,34,368.05,48,25,0,1,1,1,1.7894544306641134,1.6765405404702167,Clientes em Risco
+499,Isis Montenegro,27,Masculino,SP,5932.86,Produto,0,295.72,4,9,1,4,1,3,-1.9392153637350893,-0.546739221831764,"Alto Valor, Baixo Engajamento"
+500,Dra. Joana Lopes,62,Masculino,DF,3530.82,Produto,18,202.77,51,11,1,5,0,2,0.9974871948711621,-1.673223010677054,Novatos em Potencial
+501,Bella da Conceição,32,Masculino,PR,2968.36,Serviço,41,307.4,48,16,2,4,0,2,2.1147446251685746,-0.39772718604977725,Novatos em Potencial
+502,Dr. Ryan Oliveira,62,Feminino,BA,5758.96,Ambos,3,517.38,43,13,0,5,0,3,-0.15869178500252634,0.44467450669947667,"Alto Valor, Baixo Engajamento"
+503,Dr. Pedro Sá,53,Masculino,CE,2855.72,Ambos,0,30.0,4,19,0,5,0,0,-1.7966252245496959,-2.1756883395649442,Clientes Premium
+504,Evelyn Caldeira,32,Feminino,RS,4103.24,Ambos,40,541.2,59,24,0,4,0,2,2.5073457861926234,1.5077575373543124,Novatos em Potencial
+505,Mariana Rezende,67,Masculino,DF,6238.31,Produto,12,546.9,47,21,0,1,0,1,0.4627302216069296,2.794128109861222,Clientes em Risco
+506,Sara Vieira,25,Feminino,SP,7794.45,Serviço,1,306.84,25,4,0,2,0,3,-1.1442617510347006,0.20871244676692025,"Alto Valor, Baixo Engajamento"
+507,Sr. Henrique Costa,39,Masculino,PR,3708.07,Ambos,22,204.1,30,4,0,5,0,2,0.32658795125240253,-2.035397312455927,Novatos em Potencial
+508,Pedro Lucas da Rocha,49,Masculino,MG,7323.87,Serviço,36,207.8,51,25,0,4,0,2,1.7885445107286417,0.11124519124305997,Novatos em Potencial
+509,Igor Sales,51,Feminino,BA,5646.16,Produto,4,269.72,5,2,2,3,0,3,-1.705311238211871,-0.745099809109362,"Alto Valor, Baixo Engajamento"
+510,Melissa Moura,39,Feminino,SP,5634.94,Produto,9,296.17,24,17,1,5,0,0,-0.6267776955023894,-0.507494801945693,Clientes Premium
+511,Srta. Esther da Rocha,25,Masculino,PE,4877.91,Serviço,22,211.7,43,30,1,1,0,1,0.8654360625390352,1.3545273084061995,Clientes em Risco
+512,Sr. Davi Novais,68,Feminino,BA,3053.11,Produto,6,299.35,8,0,1,5,0,3,-1.357173368925435,-1.8270510232521122,"Alto Valor, Baixo Engajamento"
+513,Elisa Almeida,50,Masculino,DF,7618.95,Serviço,32,231.82,52,9,1,5,0,2,1.5668732060917903,-1.1231375456467123,Novatos em Potencial
+514,João Felipe da Paz,23,Masculino,RS,1338.46,Ambos,2,324.08,7,20,1,1,0,0,-1.4711299997724177,0.9583361541613461,Clientes Premium
+515,Maya Câmara,61,Feminino,MG,7376.29,Produto,26,364.41,28,20,0,5,1,2,0.3479641955714369,0.2891469080523473,Novatos em Potencial
+516,Oliver da Mota,19,Masculino,DF,5135.71,Produto,22,402.33,30,2,0,1,0,1,0.26920544048573075,0.7347098458518658,Clientes em Risco
+517,Maria Laura Freitas,22,Feminino,BA,6965.15,Ambos,14,378.76,37,12,0,3,0,3,0.08508271507490678,0.6010770084708508,"Alto Valor, Baixo Engajamento"
+518,Bianca Pinto,19,Masculino,SP,4330.45,Produto,21,251.56,25,20,0,4,1,0,0.09469101667085654,-0.2982658748815208,Clientes Premium
+519,Hellena Vasconcelos,62,Masculino,RJ,5595.96,Produto,4,391.31,55,9,0,4,0,2,0.3554647000653379,-0.13177958759957592,Novatos em Potencial
+520,Davi Miguel Sousa,36,Masculino,PE,9125.05,Produto,28,171.9,49,15,0,2,1,1,1.172016674587327,0.3104472613339398,Clientes em Risco
+521,Mariana da Rocha,68,Masculino,BA,5383.04,Produto,34,328.95,52,9,0,4,0,2,1.7843279769183564,-0.4417330734118379,Novatos em Potencial
+522,Luiz Fernando Castro,18,Masculino,DF,4840.72,Produto,35,354.28,36,0,2,4,0,2,1.1913810479710498,-0.8938731961755887,Novatos em Potencial
+523,Larissa Rodrigues,23,Feminino,DF,2621.98,Ambos,6,269.37,20,6,0,3,0,3,-0.8429234510999962,-0.881471456027623,"Alto Valor, Baixo Engajamento"
+524,Maria Luiza Ribeiro,27,Feminino,SP,7374.77,Produto,2,610.75,11,6,2,2,0,3,-1.5948870543315643,1.9909998347072222,"Alto Valor, Baixo Engajamento"
+525,Nina Nunes,66,Masculino,RS,3389.26,Serviço,35,371.57,60,9,2,4,0,2,2.2576707186380838,-0.4544438566795165,Novatos em Potencial
+526,Heloisa Machado,64,Feminino,PR,2986.91,Ambos,31,436.79,38,4,0,4,0,2,1.1745629899565517,-0.42161327683727,Novatos em Potencial
+527,Isabella Monteiro,57,Feminino,MG,4669.2,Produto,1,456.72,5,10,0,4,0,3,-1.7651084233330845,0.2568286307119291,"Alto Valor, Baixo Engajamento"
+528,Melina Melo,54,Feminino,RS,7593.99,Ambos,23,297.26,37,5,0,1,1,1,0.4844795879873685,0.6214485046455672,Clientes em Risco
+529,Nicole Sousa,63,Feminino,CE,6091.63,Serviço,41,199.21,48,4,1,4,0,2,1.9198123873666493,-1.3653132291718566,Novatos em Potencial
+530,Joana Dias,47,Feminino,RJ,3869.43,Ambos,11,250.71,29,17,0,2,0,1,-0.25181428687928664,0.24386605041040504,Clientes em Risco
+531,Bernardo Dias,35,Masculino,RJ,8230.75,Produto,52,261.32,55,8,1,4,0,2,2.6897827941167773,-0.5095482550971929,Novatos em Potencial
+532,Ana Júlia da Mota,19,Feminino,DF,6996.62,Serviço,32,248.21,55,24,0,4,0,2,1.7611586698892052,0.2205087784757602,Novatos em Potencial
+533,João Vitor Peixoto,34,Masculino,PR,5075.9,Serviço,34,316.27,35,11,0,3,0,2,1.1137684888917552,0.008270272054491065,Novatos em Potencial
+534,Apollo Moreira,26,Feminino,MG,2641.92,Serviço,16,442.52,30,11,1,4,0,2,0.114893808604822,-0.014231652514282291,Novatos em Potencial
+535,Thiago Moura,66,Masculino,MG,5566.58,Serviço,8,268.93,33,18,0,5,0,0,-0.311984799803487,-0.6212941880761156,Clientes Premium
+536,Pedro Brito,65,Masculino,PR,3981.61,Ambos,30,393.3,47,7,1,4,0,2,1.4435460436453749,-0.3751826253710114,Novatos em Potencial
+537,Aylla Vasconcelos,41,Feminino,SP,1200.0,Serviço,1,315.1,15,12,0,3,0,0,-1.213034221418506,-0.4286998475234713,Clientes Premium
+538,Sr. Dante Nunes,20,Feminino,MG,6027.82,Produto,20,321.55,42,26,2,4,0,2,0.677082390479615,0.6332791025913601,Novatos em Potencial
+539,João Felipe Fogaça,42,Masculino,RS,2575.82,Produto,24,400.11,42,16,2,3,0,1,1.022719368789255,0.4531887842336566,Clientes em Risco
+540,Eduarda Castro,51,Feminino,SP,4734.73,Ambos,11,183.06,26,15,0,4,0,0,-0.4230841206342092,-0.9586639352645052,Clientes Premium
+541,Thomas Marques,50,Masculino,MG,5281.66,Serviço,8,432.07,57,2,0,4,0,2,0.6417600988166963,-0.37111983674555815,Novatos em Potencial
+542,Kevin Santos,29,Masculino,RJ,3929.34,Serviço,5,289.14,11,21,2,3,0,0,-1.2724952881919958,0.322539754196194,Clientes Premium
+543,Pietro Gonçalves,48,Masculino,SP,4129.56,Serviço,30,390.07,44,20,2,5,1,2,1.3557821160860781,0.025646597522650236,Novatos em Potencial
+544,João Lucas Carvalho,26,Masculino,PR,3129.12,Produto,37,430.32,37,28,1,4,1,2,1.5071758257018213,1.0536263746308503,Novatos em Potencial
+545,Olivia Moreira,29,Masculino,PR,5734.57,Serviço,25,520.58,34,28,0,4,0,0,0.656276295608312,1.8471650913655817,Clientes Premium
+546,Sabrina Teixeira,23,Feminino,PE,1229.6,Serviço,7,264.45,14,27,0,3,0,0,-0.9072533975429203,0.23274778121739234,Clientes Premium
+547,Lucas Rocha,56,Masculino,BA,2892.64,Ambos,9,171.86,10,19,1,4,0,0,-1.07622480311481,-0.971664480569524,Clientes Premium
+548,Calebe Moreira,47,Feminino,DF,6900.62,Produto,37,505.27,39,12,1,2,1,1,1.3690478697451955,1.7406161997173974,Clientes em Risco
+549,Brenda Almeida,50,Masculino,SP,4791.1,Ambos,26,279.74,44,5,1,3,0,2,1.0556654137357404,-0.6280154256900382,Novatos em Potencial
+550,Bento Santos,68,Masculino,DF,5140.1,Ambos,32,439.43,35,15,0,4,0,2,1.0371221621689697,0.5355946916418818,Novatos em Potencial
+551,Emanuel Câmara,70,Feminino,RS,5695.06,Serviço,1,439.62,1,27,0,1,0,0,-1.933700886793283,2.5584715625697174,Clientes Premium
+552,Sr. Ravi Lucca Casa Grande,69,Masculino,RS,6950.4,Produto,24,360.13,31,13,1,2,0,1,0.3575753901888658,0.9923070933852137,Clientes em Risco
+553,Manuela Vasconcelos,23,Feminino,SP,1200.0,Ambos,19,381.35,19,8,0,2,0,1,-0.12859343328005476,0.12505553763784844,Clientes em Risco
+554,Dr. Danilo Novaes,54,Feminino,PE,7948.11,Serviço,7,257.76,34,20,0,3,0,3,-0.43471867793027136,0.5331652684596659,"Alto Valor, Baixo Engajamento"
+555,Sr. Pedro Miguel Dias,41,Feminino,BA,4725.1,Serviço,2,414.34,7,8,1,5,0,3,-1.6441422348243153,-0.5022973358441403,"Alto Valor, Baixo Engajamento"
+556,Otávio Jesus,57,Feminino,BA,8279.93,Ambos,12,389.06,18,17,0,4,0,3,-0.8288268754723326,0.7444167964991811,"Alto Valor, Baixo Engajamento"
+557,Juan Cirino,53,Feminino,MG,3069.0,Produto,30,303.62,36,18,0,3,0,2,1.0606917479495566,0.12158178589259518,Novatos em Potencial
+558,Gabrielly Rios,60,Masculino,BA,9341.89,Serviço,3,278.89,8,3,1,3,0,3,-1.8043452578418433,-0.19822993900198638,"Alto Valor, Baixo Engajamento"
+559,Anna Liz Castro,69,Masculino,PE,5087.2,Produto,3,503.41,36,25,1,1,1,1,-0.38589282478161036,2.663425350977786,Clientes em Risco
+560,Evelyn Moura,23,Masculino,PE,3515.06,Produto,2,141.6,5,19,0,1,1,0,-1.6793973565861706,0.14814303205813062,Clientes Premium
+561,Sra. Mirella Moreira,57,Masculino,CE,4559.61,Produto,33,51.86,42,30,0,4,0,2,1.394638831679841,-0.7654962701584538,Novatos em Potencial
+562,Nicolas Carvalho,46,Feminino,DF,1990.56,Ambos,0,391.21,1,6,0,1,1,1,-1.8802086127463828,0.5500844667475859,Clientes em Risco
+563,Nicolas Rezende,62,Feminino,RJ,4590.13,Serviço,5,300.82,15,7,0,4,0,3,-1.1792926329276894,-0.8104906679227577,"Alto Valor, Baixo Engajamento"
+564,Clarice Costa,35,Feminino,RJ,4381.58,Produto,25,209.74,50,12,1,4,0,2,1.2799486303863343,-1.050494878461184,Novatos em Potencial
+565,Ravi Lucca Costa,23,Feminino,RS,1249.66,Ambos,18,313.8,36,11,1,5,0,2,0.5119011372377182,-1.305866758549809,Novatos em Potencial
+566,Davi Lucca Vargas,47,Feminino,RJ,5426.39,Serviço,25,209.76,60,5,0,3,0,2,1.612112356392576,-0.9677393859029512,Novatos em Potencial
+567,Bárbara Moreira,50,Feminino,PR,5207.09,Ambos,10,40.53,19,28,1,4,0,0,-0.7589723428289732,-0.8805486107772614,Clientes Premium
+568,Igor Machado,62,Masculino,CE,4201.78,Serviço,12,221.65,29,24,0,3,0,0,-0.19633292028169114,0.1502569839624431,Clientes Premium
+569,Enrico Aragão,55,Feminino,RS,1393.72,Serviço,1,109.9,56,2,2,3,0,2,0.37935050669294823,-2.2262086017015847,Novatos em Potencial
+570,Davi Miguel Freitas,61,Feminino,PR,6842.5,Ambos,14,234.92,45,30,2,3,0,0,0.44927384172586093,0.887230165507098,Clientes Premium
+571,Dra. Melina Fonseca,33,Feminino,BA,4033.88,Produto,2,317.62,19,2,0,4,0,3,-1.1591382202942138,-1.1044214531633125,"Alto Valor, Baixo Engajamento"
+572,Sra. Lara Guerra,40,Masculino,RS,5289.74,Serviço,14,226.23,14,30,1,4,0,0,-0.7293957693743838,0.2976015512518998,Clientes Premium
+573,Leonardo Vieira,49,Masculino,RS,3335.41,Produto,12,34.9,48,27,0,3,0,0,0.5974091097405054,-0.8336960609814239,Clientes Premium
+574,Aylla Pastor,57,Masculino,CE,4577.74,Ambos,4,181.54,23,29,1,1,0,0,-0.864077969538103,1.0882802460509506,Clientes Premium
+575,Rael Barbosa,57,Feminino,PR,4550.29,Ambos,0,222.0,1,19,2,3,0,0,-1.9778306985110048,-0.09220435166953331,Clientes Premium
+576,Thales Oliveira,49,Feminino,SP,7352.35,Ambos,12,91.92,12,12,0,3,0,3,-1.0821018125897475,-0.9060719410025665,"Alto Valor, Baixo Engajamento"
+577,Benjamin Silva,51,Masculino,MG,6416.43,Serviço,27,327.99,52,16,1,3,0,2,1.393035623548142,0.5012820294254844,Novatos em Potencial
+578,Emanuelly Gonçalves,47,Masculino,RJ,3775.13,Serviço,8,343.38,8,0,1,4,0,3,-1.2846043010638486,-1.0869802431738256,"Alto Valor, Baixo Engajamento"
+579,Julia Sales,38,Masculino,BA,2712.55,Ambos,19,313.03,24,17,0,3,0,0,0.02315689017389146,0.06818511113799047,Clientes Premium
+580,Dra. Daniela Andrade,41,Feminino,PE,1605.81,Serviço,7,222.53,12,22,0,4,0,0,-1.0232773491610783,-0.6661931587485691,Clientes Premium
+581,Ana Beatriz Silva,35,Masculino,RS,3902.55,Serviço,5,311.14,29,26,0,1,1,1,-0.5311884609195359,1.5330974600883553,Clientes em Risco
+582,Alexandre Siqueira,53,Masculino,SP,1200.0,Produto,27,387.92,28,25,1,5,0,0,0.7059586161410419,-0.007122207742664214,Clientes Premium
+583,Ana Lívia Leão,29,Feminino,SP,5941.96,Produto,15,401.47,27,25,0,3,0,0,-0.17830474825273873,1.4251896760893932,Clientes Premium
+584,Léo Silva,43,Feminino,BA,2612.73,Produto,2,410.3,7,15,0,5,1,0,-1.5252321005790708,-0.344735409689842,Clientes Premium
+585,Sr. Alexandre da Mata,34,Feminino,RS,4468.46,Serviço,11,472.01,24,11,2,1,1,1,-0.47431915417102505,1.5858124785541974,Clientes em Risco
+586,Renan da Conceição,54,Feminino,CE,4731.38,Produto,34,397.3,37,11,0,3,0,2,1.2207896585973206,0.4130639114239398,Novatos em Potencial
+587,Maitê Castro,23,Masculino,BA,1328.68,Produto,19,440.55,25,27,0,2,0,1,0.1713249950544441,1.6315444004503366,Clientes em Risco
+588,Dr. Ravi Fonseca,44,Masculino,BA,7065.09,Serviço,39,435.2,41,2,0,2,1,1,1.5070829625333937,0.7551971784188929,Clientes em Risco
+589,Maria Liz Garcia,59,Feminino,BA,4493.49,Serviço,8,154.26,19,8,0,5,0,3,-0.8713295996776893,-1.9795774252504752,"Alto Valor, Baixo Engajamento"
+590,João Miguel Siqueira,65,Feminino,RS,4383.93,Ambos,33,393.56,38,5,0,2,1,1,1.2052802922738104,0.3831768112610275,Clientes em Risco
+591,Dr. Enrico Garcia,60,Feminino,CE,5099.16,Produto,2,280.64,17,3,1,1,0,3,-1.2985053331322747,0.10100283035115999,"Alto Valor, Baixo Engajamento"
+592,José Almeida,53,Masculino,PE,4698.79,Ambos,0,214.35,4,3,0,3,1,3,-1.9117739757694885,-1.109229138811856,"Alto Valor, Baixo Engajamento"
+593,Sofia Azevedo,37,Feminino,MG,6929.7,Ambos,7,493.87,15,20,0,2,0,1,-1.127710339098443,2.157054658655879,Clientes em Risco
+594,Letícia Moraes,19,Feminino,DF,8782.78,Ambos,2,244.55,3,27,0,3,0,0,-1.9652225304422437,1.0321560821907836,Clientes Premium
+595,Thiago Fogaça,35,Masculino,PE,4052.32,Produto,28,298.27,36,18,0,4,0,2,0.9132361509180638,-0.20058721333862503,Novatos em Potencial
+596,Gustavo Sá,51,Feminino,CE,4795.74,Serviço,40,349.11,41,15,0,4,0,2,1.69715084701511,-0.0007838056435156539,Novatos em Potencial
+597,Carolina Melo,37,Feminino,MG,4823.27,Produto,13,255.6,24,0,0,1,0,1,-0.44719990136386634,-0.2465161931710046,Clientes em Risco
+598,Benício Pinto,40,Feminino,PE,1392.44,Serviço,15,257.4,19,30,1,4,0,0,-0.2897189652096504,-0.0008981351722554244,Clientes Premium
+599,Alexia Aragão,69,Masculino,DF,4813.13,Produto,19,327.48,19,17,1,3,0,0,-0.2752485416726231,0.4070080978389739,Clientes Premium
+600,Valentina Barbosa,45,Feminino,PE,1920.67,Produto,7,121.65,26,26,0,3,0,0,-0.4754725844897657,-0.5573421994147726,Clientes Premium
+601,Srta. Lívia Brito,58,Feminino,PR,2612.15,Ambos,16,317.15,16,9,0,4,0,3,-0.4709230311248408,-0.8135618092609259,"Alto Valor, Baixo Engajamento"
+602,Emanuelly Rodrigues,44,Masculino,CE,8145.63,Produto,13,330.05,13,9,1,2,0,3,-1.0087027801778776,0.7297067234509406,"Alto Valor, Baixo Engajamento"
+603,Bryan Nunes,35,Feminino,SP,2873.2,Serviço,39,195.19,45,0,0,2,0,2,1.8287903226351168,-1.2052455456913063,Novatos em Potencial
+604,Sarah Azevedo,29,Feminino,SP,4663.71,Produto,4,243.35,7,23,0,1,1,0,-1.5245772065899188,1.096599922233791,Clientes Premium
+605,Dr. Marcelo Costela,49,Feminino,BA,5122.23,Serviço,5,359.27,14,11,0,3,0,3,-1.2278299988440249,0.23158002008836595,"Alto Valor, Baixo Engajamento"
+606,Milena Sales,23,Masculino,CE,2854.51,Ambos,48,328.71,54,8,0,4,1,2,2.7026978407692597,-0.7834905506205169,Novatos em Potencial
+607,Luigi Rios,29,Feminino,RS,4589.43,Produto,13,580.1,13,26,0,1,0,1,-0.7634361150279511,3.1466304479547023,Clientes em Risco
+608,Enrico Freitas,42,Masculino,DF,7201.92,Produto,28,535.0,50,6,1,3,0,2,1.3233953038531836,1.1303289907061507,Novatos em Potencial
+609,Felipe Castro,60,Feminino,SP,4069.38,Produto,7,287.29,14,29,0,3,0,0,-1.031235105351041,0.8216703128126971,Clientes Premium
+610,Felipe Andrade,65,Feminino,SP,1950.96,Serviço,35,328.91,60,15,3,4,0,2,2.3373013105541363,-0.49222196903485094,Novatos em Potencial
+611,Raquel Fonseca,60,Feminino,RJ,4276.47,Produto,1,333.61,14,10,1,1,0,1,-1.4055757054299518,0.7314201454618464,Clientes em Risco
+612,Dr. Cauê Mendes,43,Masculino,MG,4750.76,Produto,15,159.29,51,18,1,4,0,2,0.7985576152171108,-0.9361214104084195,Novatos em Potencial
+613,Dra. Brenda Gomes,41,Feminino,SP,5510.55,Produto,5,425.51,50,2,0,4,0,3,0.19262224314425755,-0.37451405926319314,"Alto Valor, Baixo Engajamento"
+614,Léo Novais,21,Masculino,DF,3188.54,Produto,20,221.55,23,4,1,3,0,3,-0.03771133308944569,-1.18092911867562,"Alto Valor, Baixo Engajamento"
+615,Alice Vargas,68,Feminino,BA,1200.0,Ambos,22,676.53,42,23,0,2,0,1,1.0366277609573995,2.655526927694573,Clientes em Risco
+616,Emanuel Oliveira,64,Feminino,CE,7387.91,Ambos,4,259.57,9,22,1,3,0,0,-1.5672983750246339,0.6344375304389587,Clientes Premium
+617,Theo Gomes,30,Feminino,DF,7331.61,Serviço,11,275.47,37,23,1,3,0,0,-0.06723105411188669,0.7455840929267838,Clientes Premium
+618,Manuella Camargo,28,Feminino,SP,4729.49,Produto,4,420.43,5,26,0,3,0,0,-1.5727712205252617,1.462123280361232,Clientes Premium
+619,Luara Lopes,67,Masculino,RS,6311.8,Produto,32,323.37,41,28,0,1,0,1,1.2415951715438576,2.0431408420520425,Clientes em Risco
+620,Murilo Rezende,38,Feminino,DF,8914.13,Serviço,4,271.03,47,6,1,4,0,3,-0.14673639237120165,-0.5747548607885398,"Alto Valor, Baixo Engajamento"
+621,Hadassa Freitas,27,Feminino,SP,4180.08,Produto,18,210.35,40,3,0,1,0,1,0.49053370100108595,-0.4053242489491763,Clientes em Risco
+622,Matheus Viana,26,Feminino,PE,3746.57,Produto,0,403.49,12,6,0,1,1,1,-1.51630959465953,0.8099811281374876,Clientes em Risco
+623,Joana Jesus,60,Masculino,RS,3928.77,Produto,16,402.79,32,19,0,4,1,0,0.1542255858438831,0.40965465288610625,Clientes Premium
+624,Eloah Pereira,59,Masculino,PE,6450.19,Serviço,5,361.94,32,11,1,4,0,3,-0.5599231668339574,-0.03025841759133216,"Alto Valor, Baixo Engajamento"
+625,Kevin da Costa,70,Feminino,PR,6600.82,Produto,22,390.51,24,16,1,1,1,1,-0.0018250586703928591,1.7177732187499997,Clientes em Risco
+626,Antônio Almeida,22,Masculino,RS,5702.9,Produto,8,428.42,14,17,0,3,0,3,-1.0738322418580986,1.0600995489686746,"Alto Valor, Baixo Engajamento"
+627,Pedro Henrique Barros,54,Feminino,BA,3359.52,Serviço,11,297.12,41,23,0,2,0,1,0.28038456259516353,0.7912370596093854,Clientes em Risco
+628,Pietro das Neves,61,Masculino,DF,3649.64,Serviço,22,282.66,30,5,0,4,0,2,0.33970523344619363,-1.139102513966907,Novatos em Potencial
+629,Thomas Fogaça,39,Feminino,BA,5213.57,Serviço,10,283.83,43,29,1,3,0,0,0.24136638931576493,0.8979374149188801,Clientes Premium
+630,Amanda Melo,41,Feminino,PE,5060.38,Serviço,24,373.03,27,19,0,3,0,1,0.30600289446338336,0.8089137345258207,Clientes em Risco
+631,Thales Moraes,67,Feminino,SP,5002.41,Produto,16,201.95,36,14,1,5,1,2,0.22820202150725447,-1.2965799826476172,Novatos em Potencial
+632,Larissa Ribeiro,36,Feminino,BA,1784.88,Serviço,1,208.47,39,0,0,3,0,3,-0.3194173280657644,-1.729228321013003,"Alto Valor, Baixo Engajamento"
+633,Nicole Jesus,19,Masculino,MG,6745.84,Ambos,44,224.41,50,3,1,1,1,1,2.1179169618803475,0.01144757211131764,Clientes em Risco
+634,André Cunha,34,Feminino,RS,4443.22,Produto,18,376.0,24,25,0,3,0,0,-0.07784985059035074,1.1156228556139207,Clientes Premium
+635,Srta. Marcela Cirino,64,Feminino,RJ,6270.84,Produto,5,151.29,5,5,1,3,0,3,-1.6888268172936687,-1.1399480059828513,"Alto Valor, Baixo Engajamento"
+636,Ana Carolina Nunes,56,Feminino,BA,7721.32,Produto,19,142.94,42,2,0,4,0,3,0.4531539266715937,-1.6377589396920427,"Alto Valor, Baixo Engajamento"
+637,João Pedro Sampaio,40,Masculino,SP,5015.93,Serviço,52,420.45,57,27,0,4,0,2,2.996834404006433,1.1582740758231664,Novatos em Potencial
+638,Caleb Montenegro,58,Feminino,MG,8601.02,Produto,40,448.67,50,16,0,1,0,1,1.8911903949458766,2.2707052055786305,Clientes em Risco
+639,Lunna Peixoto,38,Feminino,RJ,2789.29,Produto,14,393.86,33,14,1,4,0,0,0.12881559595117656,-0.08978224671512687,Clientes Premium
+640,Arthur Gabriel Jesus,32,Masculino,SP,5473.16,Ambos,9,464.37,28,4,0,3,0,3,-0.479750719832115,0.40891213912542607,"Alto Valor, Baixo Engajamento"
+641,Bento Mendes,53,Feminino,CE,5784.83,Produto,8,238.92,26,24,0,4,0,0,-0.5934060344221969,0.02611669830863797,Clientes Premium
+642,Cecilia Almeida,53,Masculino,RS,1333.32,Produto,7,296.63,13,17,0,4,0,0,-0.9756608413873068,-0.5982009067849754,Clientes Premium
+643,Antônio Almeida,33,Feminino,PE,3951.82,Ambos,2,318.28,5,21,1,5,1,0,-1.6623903615144637,-0.3214397943024692,Clientes Premium
+644,Bruna Gonçalves,45,Feminino,MG,5000.41,Produto,11,298.88,24,19,0,4,0,0,-0.49004721967608894,-0.03489676706318659,Clientes Premium
+645,Heitor da Mota,40,Feminino,BA,6910.19,Serviço,28,176.06,40,1,0,5,0,2,0.8781769970274712,-1.998705414776656,Novatos em Potencial
+646,Brayan Vasconcelos,27,Masculino,MG,6650.2,Ambos,46,195.94,49,23,0,1,0,1,2.2407006713295163,1.0819825349490906,Clientes em Risco
+647,Fernanda Gomes,70,Masculino,RS,4454.05,Produto,0,206.7,19,9,0,3,1,3,-1.2775010831738554,-0.8346888645780814,"Alto Valor, Baixo Engajamento"
+648,Kaique Barbosa,65,Feminino,MG,4047.56,Produto,13,404.93,35,17,2,3,0,1,0.10708672822214582,0.7079020702228777,Clientes em Risco
+649,Sra. Lunna Azevedo,62,Masculino,PR,4547.48,Produto,42,390.73,45,8,1,2,1,1,1.9533450991861114,0.5777685117891627,Clientes em Risco
+650,Isabelly da Cunha,21,Masculino,BA,4868.9,Ambos,20,537.8,30,12,0,4,0,2,0.2320264404955718,0.8488622569165302,Novatos em Potencial
+651,Davi Lucas Gonçalves,24,Feminino,RJ,7845.5,Ambos,1,411.15,2,7,0,5,0,3,-2.0469679084599557,-0.2031426414101867,"Alto Valor, Baixo Engajamento"
+652,Anthony Araújo,38,Feminino,RS,6044.49,Produto,5,202.03,32,17,2,5,1,0,-0.5408180076277483,-1.0008079028555454,Clientes Premium
+653,Luísa Lima,51,Masculino,PR,5177.32,Serviço,10,323.68,20,0,0,3,0,3,-0.7669268752875669,-0.6383150424696785,"Alto Valor, Baixo Engajamento"
+654,Beatriz Casa Grande,33,Feminino,SP,5406.61,Ambos,17,265.84,33,28,1,3,0,0,0.18427939367605065,0.7887815311221736,Clientes Premium
+655,Leandro Silveira,53,Feminino,DF,5815.85,Produto,7,285.0,18,21,0,2,0,0,-0.9775366503346594,0.9233028663655309,Clientes Premium
+656,Pietro Nogueira,61,Feminino,PR,2112.29,Serviço,40,30.0,40,7,0,4,0,2,1.718737511816885,-2.5819082909311795,Novatos em Potencial
+657,Igor Mendonça,56,Masculino,RS,2190.87,Serviço,14,130.02,22,20,0,2,0,0,-0.3075890793480218,-0.4233380148471951,Clientes Premium
+658,Maria Eduarda Martins,26,Feminino,MG,4093.5,Ambos,16,474.3,20,29,2,5,0,0,-0.297498815720518,1.0560944419974139,Clientes Premium
+659,Clara Barbosa,38,Masculino,SP,4258.82,Serviço,4,552.46,5,5,1,3,0,3,-1.5963292012697725,0.8416581710012881,"Alto Valor, Baixo Engajamento"
+660,Daniel da Costa,66,Feminino,PR,6941.88,Ambos,13,492.27,21,14,0,4,0,3,-0.5894587758017446,0.9686913676814016,"Alto Valor, Baixo Engajamento"
+661,Breno da Luz,27,Masculino,PR,5752.82,Produto,12,191.75,50,0,1,4,0,2,0.5074054188663789,-1.7515869168827933,Novatos em Potencial
+662,João Lucas Borges,56,Masculino,CE,2621.18,Serviço,14,497.12,37,21,1,1,1,1,0.32474438051752297,2.106420026690337,Clientes em Risco
+663,Gael Henrique Santos,26,Feminino,MG,4342.76,Ambos,30,372.38,33,5,0,5,0,2,0.8548554157503121,-0.9550303807522371,Novatos em Potencial
+664,Enzo Gabriel Pastor,28,Masculino,RS,1512.3,Produto,3,314.28,13,29,1,3,0,0,-1.155134923212056,0.6602271159940041,Clientes Premium
+665,Breno Campos,66,Feminino,CE,1949.36,Produto,1,163.94,14,27,0,4,0,0,-1.260648191804617,-0.6558244713766606,Clientes Premium
+666,Sr. João Vargas,33,Feminino,DF,4542.8,Ambos,12,180.68,28,23,0,3,0,0,-0.26074233322560747,-0.09624210068267527,Clientes Premium
+667,Laura Pires,51,Feminino,RS,6557.96,Serviço,2,30.0,42,14,0,5,1,3,-0.34588880914493286,-2.0999499281764047,"Alto Valor, Baixo Engajamento"
+668,Anthony Gabriel Melo,51,Masculino,SP,4961.48,Ambos,25,268.45,35,17,1,3,0,2,0.6665027526941387,0.08299723671352302,Novatos em Potencial
+669,Ana Beatriz Moreira,30,Feminino,PE,2638.37,Produto,14,433.72,19,24,1,5,0,0,-0.39291159349940474,0.34678336247979274,Clientes Premium
+670,Manuela Ramos,36,Masculino,DF,5876.95,Serviço,3,302.35,40,14,0,5,0,3,-0.3092918642865703,-0.666551025032185,"Alto Valor, Baixo Engajamento"
+671,Vinicius Albuquerque,25,Masculino,MG,4524.61,Serviço,12,323.07,12,12,0,3,0,3,-0.9210891555536216,0.03768585946282787,"Alto Valor, Baixo Engajamento"
+672,Isadora Cavalcanti,47,Masculino,MG,5203.71,Ambos,12,485.88,38,8,0,3,0,1,0.10617617948624233,0.7323743658903844,Clientes em Risco
+673,Liz Pires,63,Feminino,PE,6977.34,Produto,7,137.83,47,20,2,3,0,0,0.12095204737568002,-0.268370512629641,Clientes Premium
+674,Fernando Ribeiro,64,Masculino,MG,5346.68,Serviço,32,329.27,51,12,1,4,1,2,1.651330940016722,-0.2612802454754952,Novatos em Potencial
+675,Sr. Benjamim Rocha,39,Masculino,PR,1798.19,Produto,9,200.58,37,5,0,4,1,3,0.028079083957257573,-1.850657282013766,"Alto Valor, Baixo Engajamento"
+676,Bianca da Mota,37,Masculino,SP,3513.73,Produto,28,204.36,47,3,0,5,0,2,1.3292046300844558,-2.13500389118122,Novatos em Potencial
+677,Milena Fogaça,57,Feminino,CE,4648.29,Produto,16,499.38,49,27,0,3,0,1,0.8407786806590021,1.9033681750429374,Clientes em Risco
+678,Liz da Rocha,33,Feminino,SP,6074.18,Serviço,9,306.2,14,13,0,3,0,3,-1.0666525745510997,0.18196879959036488,"Alto Valor, Baixo Engajamento"
+679,Sra. Ana Luiza Pereira,33,Masculino,BA,2479.67,Produto,35,226.04,57,1,0,2,1,2,2.1324520466026753,-1.0463309899502402,Novatos em Potencial
+680,Anthony Gabriel Silva,20,Feminino,PE,5677.63,Serviço,0,180.7,10,10,1,5,1,3,-1.693886405761485,-1.5687820894898783,"Alto Valor, Baixo Engajamento"
+681,Manuela Duarte,29,Masculino,SP,5651.41,Produto,10,255.65,11,30,1,3,0,0,-1.072599298214731,0.9072699658817849,Clientes Premium
+682,Diogo Vargas,23,Feminino,DF,2659.96,Produto,19,401.83,50,26,0,1,0,1,1.1090528979358496,1.879908190719965,Clientes em Risco
+683,Augusto Vasconcelos,22,Feminino,RS,4531.96,Produto,15,355.96,19,10,0,4,0,3,-0.48324826699259593,-0.3143353113521031,"Alto Valor, Baixo Engajamento"
+684,Marcela Farias,57,Masculino,PR,5660.13,Serviço,0,374.39,4,15,0,4,0,3,-1.8989301753140084,0.2270794338832223,"Alto Valor, Baixo Engajamento"
+685,Yuri Campos,45,Feminino,DF,3329.71,Produto,20,550.74,39,29,0,2,0,1,0.7147030722430646,2.5838528324114782,Clientes em Risco
+686,Gabrielly Rocha,64,Masculino,RS,5075.72,Serviço,31,370.15,41,28,0,4,0,2,1.2607168742103765,0.934719211151496,Novatos em Potencial
+687,Srta. Juliana Pinto,18,Masculino,PE,9047.21,Serviço,0,300.82,8,23,0,5,0,3,-1.8788132864385787,0.3046996893088298,"Alto Valor, Baixo Engajamento"
+688,Dr. Luiz Henrique Fernandes,44,Masculino,PR,6683.06,Produto,2,225.88,3,0,0,4,0,3,-1.9467892752222338,-1.394431928765565,"Alto Valor, Baixo Engajamento"
+689,Larissa Porto,68,Feminino,BA,1200.0,Produto,2,484.01,5,24,0,1,0,0,-1.5136996718144091,2.0783659770156167,Clientes Premium
+690,Liam Pacheco,43,Masculino,BA,4598.5,Serviço,36,152.14,47,26,0,2,1,1,1.7455914535054784,0.35788402423852134,Clientes em Risco
+691,Ravy da Luz,61,Masculino,DF,4141.51,Ambos,30,370.63,31,15,1,2,0,1,0.8056683365957201,0.8499976036097031,Clientes em Risco
+692,Emanuel Sousa,39,Masculino,BA,1803.75,Ambos,25,355.46,30,26,0,4,0,0,0.6518888268331614,0.3458638933338162,Clientes Premium
+693,Emanuel Albuquerque,53,Feminino,RJ,3566.72,Produto,1,318.85,35,25,2,5,0,0,-0.4719708042523817,-0.16757028727368764,Clientes Premium
+694,Ana Sophia Moreira,27,Feminino,PE,5851.77,Produto,0,302.3,18,20,1,4,1,0,-1.336452034396251,0.13641198208552394,Clientes Premium
+695,Stella Mendes,29,Feminino,PR,8608.7,Ambos,7,277.09,39,22,0,5,0,3,-0.25051908884298657,0.022303130438935212,"Alto Valor, Baixo Engajamento"
+696,Elisa Moreira,44,Feminino,DF,7784.94,Ambos,3,441.03,6,14,0,5,0,3,-1.7549222028509073,0.38459024193208485,"Alto Valor, Baixo Engajamento"
+697,Dra. Brenda Fonseca,37,Masculino,DF,7968.23,Produto,1,342.67,12,24,0,3,1,0,-1.6117268281388675,1.2772719146360043,Clientes Premium
+698,Sr. Calebe Moreira,19,Masculino,DF,6236.98,Ambos,30,275.1,52,6,0,3,0,2,1.5200778384776807,-0.42485638652827246,Novatos em Potencial
+699,Sr. Gael Henrique Abreu,37,Masculino,MG,2499.18,Produto,20,372.54,50,26,0,5,0,2,1.1739841730464209,0.07581274702351808,Novatos em Potencial
+700,Rafaela Porto,31,Masculino,RJ,5939.14,Serviço,2,385.69,47,0,0,3,1,3,-0.11665802850781404,-0.2622033617537892,"Alto Valor, Baixo Engajamento"
+701,Sr. Oliver da Cruz,39,Feminino,RS,4126.56,Produto,28,292.06,30,0,0,4,0,2,0.6133971955225569,-1.3274304024781285,Novatos em Potencial
+702,Mariane Vargas,38,Feminino,MG,3407.66,Produto,3,340.68,13,24,0,3,0,0,-1.255204386157366,0.7241429928030343,Clientes Premium
+703,Vitor Hugo Gonçalves,28,Masculino,PR,6488.38,Produto,3,278.25,18,6,1,4,0,3,-1.2557718268266909,-0.7793658580222479,"Alto Valor, Baixo Engajamento"
+704,Vitória Cassiano,27,Masculino,DF,3701.25,Serviço,18,458.56,46,2,0,3,0,1,0.7880892749474258,0.029696816975411867,Clientes em Risco
+705,Yan Correia,46,Masculino,PE,5495.02,Produto,1,318.05,4,3,1,3,1,3,-1.8844580978487049,-0.4375510121616463,"Alto Valor, Baixo Engajamento"
+706,Dr. Luiz Henrique Cassiano,29,Feminino,RS,7383.92,Ambos,38,228.93,46,19,0,3,0,2,1.6694546031845856,0.28312970588519665,Novatos em Potencial
+707,Srta. Alexia Mendonça,63,Masculino,MG,1200.0,Ambos,42,407.11,49,29,1,4,0,2,2.340241844370892,0.7465292510983822,Novatos em Potencial
+708,Josué Gonçalves,23,Feminino,CE,5028.55,Ambos,51,185.53,53,3,0,3,0,2,2.680464158910131,-1.2129116038077574,Novatos em Potencial
+709,Stella Souza,48,Feminino,BA,5427.81,Produto,7,277.27,15,29,0,3,0,0,-1.0555773461802667,0.9266299117291894,Clientes Premium
+710,Francisco Campos,68,Feminino,CE,5211.79,Produto,56,370.13,56,0,0,1,1,1,3.060527423522989,0.46375302538570473,Clientes em Risco
+711,Arthur Novais,47,Feminino,PE,6098.46,Produto,10,616.11,55,19,1,4,0,2,0.6991397065159266,1.8026459564225683,Novatos em Potencial
+712,Sra. Yasmin Novais,70,Masculino,PE,6558.55,Produto,6,265.13,46,25,2,3,0,0,0.07917633807580192,0.6955783951927326,Clientes Premium
+713,Davi Luiz Barbosa,33,Feminino,PE,4744.9,Serviço,15,481.34,40,12,0,1,1,1,0.36973326087432135,1.7139583538621506,Clientes em Risco
+714,Sara Guerra,68,Masculino,CE,5818.06,Ambos,18,140.94,28,5,0,4,1,3,-0.0665281510198812,-1.670132069081344,"Alto Valor, Baixo Engajamento"
+715,Pietro Duarte,25,Masculino,PE,6773.77,Serviço,38,249.51,38,26,0,3,0,2,1.3979839900955384,0.7693123062929693,Novatos em Potencial
+716,Maria Cecília Novaes,22,Feminino,RJ,5022.28,Serviço,6,385.16,39,10,0,3,0,3,-0.16117728697319164,0.2630308356600524,"Alto Valor, Baixo Engajamento"
+717,Carlos Eduardo Pimenta,31,Masculino,DF,5873.48,Ambos,8,348.52,53,24,0,2,1,1,0.5023031599999201,1.41289825172448,Clientes em Risco
+718,Alice Cunha,36,Masculino,PR,7074.09,Serviço,19,388.87,25,6,1,4,0,3,-0.16097047154579291,-0.0775986401718582,"Alto Valor, Baixo Engajamento"
+719,Henry Caldeira,45,Masculino,MG,5218.94,Ambos,22,426.3,46,19,0,5,0,2,0.9744621017298648,0.276515963067875,Novatos em Potencial
+720,Rafael Lopes,36,Masculino,BA,3991.64,Ambos,2,290.22,4,0,0,4,0,3,-1.772554391028987,-1.3606046834748613,"Alto Valor, Baixo Engajamento"
+721,Ana Albuquerque,25,Masculino,BA,6380.47,Ambos,18,30.0,56,13,0,4,0,2,1.0482943663824764,-1.7692879517612001,Novatos em Potencial
+722,Dr. Luan Casa Grande,63,Masculino,DF,2825.51,Produto,12,169.7,25,21,0,2,1,0,-0.31133039497631276,-0.07453160006001085,Clientes Premium
+723,Henrique Carvalho,42,Masculino,MG,7434.75,Ambos,23,398.47,54,9,1,5,0,2,1.2127109757410681,-0.24152165446723786,Novatos em Potencial
+724,Ágatha Pires,18,Feminino,RJ,2875.41,Produto,5,156.21,5,21,1,3,0,0,-1.4822412704297125,-0.5303632111381328,Clientes Premium
+725,Sr. Davi Lucca Câmara,26,Feminino,DF,4079.47,Ambos,26,163.74,42,19,3,2,0,1,1.0326334944042597,-0.08249476737913435,Clientes em Risco
+726,Luna Andrade,70,Masculino,RS,7919.46,Produto,12,93.59,29,13,1,4,0,3,-0.4162061699239991,-1.2009191151679002,"Alto Valor, Baixo Engajamento"
+727,Matteo Barbosa,63,Feminino,BA,8604.33,Serviço,17,345.97,33,1,0,5,0,3,-0.030209416058628095,-0.8641176039014266,"Alto Valor, Baixo Engajamento"
+728,Bento Mendes,25,Masculino,PR,5836.8,Ambos,30,468.19,38,4,1,4,0,2,0.9936722503438188,0.09064731727019214,Novatos em Potencial
+729,Dra. Valentina Carvalho,47,Masculino,RJ,6300.9,Serviço,5,119.63,34,7,0,3,0,3,-0.5165488279108236,-1.2351301409621291,"Alto Valor, Baixo Engajamento"
+730,Leonardo Moraes,61,Feminino,SP,6940.79,Ambos,34,396.4,41,19,0,1,1,1,1.2979147864518055,1.9712658828564174,Clientes em Risco
+731,Agatha Farias,48,Feminino,PR,8991.33,Ambos,16,673.19,30,13,0,3,0,3,-0.1495778527873768,2.551575377272586,"Alto Valor, Baixo Engajamento"
+732,Gabrielly Souza,36,Feminino,CE,7163.88,Serviço,0,419.46,11,23,0,4,1,0,-1.6571361772628486,1.138819455371069,Clientes Premium
+733,Dom Ribeiro,55,Feminino,CE,5460.14,Produto,9,359.73,11,25,2,4,1,0,-1.1146718961016158,0.7447528575783844,Clientes Premium
+734,Ágatha Câmara,23,Feminino,PR,3928.08,Produto,8,364.8,9,8,0,2,1,3,-1.2297833724455183,0.35436050809458397,"Alto Valor, Baixo Engajamento"
+735,Eduardo da Cunha,18,Masculino,PR,5879.0,Serviço,7,393.47,48,21,1,3,0,1,0.24754139967045338,1.0776167866732589,Clientes em Risco
+736,Maria Liz Montenegro,68,Masculino,MG,4988.81,Serviço,15,380.25,45,10,0,5,0,2,0.551308205200547,-0.5731834033555766,Novatos em Potencial
+737,Olívia das Neves,49,Masculino,RS,5908.37,Ambos,26,235.83,49,21,1,3,0,2,1.2472455746845532,0.24138687990516544,Novatos em Potencial
+738,Gabriela Vieira,54,Feminino,CE,4879.42,Produto,22,354.58,47,24,0,5,1,2,1.0365580699099264,0.1454584437921558,Novatos em Potencial
+739,Mirella Fernandes,43,Masculino,PR,6780.77,Serviço,19,369.02,31,12,0,4,0,3,0.1104123286201871,0.13802338506211906,"Alto Valor, Baixo Engajamento"
+740,Isaac Monteiro,27,Feminino,SP,8638.45,Produto,27,304.79,34,12,1,4,0,2,0.5495538447032212,0.013870981360729482,Novatos em Potencial
+741,Sr. Liam Marques,24,Feminino,BA,5487.27,Serviço,34,466.41,59,19,0,5,0,2,2.1113410232840963,0.5324190877146506,Novatos em Potencial
+742,Daniel Vargas,35,Feminino,RS,4042.33,Produto,3,196.47,18,14,0,4,0,0,-1.1280091821292266,-1.030798355595243,Clientes Premium
+743,Isadora Sá,51,Masculino,RJ,5753.15,Serviço,21,397.18,22,10,1,4,0,3,-0.10439386341459828,0.0662887569198382,"Alto Valor, Baixo Engajamento"
+744,Miguel Pereira,18,Feminino,RS,7223.16,Serviço,3,532.16,27,11,2,3,0,3,-0.8824016914039969,1.4158864807454372,"Alto Valor, Baixo Engajamento"
+745,Luiz Otávio da Luz,20,Masculino,RJ,4261.45,Produto,2,317.21,2,30,0,4,0,0,-1.7739939364435164,0.6759968180698941,Clientes Premium
+746,Sr. Benjamim da Paz,23,Masculino,PR,2995.06,Produto,38,167.78,55,28,0,2,1,1,2.254827199062883,0.3675255891415039,Clientes em Risco
+747,Mathias Almeida,47,Feminino,BA,1955.28,Serviço,4,433.52,43,24,1,3,0,0,0.08799202045422731,1.018951616354033,Clientes Premium
+748,Ian Moura,34,Masculino,PR,3928.4,Produto,1,95.12,11,12,1,3,0,0,-1.5296272413186813,-1.3159551079773302,Clientes Premium
+749,Luiz Miguel da Costa,70,Feminino,CE,4688.2,Serviço,5,234.21,17,29,1,3,0,0,-1.0487628802254072,0.5927233398826538,Clientes Premium
+750,Vitor Hugo Cunha,24,Masculino,PR,7234.8,Ambos,8,473.82,10,19,0,4,0,3,-1.2931147747076979,1.2183254084192088,"Alto Valor, Baixo Engajamento"
+751,Vitor Hugo da Rosa,24,Feminino,MG,8040.68,Produto,0,240.63,3,24,0,3,0,0,-2.043078816018361,0.7329600173907885,Clientes Premium
+752,Antony Silveira,59,Feminino,PE,3072.48,Ambos,0,185.14,41,8,0,2,1,1,-0.3320397437184991,-0.8101176847410689,Clientes em Risco
+753,Manuella Andrade,54,Feminino,RJ,2343.37,Serviço,1,309.3,1,27,1,4,0,0,-1.7861871818639974,0.2178355429297851,Clientes Premium
+754,Dr. Leonardo da Costa,52,Feminino,BA,8027.2,Produto,0,226.4,15,3,1,4,0,3,-1.6190333754499193,-1.069073070070898,"Alto Valor, Baixo Engajamento"
+755,Levi Sá,39,Masculino,RJ,2783.49,Serviço,19,100.65,44,11,0,4,0,2,0.7860777443108014,-1.9091692941234826,Novatos em Potencial
+756,Luiz Miguel Freitas,47,Masculino,RS,4833.12,Produto,49,126.04,49,5,0,4,0,2,2.4256425296261694,-1.8459488375855142,Novatos em Potencial
+757,Benjamin Lima,37,Feminino,RS,6896.89,Ambos,24,145.69,45,15,1,1,0,1,0.9025241324222535,0.30432412027518885,Clientes em Risco
+758,Otto Castro,26,Masculino,PR,4833.23,Produto,1,322.28,3,15,0,3,0,3,-1.8579554906271802,0.24916372052509037,"Alto Valor, Baixo Engajamento"
+759,Srta. Ana Júlia Oliveira,49,Masculino,SP,8346.9,Ambos,28,460.86,35,1,1,3,0,3,0.639793061572303,0.5715968484842497,"Alto Valor, Baixo Engajamento"
+760,Hellena das Neves,43,Feminino,MG,6622.79,Ambos,3,162.21,8,30,1,4,0,0,-1.6096831858101188,0.09087021606148353,Clientes Premium
+761,Ana Beatriz Porto,65,Masculino,CE,2754.91,Ambos,14,189.9,38,23,0,2,0,1,0.32884691101167646,0.13525153500653742,Clientes em Risco
+762,Bruno da Luz,57,Masculino,PR,4570.18,Ambos,1,333.22,3,0,0,2,1,3,-1.8909701668241459,-0.24127163088748665,"Alto Valor, Baixo Engajamento"
+763,Renan Rodrigues,70,Masculino,RJ,7094.64,Serviço,6,440.35,51,26,0,4,0,0,0.28332111068301735,1.3783090938757105,Clientes Premium
+764,Ana Luiza Silva,25,Masculino,PE,5087.56,Produto,14,269.3,32,13,0,3,0,3,-0.039877201138819554,-0.1599212978713575,"Alto Valor, Baixo Engajamento"
+765,Bernardo Farias,38,Masculino,RJ,6144.11,Produto,8,292.54,8,24,0,1,1,1,-1.3378930713559647,1.6135233408731886,Clientes em Risco
+766,Nina Porto,25,Masculino,RS,4229.23,Ambos,4,350.45,18,22,2,3,0,0,-1.04467705535792,0.7467192098692861,Clientes Premium
+767,Sophie Vieira,55,Feminino,RJ,4952.9,Produto,1,279.08,3,24,0,2,0,0,-1.8447227606106613,0.9855814210274857,Clientes Premium
+768,Heitor Moura,18,Feminino,CE,5633.08,Ambos,0,322.76,1,13,0,4,0,3,-2.0312273396411538,-0.18092635518973849,"Alto Valor, Baixo Engajamento"
+769,Dra. Alana Melo,62,Feminino,MG,4126.47,Produto,3,107.21,9,16,1,3,0,0,-1.503177198924284,-0.9714551441319564,Clientes Premium
+770,Vitor Vieira,57,Feminino,PR,8499.17,Serviço,2,465.77,45,19,1,5,0,3,-0.24628023545412647,0.8508361957696138,"Alto Valor, Baixo Engajamento"
+771,Maria Fernanda Siqueira,40,Masculino,BA,3994.05,Serviço,0,331.62,27,3,0,5,0,3,-0.9301668384872699,-1.392606560106049,"Alto Valor, Baixo Engajamento"
+772,Catarina Ferreira,66,Masculino,MG,5718.37,Produto,32,368.15,35,8,0,1,1,1,0.97341844679741,0.9958071220615955,Clientes em Risco
+773,Ana Luiza Pires,61,Masculino,BA,3432.47,Serviço,30,217.14,55,21,0,5,1,2,1.8141935453909348,-0.9720536951539047,Novatos em Potencial
+774,João Gabriel Mendonça,36,Feminino,DF,8410.03,Produto,6,263.9,14,1,1,2,1,3,-1.373717411831283,-0.1138899341219926,"Alto Valor, Baixo Engajamento"
+775,Maria Eduarda Nascimento,29,Masculino,BA,5815.75,Serviço,0,354.3,11,2,2,5,0,3,-1.6619112517169268,-1.0854433469145635,"Alto Valor, Baixo Engajamento"
+776,Melina Novais,44,Feminino,RJ,5964.5,Serviço,11,151.48,13,7,1,4,0,3,-1.0333928816199924,-1.4597584819962195,"Alto Valor, Baixo Engajamento"
+777,João Castro,33,Feminino,CE,3473.43,Ambos,26,304.55,48,28,0,3,0,2,1.349906215773193,0.765356837774543,Novatos em Potencial
+778,Beatriz Melo,21,Feminino,RS,5307.66,Produto,27,391.98,57,5,0,3,0,2,1.6223753073083684,0.036677754837158925,Novatos em Potencial
+779,Sophie Moura,58,Masculino,MG,3428.03,Produto,8,134.27,23,1,1,4,1,3,-0.6854486238488394,-2.249895919801824,"Alto Valor, Baixo Engajamento"
+780,Matteo da Luz,25,Masculino,MG,4538.27,Serviço,29,474.39,55,24,1,3,0,2,1.7471264026983864,1.581282906697888,Novatos em Potencial
+781,Heloísa Ramos,68,Masculino,RJ,3788.28,Ambos,40,506.33,51,18,0,5,0,2,2.17912872900617,0.5133595018759205,Novatos em Potencial
+782,Rafaela Mendonça,44,Masculino,SP,6076.65,Serviço,33,322.11,55,18,0,3,0,2,1.8448854783786268,0.5580016141419845,Novatos em Potencial
+783,Emanuel Sampaio,64,Masculino,MG,3900.89,Ambos,23,403.15,28,10,0,3,0,1,0.3261814835209637,0.2785315538881071,Clientes em Risco
+784,Aylla Macedo,54,Masculino,DF,3619.23,Serviço,0,300.49,58,1,0,5,0,2,0.3300958939703764,-1.7832676770835945,Novatos em Potencial
+785,Heloisa Fogaça,20,Masculino,SP,4013.75,Produto,16,473.24,28,14,1,3,1,1,-0.0197122268035072,0.9142399587400967,Clientes em Risco
+786,Ayla Mendonça,62,Masculino,RJ,4442.07,Ambos,26,266.43,47,11,0,3,0,2,1.2092551802404155,-0.37795839581625407,Novatos em Potencial
+787,Dr. Anthony Pires,19,Feminino,CE,6085.41,Produto,19,175.34,31,27,2,4,0,0,0.16305978546339067,-0.09268789229139822,Clientes Premium
+788,Vinicius Moreira,47,Feminino,CE,4337.38,Ambos,8,226.53,50,5,0,4,0,2,0.3862874800779543,-1.4266277843449688,Novatos em Potencial
+789,Maria Eduarda Fernandes,63,Masculino,SP,5199.21,Ambos,0,100.83,41,12,0,5,0,3,-0.4230464825520525,-1.995082716295725,"Alto Valor, Baixo Engajamento"
+790,Bruna Gomes,36,Masculino,BA,2297.85,Produto,24,141.31,28,25,2,4,0,0,0.4667181400585074,-0.8425262656469522,Clientes Premium
+791,Sr. Ravi Siqueira,65,Feminino,CE,2708.92,Serviço,3,136.4,60,28,0,1,1,1,0.6580532932246091,0.4918542190232203,Clientes em Risco
+792,Sra. Maria Eduarda Alves,57,Masculino,BA,4540.4,Produto,2,197.83,3,17,0,4,0,0,-1.7999207721953092,-0.7563722123890588,Clientes Premium
+793,Maria Luísa Casa Grande,33,Masculino,BA,2198.65,Serviço,7,301.72,35,24,1,4,0,0,-0.10590212132518854,-0.07013384708145319,Clientes Premium
+794,Mateus Mendes,35,Masculino,DF,5349.64,Produto,27,319.76,33,11,1,3,0,2,0.6594224631307218,0.05037458296415053,Novatos em Potencial
+795,Luiz Gustavo Costa,25,Feminino,RJ,2793.95,Serviço,18,343.08,31,25,1,4,0,0,0.2803329353213904,0.31895094688771564,Clientes Premium
+796,Luan da Luz,30,Masculino,RJ,2925.96,Serviço,56,389.26,58,12,0,5,0,2,3.295486888095752,-0.5900216240703079,Novatos em Potencial
+797,Benjamin Carvalho,24,Masculino,SP,6951.63,Produto,4,410.21,11,15,0,2,1,3,-1.4703488322598575,1.388185596858364,"Alto Valor, Baixo Engajamento"
+798,Ana Júlia Cunha,36,Masculino,SP,4437.96,Serviço,21,351.0,27,15,0,3,0,1,0.16574260174283376,0.36002543574990836,Clientes em Risco
+799,Joaquim Cavalcante,36,Masculino,PE,4565.97,Produto,1,262.98,13,26,0,5,0,0,-1.411589500624639,-0.2608323011368478,Clientes Premium
+800,Aylla Rodrigues,55,Feminino,DF,2164.75,Serviço,20,371.98,22,15,0,4,0,0,0.023365585842826393,-0.1948915494815348,Clientes Premium
+801,Nina Mendes,46,Feminino,BA,2244.76,Serviço,9,232.23,30,5,0,4,0,3,-0.2716765208599625,-1.6106589619998133,"Alto Valor, Baixo Engajamento"
+802,Clarice Almeida,36,Feminino,MG,5225.1,Produto,3,353.4,50,14,0,5,0,2,0.13158912847626447,-0.4774941879410347,Novatos em Potencial
+803,Rodrigo Garcia,63,Masculino,MG,1828.03,Produto,18,74.41,35,26,0,4,0,0,0.45653604807669806,-1.2302155414944578,Clientes Premium
+804,Dr. Bernardo Garcia,28,Feminino,MG,7171.85,Produto,3,426.63,16,18,0,2,1,3,-1.3193078654226276,1.680704428057268,"Alto Valor, Baixo Engajamento"
+805,Breno Macedo,31,Feminino,MG,1200.0,Serviço,2,300.41,36,4,1,3,0,3,-0.33840970663354325,-1.0358375628370668,"Alto Valor, Baixo Engajamento"
+806,Luiz Miguel Cavalcante,52,Feminino,CE,2972.21,Ambos,3,310.28,20,29,0,3,0,0,-0.9410436824870908,0.8009971575401681,Clientes Premium
+807,Marcelo da Mota,38,Feminino,PR,4328.54,Ambos,0,205.27,10,20,0,4,0,0,-1.6005917037832391,-0.5702878944549244,Clientes Premium
+808,Maria Cecília Carvalho,66,Feminino,SP,3008.37,Ambos,9,378.14,37,10,0,4,0,3,0.008432320815234009,-0.41347072469885227,"Alto Valor, Baixo Engajamento"
+809,Vicente da Mata,26,Masculino,BA,4735.83,Produto,35,321.21,44,12,0,4,0,2,1.5508382566306431,-0.3619459323110762,Novatos em Potencial
+810,Ana Sophia Nascimento,23,Masculino,PR,4400.65,Serviço,1,293.98,21,18,1,4,0,0,-1.1027587282667215,-0.20927096107382698,Clientes Premium
+811,Vitor Hugo Cavalcante,30,Feminino,DF,10241.59,Serviço,0,166.56,2,21,1,4,1,3,-2.202092895184447,-0.0046010526732465345,"Alto Valor, Baixo Engajamento"
+812,Emanuel Carvalho,43,Masculino,PE,5561.27,Produto,7,511.03,13,29,2,4,0,0,-1.1110935404758595,1.83534436202102,Clientes Premium
+813,Renan Pastor,41,Feminino,DF,1200.0,Produto,11,277.58,25,11,1,3,0,0,-0.30065778128470605,-0.6957393087343325,Clientes Premium
+814,Dra. Hadassa Gonçalves,23,Feminino,PE,5667.46,Ambos,11,264.29,14,25,1,3,0,0,-0.914230848155695,0.6455197309878516,Clientes Premium
+815,Zoe Pimenta,64,Masculino,DF,4630.83,Produto,26,216.22,58,4,2,3,0,2,1.61793915377171,-1.0834933154350446,Novatos em Potencial
+816,Levi Brito,39,Masculino,PE,6696.86,Ambos,4,30.37,5,0,1,3,0,3,-1.7901910081937467,-2.06981135358988,"Alto Valor, Baixo Engajamento"
+817,Maysa Nascimento,29,Masculino,DF,3786.6,Ambos,29,325.35,36,6,0,2,1,1,0.9404496281403769,-0.008738049840937115,Clientes em Risco
+818,Vinicius Garcia,49,Feminino,SP,4410.44,Ambos,2,461.54,3,15,1,4,0,3,-1.7668549191190552,0.5663604210250506,"Alto Valor, Baixo Engajamento"
+819,Catarina Costa,68,Feminino,PE,2844.26,Produto,0,217.35,1,3,0,4,0,3,-1.9435588302317994,-1.7151881836579392,"Alto Valor, Baixo Engajamento"
+820,Felipe Teixeira,29,Feminino,BA,3751.31,Produto,15,277.86,32,15,0,5,1,2,0.08589144748733855,-0.9588416867396703,Novatos em Potencial
+821,Gabrielly Sá,55,Feminino,SP,8523.38,Ambos,27,266.06,31,22,1,5,0,2,0.4607940394080641,0.0013864549079011658,Novatos em Potencial
+822,Marcos Vinicius Brito,34,Feminino,MG,4582.09,Produto,9,553.22,11,14,0,5,0,3,-1.0796143474554516,0.627415402941008,"Alto Valor, Baixo Engajamento"
+823,Danilo Vieira,21,Feminino,RJ,6197.59,Serviço,11,380.2,18,1,0,3,0,3,-0.8338239258325358,-0.13646640931580467,"Alto Valor, Baixo Engajamento"
+824,Eloah da Costa,50,Masculino,BA,7793.19,Serviço,12,349.76,13,19,1,4,0,3,-1.0070922169869518,0.5999957628751956,"Alto Valor, Baixo Engajamento"
+825,Emilly Ribeiro,70,Feminino,DF,2711.48,Ambos,43,306.87,55,21,1,4,0,2,2.5274784564778696,-0.13024989410589274,Novatos em Potencial
+826,Davi Lucca Campos,55,Feminino,MG,3558.72,Produto,4,363.46,23,11,0,4,0,3,-0.8398143991463891,-0.35426395133771,"Alto Valor, Baixo Engajamento"
+827,Maria Clara Alves,24,Masculino,DF,5593.15,Serviço,2,355.58,14,25,2,5,0,0,-1.3590030565863658,0.3135512157033264,Clientes Premium
+828,Sra. Ester Cardoso,52,Masculino,MG,6568.26,Ambos,35,337.27,46,13,0,3,1,2,1.5485833948003405,0.41035132703866406,Novatos em Potencial
+829,Benjamin Rocha,19,Feminino,DF,2934.95,Produto,22,347.75,31,4,0,5,0,2,0.4210507428185894,-1.3330523574822501,Novatos em Potencial
+830,Zoe Jesus,66,Masculino,MG,3024.34,Ambos,5,411.99,22,23,0,5,0,0,-0.7597755875312391,0.18896583374935152,Clientes Premium
+831,Calebe Cardoso,62,Masculino,RJ,2820.73,Produto,9,205.83,15,2,0,3,0,3,-0.9191867705975143,-1.443135082302306,"Alto Valor, Baixo Engajamento"
+832,Laís da Rocha,22,Masculino,DF,6701.3,Ambos,1,281.19,2,6,0,2,0,3,-2.019756744052021,0.09658508899866793,"Alto Valor, Baixo Engajamento"
+833,Ana Carolina da Luz,55,Feminino,RJ,3184.49,Produto,3,482.31,4,1,1,1,0,1,-1.6634165762313342,0.889704291159531,Clientes em Risco
+834,Maria Sophia da Mata,68,Masculino,MG,3684.33,Serviço,3,402.54,8,5,1,4,1,3,-1.5161946244572475,-0.4706874590060766,"Alto Valor, Baixo Engajamento"
+835,Jade Cirino,65,Masculino,RS,5343.68,Produto,18,366.39,18,27,0,4,0,0,-0.3552885740973595,0.8968107197348621,Clientes Premium
+836,Giovanna Araújo,50,Masculino,PR,3365.2,Produto,4,226.85,37,16,1,3,0,0,-0.26975029777753884,-0.44240416435375757,Clientes Premium
+837,Emanuel Peixoto,28,Masculino,CE,1948.14,Serviço,48,374.14,58,29,1,3,0,2,2.9720099496069534,1.0559265480912567,Novatos em Potencial
+838,Maria Fernanda Ramos,41,Masculino,PE,6425.26,Produto,37,391.15,45,5,0,5,0,2,1.6058848823284904,-0.6086812573480659,Novatos em Potencial
+839,Lunna Farias,31,Feminino,CE,5520.88,Serviço,14,235.34,33,3,0,3,0,3,-0.0535018798854194,-0.9152480001506204,"Alto Valor, Baixo Engajamento"
+840,Dr. José Duarte,66,Masculino,PR,4079.85,Produto,22,292.03,24,2,0,3,0,3,0.06710947111045171,-0.8052093168282722,"Alto Valor, Baixo Engajamento"
+841,Bella Barbosa,47,Feminino,PE,5699.3,Serviço,19,112.22,39,7,0,4,0,2,0.4373919185934855,-1.7359010159284136,Novatos em Potencial
+842,Sr. Brayan Correia,30,Feminino,CE,2529.31,Ambos,4,439.76,55,30,2,4,0,0,0.566881677237481,1.0669136178885898,Clientes Premium
+843,Maysa Ferreira,61,Masculino,RJ,5670.12,Serviço,6,337.94,7,3,0,2,0,3,-1.5133328331317253,0.10424378994885487,"Alto Valor, Baixo Engajamento"
+844,Dr. Francisco Araújo,65,Masculino,PE,3585.41,Ambos,57,315.04,60,11,0,5,0,2,3.384854910803659,-0.9857752546855642,Novatos em Potencial
+845,Dr. Ravy Melo,25,Feminino,PR,6513.58,Ambos,13,373.5,15,24,2,4,0,0,-0.797143941109319,0.8861278866324825,Clientes Premium
+846,Manuella Costela,66,Feminino,PE,4805.33,Serviço,51,239.55,51,11,0,3,0,2,2.640458886450935,-0.4431523942643297,Novatos em Potencial
+847,Vicente Teixeira,49,Feminino,RS,4921.39,Produto,17,283.86,33,3,1,2,0,1,0.1329949035108081,-0.3061179711999373,Clientes em Risco
+848,Dra. Milena Gomes,58,Masculino,MG,7163.53,Produto,0,142.53,9,26,0,1,0,0,-1.7707200336275652,1.0105304178279162,Clientes Premium
+849,Sr. José Souza,42,Masculino,CE,7669.81,Produto,20,375.57,39,24,0,1,0,1,0.4728452585263206,2.2283692979337273,Clientes em Risco
+850,Raquel das Neves,68,Feminino,DF,5773.62,Produto,6,430.92,30,15,0,4,0,3,-0.5370897425593969,0.5233175705365914,"Alto Valor, Baixo Engajamento"
+851,Luiza Camargo,52,Masculino,CE,6933.52,Ambos,0,339.67,2,12,0,3,0,3,-2.054821464976993,0.4107692221753469,"Alto Valor, Baixo Engajamento"
+852,Isadora Almeida,47,Feminino,MG,5289.78,Produto,0,302.87,3,28,1,4,0,0,-1.8925465216529358,0.590428967395632,Clientes Premium
+853,Brenda Vieira,37,Masculino,DF,3363.14,Serviço,24,483.88,46,18,0,4,0,2,1.1662617591678268,0.7223457078975112,Novatos em Potencial
+854,Lorena Barros,54,Masculino,PE,6407.28,Serviço,30,319.1,31,16,1,1,1,1,0.6939173166399139,1.302595268530018,Clientes em Risco
+855,Benjamim Rios,57,Feminino,MG,2058.39,Ambos,22,316.94,44,10,3,1,0,1,0.9916853544300478,0.36537828528079996,Clientes em Risco
+856,Antonella Guerra,41,Feminino,BA,6383.62,Serviço,23,491.68,23,12,0,1,1,1,0.02032606418964795,2.009223351767715,Clientes em Risco
+857,Rafael Camargo,44,Masculino,RJ,8908.31,Serviço,1,239.31,23,7,1,4,0,3,-1.2719616993260239,-0.6565044878403673,"Alto Valor, Baixo Engajamento"
+858,Dr. Davi Luiz Fonseca,37,Feminino,DF,8925.17,Produto,5,300.44,8,1,1,3,0,3,-1.6848922612395996,-0.2482007110841758,"Alto Valor, Baixo Engajamento"
+859,José Pedro Câmara,44,Masculino,RJ,3515.03,Serviço,0,241.76,18,10,1,3,0,3,-1.2666855331784277,-0.6890878456878876,"Alto Valor, Baixo Engajamento"
+860,Dr. Murilo das Neves,69,Masculino,BA,6125.76,Serviço,6,194.42,32,10,0,3,0,3,-0.519382505831486,-0.65123163770909,"Alto Valor, Baixo Engajamento"
+861,João Miguel Rocha,28,Feminino,RJ,6905.2,Produto,19,356.84,40,6,0,3,0,3,0.44662446972774794,0.10665364265489581,"Alto Valor, Baixo Engajamento"
+862,Dra. Catarina Nogueira,52,Feminino,RJ,8108.32,Produto,4,402.48,14,18,3,3,0,3,-1.3929372305638188,1.2575899284794183,"Alto Valor, Baixo Engajamento"
+863,Caroline Leão,63,Feminino,CE,1200.0,Produto,37,264.41,55,8,0,1,0,1,2.237747044681498,-0.14124709306093186,Clientes em Risco
+864,Emanuelly Cavalcanti,45,Feminino,DF,1690.54,Ambos,5,364.66,14,16,1,5,0,0,-1.0472459608265525,-0.6516891183606451,Clientes Premium
+865,Daniel Teixeira,38,Feminino,SP,1521.87,Serviço,6,433.55,13,21,0,4,0,0,-1.0071745317314302,0.4282160735563484,Clientes Premium
+866,Theodoro Vieira,58,Feminino,CE,4852.1,Ambos,33,245.8,46,6,0,4,0,2,1.4958881815867855,-1.1433400600842782,Novatos em Potencial
+867,Luiz Henrique Abreu,35,Feminino,DF,6863.14,Serviço,40,331.35,60,29,1,4,0,2,2.407334648291036,0.9809505516136118,Novatos em Potencial
+868,Vinicius Pacheco,30,Masculino,PE,5857.58,Produto,14,259.07,24,23,1,4,0,0,-0.3684745083724394,0.09924152862883716,Clientes Premium
+869,Lavínia Pacheco,44,Feminino,PR,3208.89,Serviço,2,419.52,21,8,2,5,0,3,-1.0069640002513423,-0.6770805127028645,"Alto Valor, Baixo Engajamento"
+870,Ana Liz Lopes,61,Masculino,PR,5506.33,Serviço,15,398.44,39,4,1,2,1,1,0.26213368698696254,0.4470763498970201,Clientes em Risco
+871,Apollo Castro,47,Masculino,PR,3967.14,Serviço,27,276.42,32,6,4,2,1,1,0.6610957003282159,-0.25570670925385414,Clientes em Risco
+872,Sr. Joaquim Monteiro,68,Masculino,CE,3667.43,Serviço,17,278.68,52,20,0,5,0,2,1.0159633512428807,-0.6841820641209441,Novatos em Potencial
+873,Murilo Silveira,68,Masculino,PE,4646.45,Ambos,0,114.17,2,10,0,4,0,3,-1.9795890930156468,-1.6415995276928572,"Alto Valor, Baixo Engajamento"
+874,Sophie Monteiro,41,Feminino,RS,1595.57,Ambos,42,244.46,43,30,1,5,0,2,2.064356912303055,-0.44251714920678387,Novatos em Potencial
+875,Ravi Sá,25,Feminino,RJ,2970.13,Ambos,32,208.66,37,15,0,5,0,2,1.1929397343219914,-1.4117937425829143,Novatos em Potencial
+876,Lucas Gabriel Freitas,67,Feminino,PE,3460.01,Produto,20,144.47,52,25,1,4,0,2,1.1761064868602098,-0.7324949497845149,Novatos em Potencial
+877,Dr. Benicio Sampaio,31,Feminino,SP,6190.06,Produto,1,233.11,10,14,0,3,0,3,-1.6526250718366122,-0.156163337993096,"Alto Valor, Baixo Engajamento"
+878,Carolina Monteiro,49,Masculino,RS,6762.37,Serviço,23,254.37,35,10,0,4,0,2,0.4590662151754497,-0.6220305665289535,Novatos em Potencial
+879,Brenda Rocha,35,Feminino,SP,4937.12,Ambos,50,198.19,57,15,0,4,0,2,2.834151456642748,-0.8274479036488478,Novatos em Potencial
+880,Guilherme Fogaça,59,Masculino,PR,7704.06,Produto,38,333.86,58,22,0,5,0,2,2.1660306157063243,0.25654075652095326,Novatos em Potencial
+881,Bryan Lopes,53,Feminino,RS,5367.67,Serviço,9,623.16,25,28,0,5,0,0,-0.5005956665912512,1.9503385533338795,Clientes Premium
+882,Joaquim Rios,46,Feminino,RJ,2147.24,Ambos,0,393.76,25,29,0,5,1,0,-0.8401001574934899,0.3393568601779871,Clientes Premium
+883,Luiz Felipe Pastor,70,Masculino,PE,4838.8,Produto,15,200.03,49,29,0,3,0,0,0.7488395663983999,0.3884418711328613,Clientes Premium
+884,Théo Caldeira,68,Feminino,BA,2628.28,Ambos,2,30.0,3,15,1,4,0,0,-1.7373883074449799,-2.0382360418772745,Clientes Premium
+885,Dr. Luiz Otávio Cavalcanti,63,Masculino,RJ,7258.95,Ambos,28,381.8,28,26,1,2,1,1,0.46942977791755813,1.963927923610571,Clientes em Risco
+886,Srta. Yasmin Pires,40,Feminino,MG,7447.71,Ambos,19,316.42,27,14,2,4,0,3,-0.08303390148882439,0.055947722423756924,"Alto Valor, Baixo Engajamento"
+887,Rael Moraes,58,Masculino,RJ,4902.21,Serviço,25,131.38,29,12,1,3,0,2,0.3949783785179715,-0.9827513090301333,Novatos em Potencial
+888,Kaique Barbosa,25,Masculino,BA,7493.78,Serviço,3,292.56,11,27,0,4,0,0,-1.5217822914825978,0.7273169488555393,Clientes Premium
+889,Isabel Fonseca,46,Feminino,BA,4453.76,Produto,8,426.53,31,25,0,3,1,0,-0.3051763102998125,1.3669217439121653,Clientes Premium
+890,Valentim Abreu,29,Masculino,RS,8125.78,Ambos,12,267.12,26,0,0,5,0,3,-0.5614454822175807,-1.4180911659825475,"Alto Valor, Baixo Engajamento"
+891,Luiz Fernando Câmara,23,Masculino,PR,5523.9,Produto,6,149.39,30,1,0,3,0,3,-0.6042603835669687,-1.524897619893854,"Alto Valor, Baixo Engajamento"
+892,Maitê da Cunha,27,Masculino,CE,9437.56,Produto,2,280.91,6,0,0,4,0,3,-1.9474635810444598,-0.7655373953330536,"Alto Valor, Baixo Engajamento"
+893,Srta. Aurora Cavalcanti,70,Masculino,PR,1200.0,Produto,31,403.66,44,6,1,5,0,2,1.5046564834618725,-1.1108245312754357,Novatos em Potencial
+894,Maria Flor da Mata,36,Feminino,PR,2416.95,Produto,31,334.9,48,27,0,3,0,2,1.6581052084959633,0.7551623338657464,Novatos em Potencial
+895,Kevin da Rosa,64,Feminino,PR,3784.25,Serviço,12,235.31,44,25,1,2,1,1,0.43153787381593783,0.6198055848312082,Clientes em Risco
+896,Maria Liz Campos,33,Feminino,SP,2790.27,Ambos,28,326.46,40,18,0,4,0,2,1.1373616991240976,-0.2013893005713515,Novatos em Potencial
+897,Alana Araújo,48,Feminino,PE,3935.38,Ambos,5,443.42,9,21,0,3,0,0,-1.334339268648739,1.1816193921918028,Clientes Premium
+898,Rodrigo Gonçalves,65,Masculino,BA,7359.45,Produto,16,323.29,39,1,1,3,0,3,0.21124257503099014,-0.3377102470818063,"Alto Valor, Baixo Engajamento"
+899,Oliver Vasconcelos,56,Masculino,PR,2795.42,Ambos,38,381.76,43,0,0,3,0,2,1.7256641302425115,-0.5851778559698351,Novatos em Potencial
+900,Ísis Rezende,43,Masculino,CE,4278.7,Produto,23,364.67,43,18,0,2,1,1,0.9310478892150067,0.9860291318156776,Clientes em Risco
+901,Ana Carolina Mendes,39,Feminino,RJ,6069.63,Produto,29,447.48,57,22,1,4,0,2,1.7494589360077044,1.0821028432973216,Novatos em Potencial
+902,Isabella Peixoto,38,Feminino,PR,1200.0,Serviço,1,229.85,3,23,0,3,0,0,-1.6760296114300586,-0.20297210202661292,Clientes Premium
+903,Ana Laura Aparecida,57,Feminino,CE,6658.26,Ambos,48,296.72,54,13,0,5,0,2,2.5380471214735074,-0.6043923262853718,Novatos em Potencial
+904,Camila das Neves,66,Feminino,MG,3126.99,Ambos,8,219.87,10,1,0,2,1,3,-1.1906910807538977,-0.9781968597280595,"Alto Valor, Baixo Engajamento"
+905,Milena Albuquerque,20,Feminino,CE,4860.84,Produto,16,406.8,31,13,0,2,0,1,0.04829482305425525,0.9866235590887592,Clientes em Risco
+906,Sofia Moreira,20,Feminino,MG,3786.27,Ambos,11,354.92,29,14,0,3,0,0,-0.2414196527265337,0.22028530110915662,Clientes Premium
+907,Igor Gomes,25,Feminino,PR,8878.39,Produto,2,131.88,23,5,2,5,0,3,-1.2359079154260035,-1.783205774649998,"Alto Valor, Baixo Engajamento"
+908,Gabriela da Rocha,54,Masculino,RJ,4229.96,Serviço,42,345.96,58,16,0,4,0,2,2.5162246311941727,-0.04768085620424592,Novatos em Potencial
+909,Alana Teixeira,33,Feminino,RJ,3801.27,Serviço,31,166.8,50,0,0,3,0,2,1.5734838309182024,-1.6810225414067486,Novatos em Potencial
+910,Olívia Oliveira,43,Masculino,CE,6536.41,Ambos,18,325.85,24,26,0,3,1,0,-0.1789935623009863,1.1491653382778466,Clientes Premium
+911,Beatriz Cavalcante,63,Feminino,SP,3698.33,Serviço,30,300.22,43,19,0,4,0,2,1.3190033957581941,-0.17783019696466337,Novatos em Potencial
+912,Valentina Pereira,59,Masculino,PR,1200.0,Produto,28,506.96,40,6,1,5,0,2,1.201135914754832,-0.5374398466656375,Novatos em Potencial
+913,Maria Vitória Almeida,38,Feminino,PE,4908.98,Ambos,3,249.09,52,2,0,3,0,3,0.17397891511228897,-1.0250203052075617,"Alto Valor, Baixo Engajamento"
+914,Benjamin Ribeiro,23,Feminino,MG,5498.36,Produto,0,192.78,2,9,0,4,0,3,-2.0125564767500173,-1.1659395607371574,"Alto Valor, Baixo Engajamento"
+915,Juliana Aparecida,25,Feminino,RJ,4167.61,Ambos,15,164.39,20,28,1,4,0,0,-0.39654416486050276,-0.3103030333469721,Clientes Premium
+916,Larissa Correia,41,Feminino,RJ,3929.33,Serviço,12,343.01,33,15,1,3,0,1,-0.03342462537382138,0.22849349036968636,Clientes em Risco
+917,Sr. Rael Mendonça,66,Masculino,DF,6371.02,Produto,25,521.83,28,13,1,4,1,2,0.3399502147273049,1.0139208108544262,Novatos em Potencial
+918,Júlia Machado,39,Masculino,DF,5196.14,Produto,21,455.5,30,29,1,3,0,0,0.30590602447186993,1.8889595404955408,Clientes Premium
+919,João Guilherme Carvalho,23,Feminino,PR,4610.61,Serviço,14,292.3,19,9,2,2,1,1,-0.5541535771721924,0.09082201126632557,Clientes em Risco
+920,Ana Beatriz Ramos,33,Masculino,RJ,6390.04,Produto,27,124.53,34,17,1,1,1,1,0.6398262542331751,0.27334280728067173,Clientes em Risco
+921,Benício Novais,50,Feminino,DF,5662.68,Produto,13,364.01,28,11,0,3,1,3,-0.2740660091708741,0.3147958649747713,"Alto Valor, Baixo Engajamento"
+922,Davi Luiz Pereira,19,Masculino,PR,6752.09,Produto,7,476.72,8,26,1,3,1,0,-1.3842870973257277,2.01628670052289,Clientes Premium
+923,Dr. Thiago Fernandes,38,Feminino,MG,3792.04,Ambos,29,272.45,38,19,0,5,0,2,1.059908688950605,-0.7204984817148945,Novatos em Potencial
+924,Sr. Guilherme Moraes,31,Feminino,SP,3359.65,Ambos,1,149.83,12,27,2,4,0,0,-1.4091376962869082,-0.562512426914686,Clientes Premium
+925,Dra. Cecilia Macedo,18,Feminino,CE,6280.96,Produto,3,277.14,26,14,0,4,0,3,-0.8993501249501852,-0.3294052080913627,"Alto Valor, Baixo Engajamento"
+926,Srta. Natália Costa,37,Feminino,SP,2809.2,Produto,39,335.81,40,25,1,3,0,2,1.7235160933500233,0.7114712361082728,Novatos em Potencial
+927,Maria Laura Garcia,30,Masculino,MG,1701.93,Serviço,0,301.19,8,27,0,1,1,0,-1.5330878720782286,1.3015108421534574,Clientes Premium
+928,Calebe Mendonça,59,Masculino,CE,7411.99,Ambos,13,393.29,16,2,1,3,0,3,-0.8636163800943606,0.14970255771299004,"Alto Valor, Baixo Engajamento"
+929,Camila Almeida,45,Masculino,CE,3102.17,Produto,0,509.68,2,23,0,4,0,0,-1.8196649474909807,1.1686806069996667,Clientes Premium
+930,Bryan Fogaça,19,Masculino,SP,4459.68,Serviço,28,371.27,56,9,1,4,0,2,1.684804361572192,-0.33505183950313305,Novatos em Potencial
+931,Júlia Montenegro,39,Feminino,DF,3995.45,Serviço,0,240.87,1,13,0,5,0,3,-1.9625280386809192,-1.2363596521719529,"Alto Valor, Baixo Engajamento"
+932,Emanuel Garcia,36,Feminino,PE,7446.17,Produto,3,268.94,3,7,0,4,0,3,-1.9048138304916449,-0.630783117636423,"Alto Valor, Baixo Engajamento"
+933,Sophie Vargas,54,Feminino,BA,5458.63,Produto,17,505.52,21,28,0,3,0,0,-0.2731030277088098,2.1428115277140267,Clientes Premium
+934,Lucca Ribeiro,46,Feminino,RS,1200.0,Produto,27,291.76,45,23,0,2,1,1,1.3678231906016014,0.5273849782840223,Clientes em Risco
+935,Laís Nascimento,50,Feminino,PE,2581.93,Ambos,10,271.4,15,4,0,5,0,3,-0.8376035695412344,-1.7950979488096428,"Alto Valor, Baixo Engajamento"
+936,Lorena Cirino,44,Feminino,MG,6822.73,Serviço,43,312.69,54,25,0,3,0,2,2.3050765942503295,1.0472259271743143,Novatos em Potencial
+937,João Oliveira,57,Masculino,MG,6704.36,Serviço,4,450.17,14,21,2,3,0,0,-1.3125016556609534,1.5395396372265011,Clientes Premium
+938,Anna Liz Azevedo,56,Feminino,SP,6464.98,Ambos,6,334.65,32,9,0,3,0,3,-0.5206981203647223,0.10479075861650011,"Alto Valor, Baixo Engajamento"
+939,Raul Aragão,40,Masculino,SP,5933.43,Produto,16,360.76,57,5,0,5,0,2,1.0264024309353765,-0.8945405266995505,Novatos em Potencial
+940,Davi Luiz Barbosa,69,Masculino,BA,2739.59,Serviço,2,589.4,5,3,0,4,0,3,-1.6274408925939317,0.33180995160352633,"Alto Valor, Baixo Engajamento"
+941,Ana Sophia Barbosa,68,Feminino,DF,5297.82,Ambos,1,218.47,23,28,1,2,0,0,-1.048505036407337,0.9054500468468045,Clientes Premium
+942,Maria Sophia Rocha,56,Feminino,RJ,5846.68,Ambos,6,549.69,43,25,0,3,0,1,0.026737901941131074,2.1927072382732886,Clientes em Risco
+943,Ravy Monteiro,24,Masculino,MG,5515.51,Serviço,39,150.99,51,26,0,4,0,2,2.0237288086142984,-0.3520945044970181,Novatos em Potencial
+944,Ester Cavalcanti,58,Masculino,DF,4868.05,Ambos,3,354.08,8,23,0,3,0,0,-1.5267704618045503,0.9190291516853303,Clientes Premium
+945,Sr. Bryan Cavalcante,49,Feminino,RS,4172.79,Produto,6,526.52,47,10,0,5,0,2,0.2241363962409753,0.12007242224879737,Novatos em Potencial
+946,Dr. Miguel Pires,46,Masculino,DF,2167.13,Ambos,24,378.38,27,26,0,5,0,0,0.4673214396273997,0.1131168160252806,Clientes Premium
+947,Oliver Pereira,28,Feminino,DF,7165.38,Produto,2,243.47,6,11,1,4,0,3,-1.8134351358699552,-0.5652969547923464,"Alto Valor, Baixo Engajamento"
+948,Bruno Santos,44,Feminino,DF,2425.67,Produto,14,132.35,51,13,1,5,0,2,0.8398800650064355,-2.07949139850544,Novatos em Potencial
+949,Maria Sophia Martins,68,Feminino,DF,1961.31,Ambos,23,30.0,44,4,1,4,0,2,1.0014053381654777,-2.8234138840179694,Novatos em Potencial
+950,Maria Julia Siqueira,22,Masculino,MG,7400.52,Produto,2,244.42,6,13,1,1,0,3,-1.8255050372192394,0.8097957612090452,"Alto Valor, Baixo Engajamento"
+951,Arthur Casa Grande,54,Feminino,PR,1260.52,Ambos,4,253.38,4,12,1,5,0,0,-1.5084833904377442,-1.5524451307812241,Clientes Premium
+952,Júlia Vargas,64,Masculino,MG,5380.85,Ambos,20,353.91,48,26,0,3,0,1,0.9514180537914639,1.1318781681023695,Clientes em Risco
+953,Benjamin Dias,62,Feminino,PE,4946.34,Serviço,14,238.34,26,22,0,3,0,0,-0.2529804041952724,0.21676415851922914,Clientes Premium
+954,Pedro Miguel Souza,67,Feminino,MG,5907.02,Produto,4,182.12,13,12,1,4,0,3,-1.3732922012977375,-1.0013200601502232,"Alto Valor, Baixo Engajamento"
+955,Leonardo Cassiano,51,Feminino,SP,4314.9,Produto,18,320.46,35,16,0,3,0,1,0.33908275097770874,0.21926726652610737,Clientes em Risco
+956,Hadassa da Mata,19,Feminino,PE,5533.35,Serviço,50,191.16,57,7,2,5,0,2,2.784143127008598,-1.6951264222790174,Novatos em Potencial
+957,Eduarda Araújo,50,Feminino,RJ,6429.22,Ambos,0,54.01,8,20,0,4,1,0,-1.7984617707204782,-1.1547767209956707,Clientes Premium
+958,Oliver Monteiro,46,Feminino,DF,5806.6,Ambos,18,351.31,20,10,1,5,0,3,-0.3458453639258003,-0.5900926587710255,"Alto Valor, Baixo Engajamento"
+959,Júlia Rios,56,Masculino,RJ,4069.57,Produto,11,265.34,15,22,0,3,0,0,-0.8078673942734667,0.2738848818504476,Clientes Premium
+960,Vinícius Câmara,38,Feminino,PE,8469.87,Ambos,12,197.19,34,14,1,1,0,1,-0.23113885424644717,0.7109851687837191,Clientes em Risco
+961,Melissa Cavalcanti,23,Masculino,DF,2595.7,Serviço,0,252.52,6,15,0,3,1,0,-1.6924541964300355,-0.4112253797371445,Clientes Premium
+962,Sr. José Miguel Pinto,43,Feminino,PE,2600.28,Serviço,35,264.93,38,27,1,3,0,2,1.443150837373243,0.4128278035908781,Novatos em Potencial
+963,Eduarda Moreira,46,Feminino,CE,5028.49,Ambos,31,110.84,45,26,2,2,0,1,1.3815477492111374,0.17412569011420986,Clientes em Risco
+964,Isis Vasconcelos,63,Masculino,MG,5450.53,Ambos,4,383.13,30,22,1,3,0,0,-0.6128350209634776,1.0542669160884093,Clientes Premium
+965,Vitor Hugo Leão,53,Feminino,SP,5404.66,Serviço,3,495.82,24,3,1,2,0,3,-0.9491454078555261,0.9146382784178754,"Alto Valor, Baixo Engajamento"
+966,Brayan Rezende,51,Feminino,MG,6550.31,Produto,1,366.36,10,9,0,3,1,3,-1.6676096102722282,0.31680262721259583,"Alto Valor, Baixo Engajamento"
+967,Sr. Pietro Novaes,27,Feminino,CE,5303.76,Serviço,37,450.58,51,28,1,3,0,2,1.9713471674934993,1.8089874008285016,Novatos em Potencial
+968,Sra. Heloísa Brito,18,Masculino,CE,6464.47,Produto,8,274.39,8,13,0,3,0,3,-1.382886831460501,0.06002078278806589,"Alto Valor, Baixo Engajamento"
+969,Emanuella Lima,39,Masculino,CE,4886.82,Serviço,24,446.28,51,24,0,2,0,1,1.3053579663153878,1.8702464394806506,Clientes em Risco
+970,Lucas Silva,60,Feminino,PE,6345.89,Ambos,4,88.25,29,2,0,4,0,3,-0.7885855308406978,-2.112218838471403,"Alto Valor, Baixo Engajamento"
+971,Matheus Brito,42,Masculino,PR,4811.08,Produto,12,350.35,15,30,1,4,0,0,-0.7543267977771759,0.9230848520625409,Clientes Premium
+972,Sra. Amanda Monteiro,59,Masculino,PR,7083.45,Produto,6,370.03,6,18,1,4,0,3,-1.5667530736602664,0.5659553941640435,"Alto Valor, Baixo Engajamento"
+973,Dra. Isabel Pinto,53,Masculino,SP,3586.21,Serviço,7,402.67,42,6,1,5,0,3,0.07386398056936114,-0.8733439741523594,"Alto Valor, Baixo Engajamento"
+974,Eloah da Mota,54,Masculino,SP,8298.96,Ambos,12,428.47,34,3,1,4,0,3,-0.2196837922510238,0.07527707713392694,"Alto Valor, Baixo Engajamento"
+975,Maria Fernanda Garcia,35,Feminino,PE,2413.72,Produto,13,368.69,51,2,0,5,0,2,0.7858344580175042,-1.4517314564324648,Novatos em Potencial
+976,Ana Barros,55,Masculino,DF,1200.0,Ambos,3,451.36,3,10,0,3,0,0,-1.5836011184080665,0.22620283252563603,Clientes Premium
+977,Josué Sousa,38,Masculino,PR,4398.28,Produto,8,154.86,25,17,2,2,1,0,-0.604899341742006,-0.22347852869101054,Clientes Premium
+978,Thales Fernandes,67,Feminino,BA,3319.06,Produto,1,273.03,6,21,0,2,0,0,-1.6567560269653157,0.5670805023035912,Clientes Premium
+979,Dr. Caio Vasconcelos,29,Feminino,BA,7097.41,Produto,2,498.65,2,3,0,3,0,3,-1.96603930633871,0.7597911440834244,"Alto Valor, Baixo Engajamento"
+980,Enrico Pires,34,Masculino,DF,4252.68,Produto,3,239.13,25,24,2,4,0,0,-0.8201514093049312,-0.1633263743638818,Clientes Premium
+981,José Miguel Nascimento,66,Feminino,RJ,1200.0,Ambos,24,458.2,33,1,0,3,0,1,0.686330026738524,-0.3003073175375651,Clientes em Risco
+982,Sophie Costa,48,Masculino,RJ,4635.16,Serviço,1,303.73,2,8,1,4,0,3,-1.9097238776270633,-0.7138251123211492,"Alto Valor, Baixo Engajamento"
+983,Sr. Thomas Sousa,33,Masculino,DF,5193.66,Serviço,35,239.54,49,9,0,4,0,2,1.7124097014460964,-0.9532015512997531,Novatos em Potencial
+984,Breno da Paz,31,Masculino,DF,5082.65,Produto,9,353.16,51,25,0,3,0,1,0.5159577005890567,1.0049505443739881,Clientes em Risco
+985,Heitor Mendes,46,Feminino,CE,2960.99,Ambos,0,412.13,3,20,1,5,1,0,-1.791324269414062,0.018258261447637245,Clientes Premium
+986,Júlia da Luz,35,Feminino,DF,3739.56,Ambos,16,308.39,39,11,0,5,0,2,0.412861251943468,-1.0473038692251764,Novatos em Potencial
+987,Ravi Lucca Rodrigues,36,Masculino,MG,5864.53,Ambos,1,356.41,3,9,0,1,0,3,-1.9243626257033264,1.0033109447047734,"Alto Valor, Baixo Engajamento"
+988,Bella Siqueira,64,Masculino,BA,6271.32,Ambos,17,234.15,36,19,1,4,0,2,0.23690435692731202,-0.2500950858153248,Novatos em Potencial
+989,Maria Isis Rios,58,Feminino,BA,1200.0,Produto,14,226.8,17,10,1,3,0,0,-0.47839074755836236,-1.0204035493865504,Clientes Premium
+990,Maria Liz da Cunha,19,Masculino,MG,6354.72,Produto,44,207.0,59,19,0,3,0,2,2.5496630321240183,0.02906491448153022,Novatos em Potencial
+991,Beatriz Rocha,44,Masculino,DF,1200.0,Ambos,31,255.02,36,25,0,5,0,2,1.21900052882504,-0.7491416372239016,Novatos em Potencial
+992,Isis Ribeiro,19,Feminino,PE,6346.26,Ambos,53,30.0,58,21,0,2,0,2,2.9554830667452507,-0.40497287436140555,Novatos em Potencial
+993,Beatriz Vieira,70,Masculino,CE,7657.28,Produto,22,337.58,39,3,1,3,0,3,0.5145922194284552,-0.0882700522498763,"Alto Valor, Baixo Engajamento"
+994,Miguel Costela,18,Feminino,PR,4081.82,Ambos,0,216.65,15,6,0,1,0,1,-1.4340760491777862,-0.19045376637118772,Clientes em Risco
+995,Eloah Aparecida,69,Feminino,RS,8396.19,Produto,14,196.19,46,30,0,3,0,0,0.4122229694606345,0.8563587165013875,Clientes Premium
+996,Luiz Felipe Macedo,18,Masculino,MG,4806.75,Serviço,13,250.08,13,27,1,3,0,0,-0.8070749688141335,0.5928449357481961,Clientes Premium
+997,Kevin da Conceição,53,Masculino,MG,2365.74,Ambos,10,393.12,13,2,2,4,0,3,-0.9013978086866894,-0.8603400179228803,"Alto Valor, Baixo Engajamento"
+998,Vitor Gabriel da Conceição,34,Feminino,DF,4061.72,Ambos,36,128.62,60,6,0,5,1,2,2.2410330579240805,-2.310199891465307,Novatos em Potencial
+999,Breno das Neves,57,Masculino,SP,6950.62,Ambos,17,361.88,17,30,1,3,0,0,-0.5164717899705248,1.6545812423410349,Clientes Premium
+1000,Dra. Maria Cecília Gomes,38,Feminino,BA,2792.66,Ambos,27,260.31,28,3,1,4,0,2,0.5482421472827071,-1.4760898359174024,Novatos em Potencial
