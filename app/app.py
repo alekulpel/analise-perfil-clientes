@@ -100,5 +100,5 @@ elif pagina == "Análises Avançadas":
     st.plotly_chart(fig_pca, use_container_width=True)
 
     st.subheader("Correlação entre variáveis")
-    correlacao = df_filtrado.drop(columns=['pca1', 'pca2']).corr()
+    correlacao = df_filtrado.select_dtypes(include='number').drop(columns=['pca1', 'pca2']).corr()
     st.dataframe(correlacao.round(2), use_container_width=True)
